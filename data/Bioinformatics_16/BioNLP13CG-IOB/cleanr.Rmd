@@ -1,0 +1,234 @@
+---
+title: "Bioinformatics_16 data extraction script"
+output: html_notebook
+---
+
+### Load packages
+
+```{r}
+library(tidyverse)
+library(here)
+library(tokenizers)
+library(tidytext)
+```
+
+### Load data
+
+```{r}
+# Test data
+test <- read_tsv("test.tsv",
+                 col_names = FALSE,
+                 skip_empty_rows = FALSE,
+                 col_types = cols(.default = "c")) %>% 
+  mutate(across(everything(), ~ replace_na(.x, "SEP"))) %>% 
+  select(tokens = X1, ner_tags = X2)
+
+# Validation data
+validation <- read_tsv("devel.tsv",
+                 col_names = FALSE,
+                 skip_empty_rows = FALSE,
+                 col_types = cols(.default = "c")) %>% 
+  mutate(across(everything(), ~ replace_na(.x, "SEP"))) %>% 
+  select(tokens = X1, ner_tags = X2)
+
+# Train data
+train <- read_tsv("train.tsv",
+                 col_names = FALSE,
+                 skip_empty_rows = FALSE,
+                 col_types = cols(.default = "c")) %>% 
+  mutate(across(everything(), ~ replace_na(.x, "SEP"))) %>% 
+  select(tokens = X1, ner_tags = X2)
+```
+
+Let's find the unique entities in the data sets
+
+```{r}
+# Unique entities in the data
+ner_tags <-  train %>% 
+  distinct(ner_tags) %>% 
+  bind_rows(test %>% distinct(ner_tags)) %>% 
+  bind_rows(validation %>% distinct(ner_tags)) %>% 
+  distinct(ner_tags) %>% 
+  filter(!str_detect(ner_tags, "SEP")) %>% 
+  pull(ner_tags)
+
+write_lines(ner_tags, "ner_tags.txt")
+```
+
+### Group tokens and ner tags into their distinct sentences
+
+In this section we group tokens and ner tags into their corresponding sentences and write that to a text file
+
+```{r}
+# Function that numbers the tokens per sentence
+x_ct = function(tokens){
+  if(tokens != "SEP"){
+    n = x
+    }
+  else{
+      x <<- x+1
+      n = x
+    }
+  
+  return(n)
+}
+
+
+# x <- 1
+# tr = train %>% 
+#  mutate(sn = map_dbl(1:nrow(train), ~ x_ct(ner_tags[.x]))) %>% 
+#   group_by(sn) %>% 
+#   summarise(tokens = paste(tokens, collapse  = " "),ner_tags = paste(ner_tags, collapse = " "))
+```
+
+```{r}
+# Apply function to test set
+x <- 1
+df_test <- test %>% 
+    mutate(sn = map_dbl(1:nrow(test), ~ x_ct(ner_tags[.x]))) %>% 
+    group_by(sn) %>% 
+    summarise(across(c(tokens, ner_tags), ~ paste(.x, collapse = " "))) %>% 
+    ## The above could suffice and save from there
+  mutate(tokens = tokens %>% 
+           str_remove("SEP") %>% 
+           tokenize_words(lowercase = FALSE,
+                          strip_punct = FALSE,
+                          strip_numeric = FALSE)) %>% 
+  mutate(ner_tags = ner_tags %>% 
+           str_remove("SEP") %>% 
+           trimws() %>% 
+           str_split(" ")) %>% 
+  group_by(sn) %>% 
+  mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))) %>%
+    # Sanity check
+  filter(nt == nn) %>%
+  ungroup() %>% 
+  select(-c(nt, nn)) %>% 
+  group_by(sn) %>% 
+  mutate(across(c(tokens, ner_tags), ~ unlist(.x) %>% paste(collapse = " "))) %>% 
+  ungroup()
+
+# Apply function to validation set
+x <- 1
+df_validation <- validation %>% 
+    mutate(sn = map_dbl(1:nrow(validation), ~ x_ct(ner_tags[.x]))) %>% 
+    group_by(sn) %>% 
+    summarise(across(c(tokens, ner_tags), ~ paste(.x, collapse = " "))) %>% 
+    ## The above could suffice and save from there
+  mutate(tokens = tokens %>% 
+           str_remove("SEP") %>% 
+           tokenize_words(lowercase = FALSE,
+                          strip_punct = FALSE,
+                          strip_numeric = FALSE)) %>% 
+  mutate(ner_tags = ner_tags %>% 
+           str_remove("SEP") %>% 
+           trimws() %>% 
+           str_split(" ")) %>% 
+  group_by(sn) %>% 
+  mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))) %>%
+    # Sanity check
+  filter(nt == nn) %>%
+  ungroup() %>% 
+  select(-c(nt, nn)) %>% 
+  group_by(sn) %>% 
+  mutate(across(c(tokens, ner_tags), ~ unlist(.x) %>% paste(collapse = " "))) %>% 
+  ungroup()
+
+
+# Apply function to train set
+x <- 1
+df_train <- train %>% 
+    mutate(sn = map_dbl(1:nrow(train), ~ x_ct(ner_tags[.x]))) %>% 
+    group_by(sn) %>% 
+    summarise(across(c(tokens, ner_tags), ~ paste(.x, collapse = " "))) %>% 
+    ## The above could suffice and save from there
+  mutate(tokens = tokens %>% 
+           str_remove("SEP") %>% 
+           tokenize_words(lowercase = FALSE,
+                          strip_punct = FALSE,
+                          strip_numeric = FALSE)) %>% 
+  mutate(ner_tags = ner_tags %>% 
+           str_remove("SEP") %>% 
+           trimws() %>% 
+           str_split(" ")) %>% 
+  group_by(sn) %>% 
+  mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))) %>%
+    # Sanity check
+  filter(nt == nn) %>%
+  ungroup() %>% 
+  select(-c(nt, nn)) %>% 
+  group_by(sn) %>% 
+  mutate(across(c(tokens, ner_tags), ~ unlist(.x) %>% paste(collapse = " "))) %>% 
+  ungroup()
+
+
+# # How to use pwalk?
+# for (row in seq_len(nrow(tr_test))){
+#   tr_test %>% 
+#     slice(n = row) %>% 
+#     pull(tokens) %>% 
+#     unlist() %>% 
+#     paste(collapse = " ") %>% 
+#     write_lines("test_text.txt", append = TRUE)
+# }
+
+# paths <- c("test_tokens.txt", "test_labels.txt")
+# test_entities <- map(1, ~ trx %>% slice(.x))
+# 
+# pwalk(list(paths, test_entities), write_lines)
+# teste %>% 
+#   pwalk(~write_lines(x = .z, "test_labels.txt", append = TRUE))
+
+
+```
+
+Write to text file
+
+```{r}
+library(here)
+library(tictoc)
+
+# List of tokens and labels
+all_tokens_labels <- list(
+  # Test set
+  test_tokens = df_test %>% pull(tokens),
+  test_labels = df_test %>% pull(ner_tags),
+  
+  # Validation set
+  validation_tokens = df_validation %>% pull(tokens),
+  validation_labels = df_validation %>% pull(ner_tags),
+  
+  # Train set
+  train_tokens = df_train %>% pull(tokens),
+  train_labels = df_train %>% pull(ner_tags)
+  
+)
+
+# Paths we want to save entities in
+paths <- c("test_tokens.txt", "test_labels.txt",
+           "validation_tokens.txt", "validation_labels.txt",
+           "train_tokens.txt", "train_labels.txt")
+
+# Save each file to the corresponding location on disk
+library(furrr)
+# parallelly::availableCores()
+plan(multisession, workers = 4)
+tic()
+furrr::future_pwalk(list(all_tokens_labels, paths),
+                    write_lines,
+                    append = TRUE)
+toc()
+```
+
+```{r}
+tic()
+#plan(multisession, workers = 4)
+pwalk(list(all_tokens_labels, paths),
+                    write_lines,
+                    append = TRUE)
+toc()
+```
+
+### To do:
+
+Put all this into one efficient function
