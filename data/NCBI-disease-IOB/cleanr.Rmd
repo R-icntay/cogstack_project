@@ -1,0 +1,167 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook.
+When you execute code within the notebook, the results appear beneath the code.
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Ctrl+Shift+Enter*.
+
+```{r}
+library(tidyverse)
+library(here)
+library(tokenizers)
+library(tidytext)
+```
+
+```{r}
+# Parsing problems is due to .
+train <- read_tsv("train.tsv", col_names = FALSE, skip_empty_rows = FALSE, col_types = cols(.default = "c")) %>% 
+  mutate(across(everything(), ~ replace_na(.x, "SEP"))) %>% 
+  select(tokens = X1, ner_tags = X2)
+```
+
+```{r}
+# library(tokenizers)
+# library(tidytext)
+# tokens <- train %>% 
+#   pull(tokens) %>% 
+#   str_c(collapse = " ")
+# tk = tokens %>% str_split(pattern = "SEP", simplify = TRUE)
+# %>% 
+#   tokenize_sentences(lowercase = FALSE,
+#                      strip_punct = FALSE,
+#                      simplify = TRUE)
+# 
+# ner_tags <- train %>% 
+#   pull(ner_tags) %>% 
+#   str_c(collapse = " ") 
+# 
+# nt = ner_tags %>% str_split(pattern = "SEP", simplify = TRUE)
+# %>% 
+#   tokenize_sentences(lowercase = FALSE,
+#                      strip_punct = FALSE,
+#                      simplify = TRUE)
+# 
+# View(nt %>% as_tibble() %>% pivot_longer(everything(), names_to = "n", values_to = "tokens"))
+# View(tk %>% as_tibble() %>% pivot_longer(everything(), names_to = "n", values_to = "tokens"))
+```
+
+```{r}
+x = 1
+
+
+
+x_ct = function(tokens){
+  if(tokens != "SEP"){
+    n = x
+    }
+  else{
+      x <<- x+1
+      n = x
+    }
+  
+  return(n)
+}
+```
+
+```{r}
+# tr2 =(train %>% 
+#        mutate(stnc = gh))
+# 
+# tr3 = (tr2 %>% 
+#        group_by(stnc) %>% 
+#        summarise(tokens = paste(tokens, collapse  = " "),ner_tags = paste(ner_tags, collapse = " "))) %>% 
+#   mutate(tokens = tokens %>% 
+#            str_remove("SEP") %>% 
+#            tokenize_words(lowercase = FALSE,
+#                           strip_punct = FALSE,
+#                           strip_numeric = FALSE)) %>% 
+#   mutate(ner_tags = ner_tags %>% 
+#            str_remove("SEP") %>% 
+#            trimws() %>% 
+#            str_split(" ")) %>% 
+#   group_by(stnc) %>% 
+#   mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))) %>% 
+#   filter(nt != nn)
+```
+
+```{r}
+
+```
+
+```{r}
+# x = 1
+# bp = (train %>% 
+#  mutate(sn = map_dbl(1:nrow(train), ~ x_ct(ner_tags[.x]))) %>% 
+#   group_by(sn) %>% 
+#   summarise(tokens = paste(tokens, collapse  = " "),ner_tags = paste(ner_tags, collapse = " ")) %>% 
+#   mutate(tokens = tokens %>% 
+#            str_remove("SEP") %>% 
+#            tokenize_words(lowercase = FALSE,
+#                           strip_punct = FALSE,
+#                           strip_numeric = FALSE)) %>% 
+#   mutate(ner_tags = ner_tags %>% 
+#            str_remove("SEP") %>% 
+#            trimws() %>% 
+#            str_split(" ")) %>% 
+#   group_by(sn) %>% 
+#   mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))))
+```
+
+# Correct
+
+```{r}
+library(tokenizers)
+library(tidytext)
+# Function that numbers the tokens per sentence
+x_ct = function(tokens){
+  if(tokens != "SEP"){
+    n = x
+    }
+  else{
+      x <<- x+1
+      n = x
+    }
+  
+  return(n)
+}
+
+
+x <- 1
+tr = train %>% 
+ mutate(sn = map_dbl(1:nrow(train), ~ x_ct(ner_tags[.x]))) %>% 
+  group_by(sn) %>% 
+  summarise(tokens = paste(tokens, collapse  = " "),ner_tags = paste(ner_tags, collapse = " ")) %>% 
+  ## The above could suffice and save from there
+  mutate(tokens = tokens %>% 
+           str_remove("SEP") %>% 
+           tokenize_words(lowercase = FALSE,
+                          strip_punct = FALSE,
+                          strip_numeric = FALSE)) %>% 
+  mutate(ner_tags = ner_tags %>% 
+           str_remove("SEP") %>% 
+           trimws() %>% 
+           str_split(" ")) %>% 
+  group_by(sn) %>% 
+  mutate(nt = length(unlist(tokens)), nn = length(unlist(ner_tags))) %>% 
+  filter(nt == nn) %>% 
+  ungroup()
+
+
+```
+
+```{r}
+# Save stuff: pmap better?
+#write_csv(tr, "train.csv")
+for (i in seq_len(nrow(tr))){
+  tr %>% 
+    slice(n = i) %>% 
+    pull(ner_tags) %>% 
+    unlist() %>% 
+    paste(collapse = " ") %>% 
+    write_lines("train_labels.txt", append = TRUE)
+}
+
+```
