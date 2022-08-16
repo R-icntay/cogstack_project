@@ -20,6 +20,8 @@ This notebook explores how MedCAT can be used for extracting concepts from unstr
 
 MedCAT is an open source annotation tool that can learn to extract concepts (e.g. disease, symptoms, medications) from free-text and link them to any biomedical ontology such as SNOMED-CT and UMLS [@kraljevic2021].
 
+## Set up
+
 ::: callout-note
 This notebook uses both R and Python at different sections.
 Please see:
@@ -83,4 +85,17 @@ model_pack_path = DATA_DIR + "medmen_wstatus_2021_oct.zip"
 
 ```
 
+Now, let's load the MedCAT modelpack.
 
+```{python}
+cat = CAT.load_model_pack(model_pack_path)
+```
+
+## Testing Named Entity Recognition + Linking
+
+```{python}
+text = "He was diagnosed with kidney failure but not Malaria"
+doc = cat(text)
+
+doc.
+```
