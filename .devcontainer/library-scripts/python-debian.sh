@@ -251,9 +251,7 @@ install_from_source() {
     if [ "${OPTIMIZE_BUILD_FROM_SOURCE}" = "true" ]; then
         config_args="--enable-optimizations"
     fi
-    ./configure --prefix="${PYTHON_INSTALL_PATH}" --enable-optimizations --with-ensurepip=install --enable-shared ${config_args}
-    #./configure --prefix="${PYTHON_INSTALL_PATH}" --with-ensurepip=install ${config_args}
-    #./configure --enable-optimizations --with-ensurepip=install --enable-shared --prefix=--prefix="${PYTHON_INSTALL_PATH}"
+    ./configure --prefix="${PYTHON_INSTALL_PATH}" --with-ensurepip=install ${config_args}
     make -j 8
     make install
     cd /tmp
@@ -354,4 +352,3 @@ export PIPX_BIN_DIR="${PIPX_BIN_DIR}"
 if [[ "\${PATH}" != *"\${PIPX_BIN_DIR}"* ]]; then export PATH="\${PATH}:\${PIPX_BIN_DIR}"; fi
 EOF
 )"
-# ./configure --prefix="${PYTHON_INSTALL_PATH}" --with-ensurepip=install ${config_args}
