@@ -1,0 +1,64 @@
+---
+title: "Extracting diseases from Electronic Health Records"
+author: "Eric Wanjau"
+toc: true
+format: 
+  html:
+    number-sections: true
+    toc-location: left
+    code-tools: true
+    code-fold: false
+    code-link: true
+editor: visual
+execute: 
+  warning: false
+  message: false
+bibliography: references.bib
+---
+
+This notebook explores how MedCAT can be used for extracting concepts from unstructured texts and follows/modifies the tutorials at: [`MedCAT tutorials`](https://github.com/CogStack/MedCATtutorials)
+
+MedCAT is an open source annotation tool that can learn to extract concepts (e.g. disease, symptoms, medications) from free-text and link them to any biomedical ontology such as SNOMED-CT and UMLS [@kraljevic2021].
+
+::: callout-note
+This notebook uses both R and Python at different sections.
+Please see:
+
+<https://rpubs.com/eR_ic/transfoRmers> on how to set up reticulate [@reticulate] and Python environments.
+:::
+
+```{r echo=FALSE, include=FALSE}
+# Load reticulate into current R session
+library(reticulate)
+library(here)
+use_python("env/Scripts/python.exe")
+
+# Retrieve/force initialization of Python
+reticulate::py_config()
+```
+
+```{r eval=FALSE}
+# Load reticulate into current R session
+library(reticulate)
+library(here)
+use_python("env/Scripts/python.exe")
+
+# Retrieve/force initialization of Python
+reticulate::py_config()
+
+```
+
+```{r}
+# Check if python is available
+reticulate::py_available()
+```
+
+With everything set up, let's begin extracting concepts from unstructured texts.
+
+```{python}
+#| eval: false
+
+# Install medcat into virtual environment
+!pip install medcat
+
+```
