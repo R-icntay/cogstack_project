@@ -31,7 +31,7 @@ Please see:
 # Load reticulate into current R session
 library(reticulate)
 library(here)
-use_python("env/Scripts/python.exe")
+#use_python("env/Scripts/python.exe")
 
 # Retrieve/force initialization of Python
 reticulate::py_config()
@@ -41,7 +41,7 @@ reticulate::py_config()
 # Load reticulate into current R session
 library(reticulate)
 library(here)
-use_python("env/Scripts/python.exe")
+#use_python("env/Scripts/python.exe")
 
 # Retrieve/force initialization of Python
 reticulate::py_config()
@@ -62,3 +62,25 @@ With everything set up, let's begin extracting concepts from unstructured texts.
 !pip install medcat
 
 ```
+
+
+```{python}
+# Load required packages
+import pandas as pd
+import numpy as np
+import pickle
+import seaborn as sns
+
+from matplotlib import pyplot as plt
+from medcat.cat import CAT
+
+DATA_DIR = "./data/"
+model_pack_path = DATA_DIR + "medmen_wstatus_2021_oct.zip"
+
+# Download provided models and required data
+!wget https://medcat.rosalind.kcl.ac.uk/media/medmen_wstatus_2021_oct.zip -P ./data/
+!wget https://raw.githubusercontent.com/CogStack/MedCATtutorials/main/notebooks/introductory/data/pt_notes.csv -P ./data/
+
+```
+
+
