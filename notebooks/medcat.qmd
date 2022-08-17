@@ -13,6 +13,7 @@ editor: visual
 execute: 
   warning: false
   message: false
+jupyter: python3
 bibliography: references.bib
 ---
 
@@ -23,8 +24,7 @@ MedCAT is an open source annotation tool that can learn to extract concepts (e.g
 ## Set up
 
 ::: callout-note
-This notebook uses both R and Python at different sections.
-Please see:
+This notebook uses both R and Python at different sections. Please see:
 
 <https://rpubs.com/eR_ic/transfoRmers> on how to set up reticulate [@reticulate] and Python environments.
 :::
@@ -65,7 +65,6 @@ With everything set up, let's begin extracting concepts from unstructured texts.
 
 ```
 
-
 ```{python}
 # Load required packages
 import pandas as pd
@@ -93,9 +92,90 @@ cat = CAT.load_model_pack(model_pack_path)
 
 ## Testing Named Entity Recognition + Linking
 
+Let's see whether the medcat model can identify some entities out of the box.
+
 ```{python}
 text = "He was diagnosed with kidney failure but not Malaria"
 doc = cat(text)
-
-doc.
+doc.ents
 ```
+
+One can investigate deeper to check for metadata such as whether the entity is confirmed or not:
+
+```{python}
+# Observe all entities and correponding meta data
+cat.get_entities(text)
+
+```
+
+From the output, `kidney failure` is affimed while `Malaria` is not.
+
+We may be interested with only the CUI, in that case:
+
+```{python}
+for ent in doc.ents:
+  print(ent, "-", ent._.cui)
+  
+```
+
+Or the type_ids
+
+```{python}
+for ent in doc.ents:
+  print(ent, "-", cat.cdb.cui2type_ids.get(ent._.cui))
+```
+
+## Load the data
+
+Let's load the data and see what it entails
+
+```{r}
+library(tidyverse)
+library(here)
+data <- read_csv("notebooks/data/pt_notes.csv")
+
+# View 
+data %>% 
+  slice_head(n = 5)
+
+```
+
+```{r}
+# Dimensions of data
+dim(data)
+```
+
+We'll only be interested with the text column, so let's take a look
+
+```{r}
+# Sample text
+data %>% 
+  slice(n = 1) %>% 
+  pull(text)
+```
+
+## Annotate texts.
+
+MedCAT uses a self-supervised training procedure for concept recognition and disambiguation. Supervised training can then be done later to improve performance. This is described in @kraljevic2021.
+
+```{r}
+datap = r_to_py(data)
+repl_python()
+print(len(r.data["text"]))
+exit
+```
+
+```{python}
+# Print statistics on the CBD before training
+cat.cdb.print_stats()
+
+# Run annotation procedure over texts
+print()
+print(f"There are {len(datap["text"])} documents to annotate")
+cat.train(r.data.text.values, progress_print = 100)
+
+
+
+
+```
+
