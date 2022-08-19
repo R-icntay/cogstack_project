@@ -1,0 +1,4 @@
+t048 %>% 
+  str_remove_all(pattern = "[:punct:]") %>% 
+  str_replace_all(" ", ",") %>% 
+  write_lines("t048.txt")
