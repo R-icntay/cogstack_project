@@ -1,0 +1,1000 @@
+Matrix metalloproteinase / tissue inhibitors of matrix metalloproteinase phenotype identifies poor prognosis colorectal cancers .
+The decreased expression of SEMA3B , SEMA3F , and plexin - A3 was confirmed in stage 3 ovarian tumors .
+Recently , we reported candidate target genes of Evi - 1 shared in HSCs and leukemic cells using gene expression profiling analysis .
+Inoculation of these cells in athymic mice decreases mouse spleen natural killer ( NK ) cell activity .
+We conclude that GR - mediated MAPK inactivation contributes to cell survival and that the potential transcriptional targets of this inhibition can be identified from large scale gene array analysis .
+Mouse p10 , an alternative spliced form of p15INK4b , inhibits cell cycle progression and malignant transformation .
+Endothelial cell migration was attenuated by treatment of cells with GM6001 , a non - specific inhibitor of MMPs , or by a selective anti - MMP2 antibody .
+Targeting a tumor - specific laminin domain critical for human carcinogenesis .
+CONCLUSIONS : This study has identified that the MMP / TIMP profile is an independent indicator of poor prognosis in colorectal cancer .
+The serum level of CEA was reduced from 172 . 7 ng / ml to 8 . 1 ng / ml after TS - 1 treatment .
+In this report , we analyzed the expression of Plexin C1 using immunohistochemistry on sections of primary and matched metastatic lesions from 19 subjects and in a large melanoma tumor microarray .
+Here , we investigated whether angiogenesis and tumor metastasis are dependent on hypoxia conditioning - induced TB4 expression in B16F10 melanoma cells .
+Tumor angiogenesis has been related to the initiation as well as progression toward more aggressive behavior of human tumors .
+Jun N terminal kinase ( JNK1 ) and p38 kinase are activated by a variety of stress stimuli .
+When BB - 94 , a matrix metalloproteinase inhibitor , was added to the culture medium of Ras - expressing cells , it caused a cell aggregation phenotype similar to that caused by TEL expression .
+These results indicate that the interaction of tumor cells and endothelial cells in orderly tumor angiomorphogenesis is highly dependent on the action of cell adhesion molecules mediating the adhesion of cancer cells to endothelial cells , inhibition of which remarkably retards tumor growth and angiogenesis .
+However , no published data are available concerning the biological and clinical significance of COUP - TFII expression in colorectal cancer .
+Whereas the ligands were increased in stages III and IV , the receptors were upregulated in stage III only .
+Proteolytic activity is required for the turnover of the extracellular matrix during wound healing .
+In addition , TEL inhibited the invasiveness of Ras - transformed cells in vitro and in vivo .
+Nrf2 heterodimerizes with small Maf protein to strongly activate transcription through the Maf recognition element ( MARE ) and Keap1 is an inhibitory regulator of Nrf2 .
+Patients with tumors demonstrating concurrent methylation of more than half of their genes demonstrated significantly poorer survival and earlier recurrence .
+Human cytomegalovirus elevates levels of the cellular protein p53 in infected fibroblasts .
+The PCR products were then subject to XhoI digestion and to DNA sequencing analysis .
+This strategy may be of significant value in laying the foundation for a more explicit anti - tumor angiogenesis therapy .
+Control RM - 9 cells and RM - 9 cells stably transfected with IL - 12 gene ( RM - 9 - IL12 ) were inoculated subcutaneously in 4 - to 6 - week - old male C57BL / J6 mice .
+CONCLUSIONS : ITCs circulate even in early stages of disease .
+In contrast , expression of kinase - dead PIM - 2 mutant ( PIM - 2KD ) led to a rapid decline of survival in Ba / F3 cells transformed by FLT3 - ITD but not by other oncogenic PTKs tested .
+The adenovirus type 5 55 - kDa E1B protein ( E1B - 55kDa ) cooperates with E1A gene products to induce cell transformation .
+VEGF165 also mediated the binding of a soluble NRP1 dimer to cells expressing KDR only , confirming the formation of such complexes .
+The grafts were implanted in the abdominal aortic position of 24 dogs autologously .
+Interestingly , we find that the deletion of miR - BHRF1 - 2 reduced the expression level of miR - BHRF1 - 3 and possibly that of miR - BHRF1 - 1 , demonstrating that the expression of one miRNA can potentiate the expression of other miRNAs located in the same cluster .
+Effects of 4 - alkylmorpholine N - oxides on ATP - producing processes in Ehrlich ascites and L1210 leukaemia cells .
+The median overall survival was 27 weeks .
+In contrast , MMP - 9 expression was higher in stage III - IV NSCLC cases compared to stage I - II tumors ( p < 0 . 05 ) and higher in NSCLC cases with metastasis than those without metastasis ( p < 0 . 05 ) .
+Together , these in vitro and in vivo studies are consistent with the concept that Ad vectors may provide a useful strategy for efficient local delivery of VEGF165 in the treatment of ischemic diseases .
+The nature of these substrates was confirmed by proteolysis techniques .
+The hypothesis that modifications of activity and / or expression of nitric oxide synthase ( NOS ) isozymes might play a role in these modifications , via enhanced local production of nitric oxide , was tested in this study .
+Moreover , in the presence of glucose , the malate - citrate cycle did not appear to play an important role in the glutaminolytic process .
+We also demonstrated that Evi - 1 represses Smad - induced transcriptional activation by recruiting CtBP as a corepressor .
+In this study , we investigated the effects of spironolactone on the prevention of corneal allograft rejection in a MHC class I / II mismatch rat corneal transplant model .
+Acad .
+Incidence of BRAF p . Val600Glu and p . Val600Lys mutations in a consecutive series of 183 metastatic melanoma patients from a high incidence region .
+Vascular endothelial growth factor ( VEGF ) is a vascular growth factor which induces angiogenesis ( the development of new blood vessels ) , vascular permeability , and inflammation .
+To examine this hypothesis , we used NCI - H1299 non - small cell lung cancer ( NSCLC ) cell line ( p53 and PTEN null cell ) and constructed an ICAM - 3 - over - expressing stable transfectant , which exhibited increased cell migration and invasion .
+Apoptotic index ( AI ) was calculated , based on the terminal deoxynucleotidyl transferase - mediated deoxyuridine triphosphate biotin nick end labeling , to evaluate apoptosis .
+After cytocentrifugation the specimens were stained in accordance with the alkaline phosphatase anti - alkaline phosphatase ( APAAP ) method .
+Similar methods applied to human ovarian and colon tumors confirmed endosialin expression by pericytes .
+In this article we have focused on a role of IL - 6 as a prognostic factor in several malignancies such as colorectal cancer , breast cancer , gastric cancer and pancreatic cancer .
+This pathway has been implicated to play a role in the pathogenesis of cancer and in embryonic blood vessel development .
+Thus , the NO metabolic pathway in endothelial cells could be one of the main contributing factors for angiogenesis .
+These data indicate that dietary folate supplementation at 4x the basal dietary requirement significantly suppresses UC - associated colorectal carcinogenesis in the IL - 2 ( null ) x beta ( 2 ) m ( null ) mice .
+Low transcript expression alone ( P = 0 . 003 ) or combined with methylation ( P = 0 . 019 ) was associated with poor disease - specific survival ( n = 205 ) .
+We therefore hypothesized that ANG II could be a mediator between homeostatic changes within the vascular perfusion bed and growth factor - driven angiogenesis .
+The aim of the present study was to clarify how expression of p53 protein participates in angiogenesis , and whether the coexpression of VEGF and p53 protein has a significance for angiogenesis and the clinicopathological features in esophageal squamous cell carcinoma ( SCC ) .
+Q - RT - PCR was a useful method to detect the mRNA levels of nm23 gene in buccal carcinoma .
+The overall mutation rate of the MCR of the APC gene among 86 CRC cases was 12 . 8 per cent ( 11 of 86 ) .
+In the trans - splenic hepatic metastasis model using nude mice , the augmentation of cancer metastasis was observed by the treatment of carcinostatic agents .
+Genotypes of 155 patients with cervical cancer and 160 healthy control subjects were determined using polymerase chain reaction - based restriction fragment length polymorphism ( PCR - RFLP ) .
+Effect of transplanted mesenchymal stem cells from rats of different ages on the improvement of heart function after acute myocardial infarction .
+Additional mechanistic studies further suggested that the ability of circulating cancer cells to extravasate to surrounding lung tissues was linked to the activation of the vascular endothelium via one or more Galpha ( i ) - coupled receptors .
+Oncogenic mechanisms of Evi - 1 protein .
+Electronmicroscopically , thrombus formation in the primary site prevented tumor invasion and metastasis formation .
+Previous studies have shown that activation of the signal transducer and activator of transcription 5 ( STAT5 ) plays an essential role in leukemogenesis mediated through constitutive activated protein tyrosine kinases ( PTK ) .
+IMPLICATIONS : These findings also contrast with the demonstration of nm23 metastasis suppressor activity in murine melanoma and with the correlation of loss of nm23 expression in breast cancer with poor prognosis .
+However , co - culture of these cancer cells with stromal or osteoblastic cells induced RANKL mRNA expression and decreased OPG mRNA expression .
+Pretreatment of cells with caffeine significantly reduces adenosine - induced VEGF promoter activity and VEGF and IL - 8 expression .
+Systematic proteomic analysis of human hepotacellular carcinoma cells reveals molecular pathways and networks involved in metastasis .
+Metastatic lesions were confirmed by immunohistochemistry .
+Therefore , angiogenesis depends on sustained ERK activity regulated by the ligation state of both a growth factor receptor and integrin alphavbeta3 .
+Reduced oncogenicity of p190 Bcr / Abl F - actin - binding domain mutants .
+M - CSF signals through the MAPK / ERK pathway via Sp1 to induce VEGF production and induces angiogenesis in vivo .
+This pathway will continue to be a focus of investigation , particularly with respect to targeted experimental chemotherapeutics .
+Immunostaining for endothelial nitric oxide synthase , vascular endothelial growth factor , and CD34 ( markers of vasoactivity and neoangiogenesis ) was also performed .
+Additionally , glutathione depletion and extracellular signal - regulated kinase ( ERK ) inactivation was observed in EPOX - treated cells .
+Such evidence indicates that MTSS1 as a multiple functional molecular player and has an important role in development , carcinogenesis and metastasis .
+In contrast , the growth of tumors requires constant vascular growth and remodeling in order for solid tumors to grow beyond 1 - 2 mm ( 3 ) in size .
+The procedure is based on the use of a central skeleton of uteroglobin , a small and very soluble covalently linked homodimeric protein that is very resistant to proteolytic enzymes and to pH variations .
+Selective inhibition of nuclear factor - kappaB by nuclear factor - kappaB essential modulator - binding domain peptide suppresses the metastasis of highly metastatic oral squamous cell carcinoma .
+They also serve as important intracellular signaling molecules that amplify the synovial inflammatory - proliferative response .
+CONCLUSIONS : Insulin increases VEGF mRNA and secreted protein levels in RPE cells through enhanced transcription of the VEGF gene .
+Further investigation using inhibition or genetic deletion of Erbb2 in vitro revealed reduced Cdc25a levels and increased S - phase arrest in UV - irradiated cells lacking Erbb2 activity .
+Molecular requirements for epithelial - mesenchymal transition during tumor progression .
+The process of angiogenesis is also thought to occur in response to ischaemic conditions , which lie at the core of cardiovascular disease states such as coronary artery disease and congestive heart failure .
+Cell proliferation in each sample was assessed by using the Ki - 67 proliferation marker .
+Administration of exogenous polyamines prevented ACA - induced apoptosis represented by a reduction in the number of apoptotic bodies and also caused reduction in the induced caspase - 3 - like protease activity at 8 h .
+RESULTS : Abnormal E - cadherin and beta - catenin staining correlated with depth of tumour invasion in differentiated - type tumours .
+Gross evaluation included shrinkage and stiffness .
+In this study we separated weakly acidic phenolic components from other neutral , acidic and basic components of tobacco smoke condensate ( TSC ) and observed that phenolic fraction of TSC significantly increased the number of colonies of promotion - sensitive JB6 Cl41 cells that showed anchorage - independent growth on soft agar in response to BPDE ( an ultimate carcinogen produced by metabolic activation of the PAH benzo [ a ] pyrene ) .
+Moreover , the overexpression of IGF1 - R in these cells was associated with IGF1 - R - induced activation of Akt and up - regulation of the antiapoptotic protein Bcl - x ( L ) .
+The cells invasion was demonstrated by transwell assay .
+These mice were then treated with ganciclovir to specifically target only the vGPCR - expressing cells .
+But little is known about the characteristics of young donor - derived MSCs transplanted to old patients with AMI .
+The amount of conjugated amine group onto the microspheres was 1 . 93 + / - 0 . 01 nmol / mg - microspheres , while the amount of heparin was 95 . 8 pmol / mg - microspheres .
+Thyrotropin receptor : a role for thyroid tumourigenesis ?
+In this regard , inhibitors of these pathways have been shown to be effective antitumoral agents .
+CONCLUSION : The optimal approach to the treatment of colorectal cancer depends on several considerations , including patient - specific factors .
+In summary , these novel studies identify and characterize a marked glucose - modulated activation response of the type II hexokinase gene to hypoxic conditions within highly glycolytic hepatoma cells , a property that may help assure that such cells exhibit a growth and survival advantage over their parental cells of origin .
+Glutathione supplementation reversed the inhibitory effects of EPOX on ERK , which increases the phosphorylation of Mcl - 1 at T ( 163 . ) Overexpression of mitogen - activated protein / ERK kinase ( MEK ) partially reversed the effect of EPOX on Mcl - 1 dephosphorylation , ubiquitination , and degradation , further implicating ERK in the regulation of Mcl - 1 stability .
+Our results showed that MTX administration increased the MDA and MPO activities and collagen content and decreased GSH levels in all tissues , while these alterations were reversed in L - Car - treated group .
+WIT003 , as well as pure 20 - HETE , stimulated EC proliferation by approximately 40 % .
+Solid tumors must establish a blood supply in order to proliferate and grow .
+We further show that Stat3 is phosphorylated at S727 in 65 % of malignant prostate tissues ( n = 20 ) relative to 25 % of normal prostate tissues ( n = 4 ) .
+The expression of NP - 1 , NP - 2 , and plexin - A1 was not altered in human ovarian surface epithelial and ovarian cancer cells .
+Manipulating angiomiRs in the settings of pathological vascularization represents a new therapeutic approach .
+p53 appears to be a nuclear transcription factor that plays a role in the control of cell proliferation , apoptosis , and the maintenance of genetic stability .
+RESULTS : SPARC expression was mainly in the stromal cells surrounding the colon cancer , and was significant difference in those tissues with the lymph node metastasis and differentiation degree of tumor .
+Moreover , we show that subjecting transfected hepatoma cells to hypoxic conditions activates the type II hexokinase promoter almost 3 - fold , a value that approaches 7 - fold in the presence of glucose .
+Vascular endothelial growth factor ( VEGF ) , a recently identified growth factor with significant angiogenic properties , may be a major tumor angiogenesis regulator .
+Immunotargeting using an anti - IGF - IR neutralizing antibody on human fetal lung explants demonstrated a significant blockade of IGF - IR signaling .
+Protein expression profile of primary human squamous cell lung carcinomas indicative of the incidence of metastases .
+It is therefore highly likely that these alterations are an important component in tumor resistance to therapy .
+Immunohistochemistry scores for matrix metalloproteinase - 9 expression were significantly elevated compared to controls in scar endothelial cells and fibroblasts from 2 until 12 and 20 weeks , respectively .
+These disturbed functions are associated with suppression of signaling mechanisms implicated in EC survival and angiogenesis .
+Expression of VEGF had a significantly positive correlation with IMVD ( r = 0 . 51 , P less than 0 . 01 ) .
+Endosialin / TEM 1 is a cell membrane protein that is expressed in blood vessels during embryogenesis and tumorigenesis but not in normal mature vessels .
+Importantly , the addition of a neutralizing VEGF antibody abolished M - CSF - induced blood vessel formation .
+In spleen , tyrosinase , TRP - 1 and SV40 Tag were expressed and tyrosinase was enzymatically active .
+KISS1 hypermethylation was identified in bladder cancer , providing a potential mechanistic explanation ( epigenetic silencing ) for the observed loss of KISS1 in uroepithelial malignancies .
+It was found that wild - type ( wt ) SVLT strongly inhibited the terminal differentiation of mouse C2 myoblasts , but this arrest occurred only after the synthesis of myogenin , an initial step in biochemical differentiation .
+Most primary human melanomas exhibit loss of expression of the CDKN2A locus in addition to activation of the canonical mitogen - activated protein kinase signaling pathway .
+Arterial pressure and cardiac output were unchanged .
+Intracellular glutathione levels were determined with the use of monochlorobimane , a glutathione - specific probe .
+There was negative correction between KISS1 and MMP - 9 protein expression ( p < 0 . 01 ) .
+[ Interleukin - 18 and new drugs . Protective effect against tumor growth and infections ] .
+RESULTS : Endometrial glands in the proliferative and early secretory phase expressed both DCC and netrin - 1 , but glands in the late - secretory phase tended to silence DCC expression .
+Restriction fragment length polymorphism studies demonstrated that the loss of one copy of portions of chromosome 17 occurred in 10 ( 53 % ) of the 19 patients .
+The results of LDH5 expression were correlated to clinico - pathological data as well as to patient ' s survival .
+Inactivation of IGF - IR resulted in a loss of endothelial cells , accompanied by dramatic changes in fetal lung explant morphology .
+Fibroblast growth factor 2 promotes microvessel formation from mouse embryonic aorta .
+Proto - oncogene N - myc promoter is down regulated by the Wilms ' tumor suppressor gene WT1 .
+Supernatant from cultures of Ve - and OMP - stimulated HGF strongly induced VPE .
+There was also a significant correlation between VEGF - C and both of its receptors flt - 4 ( P = 0 . 006 ) and KDR ( P = 0 . 03 ) but no association between VEGF - B and its receptor flt - 1 ( P = 0 . 23 ) .
+We also show that mouse p10 is able to inhibit foci formation and anchorage - independent growth in wild - type mouse embryonic fibroblasts , and that these antitransforming properties of mouse p10 are also p53 - dependent .
+The decline in circulating endothelial cells and their precursors suggests that this combination may be working by inhibiting angiogenesis but should be validated in a larger patient sample .
+( 1999 , Proc . Natl . Acad . Sci . USA 2645 - 2650 ) to inhibit endothelial cell proliferation and angiogenesis , both in vivo and in vitro , and to inhibit metastasis of a wide variety of tumors in vivo .
+In contrast , the response of cells to long - term treatment with PDBu was significantly different depending upon the initial growth state of the cells .
+We have previously described a group of genes that is rapidly up - regulated in these cells following dexamethasone ( Dex ) treatment .
+Protruding and expansive ulcerating carcinomas developed at 36 weeks and had a microvascular pattern similar to that of human adenocarcinoma .
+The positive staining of nm23 - H1 gene product in primary cancers and metastatic lymph nodes were observed in 56 . 5 and 67 . 4 % , respectively .
+Thalidomide at the concentrations of 0 . 01 microM and 10 microM inhibited VEGF secretion into supernatants , decreased the number of formed capillary tubes and increased cell adhesion to collagen .
+Bovine capillary endothelial cells are also stimulated to actively migrate when exposed to EGF in vitro .
+The fact that viral or other adjunctive vectors were not required further suggests that secreted gene products may have potential therapeutic utility even when the number of successfully transfected cells remains low .
+METHODS : The expression of DCC and netrin - 1 in normal endometrial glands and in cancer cell lines was examined by RT - PCR and immunohistochemistry .
+It was thought that potent antiangiogenic effect of cRGD - HL was probably due to the interference of alpha ( v ) beta ( 3 ) - mediated interaction , resulting in the enhanced antitumoral activity against SCC7 tumor .
+Aflibercept ( AVE0005 ) : an alternative strategy for inhibiting tumour angiogenesis by vascular endothelial growth factors .
+The result showed that the multilevel of FPC could all apparently induce Bel - 7402 apoptosis .
+Vascular grade was not related to histology , grade , proliferation index ( Ki67 ) , or EGFR or p53 expression .
+Aberrant angiogenesis leads to a variety of diseases , such as ischemia and cancer .
+Perfusion and permeability parameters of the implanted tumours were evaluated by using two contrast media ( B22956 / 1 and Gd - DTPA37 - albumin ) to establish response to treatment with two different antiangiogenic drugs ( tamoxifen and SU6668 ) .
+We found that the severity of vascular abnormalities correlated positively with the severity of histologic epithelial lesions ; this finding is consistent with colposcopic results .
+Transformation of mammary epithelial cells ( MECs ) from the normal to the neoplastic stage requires the dysregulation of tumor suppressor genes and proto - oncogenes .
+Levels of uPA , urokinase - plasminogen activator receptor ( uPAR ) and plasminogen activator inhibitor - 1 ( PAI - 1 ) were measured semiquantitatively in paraffin sections of tumours from 147 patients with NSCLC .
+The relationship between this unique type of EBV and NPC has yet to be established .
+The apparent first - order rate constant for GSH decay increased progressively for L1210 cells expressing a range of GPX activities from approximately 5 % to 100 % , demonstrating that peroxide detoxification is strictly dependent on enzyme content .
+Human T - cell lymphoma virus ( HTLV ) - 1 was the first human retrovirus to be discovered .
+OPN promoted EC migration in vitro ; and VPF / VEGF induction of alphavbeta3 was accompanied by increased EC migration toward OPN .
+A panel of antibodies was used for immunohistochemistry : CD34 / Ki - 67 , carbonic anhydrase IX , hypoxia - inducible factor - 1alpha ( HIF - 1alpha ) and vascular endothelial growth factor ( VEGF ) .
+Identification of the putative transforming protein of the human T - cell leukemia viruses HTLV - I and HTLV - II .
+Our results showed that HeLa cells demonstrated the highest sensitivity to paclitaxel , whereas CaSki cells showed the lowest .
+To assay for the possible presence of transforming genes which were not active in a focus formation assay , two of the epithelial lines were analysed further by co - transfection with a dominant selectable marker , followed by selection and inoculation into nude mice .
+NOS activities were measured by the L - citrulline assay in peritoneal biopsies from seven control subjects , eight uremic patients immediately before the onset of PD , and 13 uremic patients on short - term ( less than 18 mo , n = 6 ) or long - term ( greater than 18 mo , n = 7 ) PD .
+One such receptor , VEGFR - 2 / KDR , plays a key role in VEGF - induced angiogenesis .
+The CCAAT / enhancer - binding protein beta ( C / EBPbeta ) transcription factor has been associated with several cancer models .
+We have constructed a recombinant adenovirus that expresses murine endostatin that is biologically active both in vitro , as determined in endothelial cell proliferation assays , and in vivo , by suppression of angiogenesis induced by vascular endothelial growth factor 165 .
+Carcinogenesis and transcriptional regulation through Maf recognition elements .
+Recent studies have demonstrated that tumor cells treated with antibodies specific for beta ( 2 ) - microglobulin ( beta ( 2 ) M ) or major histocompatibility complex ( MHC ) class I molecules undergo apoptosis in vitro and in vivo ( mouse models ) .
+In all patients , a major and consistent induction of p53 target genes was seen .
+Tumor size was measured every 3 days .
+METHODS : We used ribonuclease protection assays to analyze human colon tumors for the level of nm23 - H1 ( 43 samples ) and nm23 - H2 ( 41 samples ) transcript ( mRNA ) expression and the presence of mutations that could inactivate potential suppressor function .
+Thus , 5T4 molecules can deliver signals through both the extracellular and intracellular domains , and the resultant effects are consistent with a role for 5T4 molecules in invasion processes .
+Breast tissue taken at varying postoperative times ( n = 92 ) or during surgery ( controls , n = 17 ) , was used to investigate the temporal and spatial activity of matrix metalloproteinase - 2 and - 9 and tissue inhibitor of metalloproteinase - 1 during human wound healing .
+With the recent ability to clone capillary endothelial cells and to carry them in long - term culture , it has been possible to further delineate the mechanism of capillary growth .
+Only one eye received a second PDT treatment due to choroidal neovascularization .
+Primary human keratinocytes lacking G45 ( DeltaG45 ) showed alterations of basal receptor organization , impaired matrix deposition , and increased migration .
+To determine whether lipofection in other organs could be enhanced by increasing the degree of vascularization , we used a transgenic mouse model with tissue - specific angiogenesis in liver .
+Several cell types in a tissue secrete IL - 8 .
+Treatment with vehicle or with 10 and 50 mg / kg of DATS resulted in a reduction in tumor volume and weight .
+Cediranib ( RECENTIN ; AZD2171 ) is an inhibitor of VEGF signaling that has been shown in experimental models to prevent VEGF - A - induced angiogenesis and primary tumor growth , yet the effects of cediranib on VEGF receptor ( VEGFR ) - 3 - mediated endothelial cell function and lymphangiogenesis are unknown .
+Sequence analysis revealed that this gene had 95 % homology with the LMP sequence of the B95 - 8 strain .
+Promoting angiogenesis via delivery of vascular endothelial growth factor ( VEGF ) and other angiogenic factors is both a potential therapy for cardiovascular diseases and a critical aspect for tissue regeneration .
+It enhances solid tumor growth and provides an ability to establish metastasis at peripheral sites by tumor cell migration .
+Moreover , the downregulation of c - myc oncogene by an antisense strategy might represent a useful goal for improving the efficacy of this anti - neoplastic drug family .
+Expression of both receptors was studied in biopsy samples from 92 patients ( 6 males and 86 females ; age ranging from 28 to 86 years , mean 56 years ) .
+This induction of Ets - 1 could be reproduced in in vivo denudation of rat aortic endothelium by a balloon catheter .
+A significantly reduced expression of SEMA3B ( 83 kDa ) , SEMA3F ( 90 kDa ) , and plexin - A3 was observed in ovarian cancer cell lines when compared with normal human ovarian surface epithelial cells .
+Administration of 317615 x 2HCl also increased the tumor growth delay produced by fractionated radiation therapy in the MX - 1 tumor .
+Androgen stimulates glycolysis for de novo lipid synthesis by increasing the activities of hexokinase 2 and 6 - phosphofructo - 2 - kinase / fructose - 2 , 6 - bisphosphatase 2 in prostate cancer cells .
+Immunohistochemical studies showed that the epithelioid cells were strongly positive for a broad spectrum of cytokeratins ( AE1 / AE3 , CAM5 . 2 , epithelial membrane antigen and cytokeratin 7 ) and mesothelial markers ( calretinin , Wilms ' tumour 1 and D2 - 40 ) .
+Cancer is a disease largely dependent on neoangiogenesis .
+Microvessel density ( MVD ) was assessed in order to evaluate angiogenesis of autogenous bone grafts .
+TSP - 1 mRNA levels were decreased in all tumours compared with normal prostate .
+The activity of succinate dehydrogenase was inhibited by 70 % by 3 - BrPA treatment .
+Furthermore , the expression levels of NF - kappaB - regulated metastasis - related molecules , such as fibronectin , beta1 integrin , MMP - 1 , - 2 , - 9 , and - 14 , and VEGF - C , were upregulated in the highly metastatic cells .
+This prospective study aimed to determine the efficacy and individual benefit of external beam radiotherapy ( EBRT ) .
+HIF - 1alpha stabilization and the expression of VEGF isoform 165 and 121 in hypoxia were also reduced by the infection of lentiviral shRNA of TB4 in B16F10 cells .
+Telomere / telomerase interplay in virus - driven and virus - independent lymphomagenesis : pathogenic and clinical implications .
+However , the molecular mechanism of these effects is not understood .
+The incidence of high - grade lesions ( high - grade dysplasia / carcinoma in situ and invasive adenocarcinoma ) in the folate - supplemented group was 46 % lower than that in the control group ( 35 . 3 % versus 65 . 1 % , P = 0 . 009 ) .
+Our in vivo metastasis mouse model is useful for studying the efficacy of therapeutic regimes of ovarian cancer .
+The significance of the associations was determined using Spearman correlation analysis and the chi - square test .
+Weaning IL - 2 ( null ) x beta ( 2 ) m ( null ) mice were randomized to receive 0 ( deficient ; n = 40 ) , 2 ( basal requirement ; control ; n = 46 ) , or 8 ( supplemented ; n = 36 ) mg folate / kg diet for 32 weeks .
+On the basis of earlier findings that ERK5 deficiency in mouse EC results in massive defects in vessel architecture , we focused on the impact of the MEK5 / ERK5 signaling pathway on EC migration .
+In spite of uncertainties regarding the mechanisms of carcinogenesis , several vitamins such as beta - carotene and vitamins A , C , and E , which can reduce the risk of cancer , have been identified , using animal and in vitro models of carcinogenesis .
+Oral squamous cell carcinoma ( OSCC ) often metastasizes to the lymph nodes , and these enzymes may be significant in the survival of patients with this disease .
+Desensitization could be induced in NIH - 3T3 cells by culturing under conditions where the cells were all in the exponential growth phase , or by a 12 h exposure to a C - kinase - activating phorbol ester .
+Median change in visual acuity both 6 and 12 months after the initial PDT was 0 lines ( n = 18 at 6 months , range - 14 to + 8 lines ; n = 17 at 12 months , range - 18 to + 7 lines ) .
+BACKGROUND : Roundabouts are axon guidance molecules that have recently been identified to play a role in vascular guidance as well .
+The expression of SREBP and Cdc42 were determined by Western blot and quantitative real - time PCR .
+They also support the implication of local advanced glycation end product deposits and liberation of VEGF in that process .
+These complexes are formed on the surface of EC and in a juxtacrine manner via association of tumor cell NRP1 and EC KDR .
+Cancer progression and p53 .
+Erbb2 suppresses DNA damage - induced checkpoint activation and UV - induced mouse skin tumorigenesis .
+An antibody directed against PDGF receptor beta enhances the antitumor and the anti - angiogenic activities of an anti - VEGF receptor 2 antibody .
+The mammalian proto - oncogene Cbl and its cellular homologues in Caenorhabditis elegans ( Sli - 1 ) and Drosophila ( D - Cbl ) are negative regulators of some growth factor receptor signaling pathways .
+MATERIALS AND METHODS : Human colon carcinoma ( HT29 ) and murine squamous carcinoma ( SCCVII ) clonal cell lines expressing varying levels of VEGF were established and their response to vandetanib was assessed in tissue culture and as solid tumors .
+Changes in endothelial cell shape accompanied SOC activation and were dependent on Ca2 + entry - induced reconfiguration of peripheral ( cortical ) filamentous actin ( F - actin ) .
+Integration of interferon - alpha / beta signalling to p53 responses in tumour suppression and antiviral defence .
+Immunohistochemical analysis suggested a specific activation or differentiation of resident macrophages by apoptotic cells .
+Prostate cancer dissemination is difficult to detect in the clinic , and few treatment options exist for patients with advanced - stage disease .
+Therefore , high TP is most likely associated with a poor prognosis .
+The issue is complicated because both disorders have a propensity for MDS or AML as part of their natural history .
+p53 protein staining was positive in 29 . 7 % .
+The stromal fibrous reaction associated to infiltrating carcinomas is responsible of focal increased density , and architectural distorsion , ultrasound acoustic shadowing ; abnormal neoangiogenesis can be detected by Doppler , CT or MR imaging .
+Consistent with the decrease in lymph node metastasis , tumor lymphangiogenesis and expression of vascular endothelial growth factor C ( VEGF - C ) was significantly decreased in artemisinin - treated mice , as compared to control mice .
+Our aim was to compare the angiogenesis associated with subcutaneous adipose tissue ( SAT ) and visceral adipose tissue ( VAT ) from the same obese patients in an in vivo model .
+Our previous in vitro studies in a rat model indicated that insulin - like growth factor - I ( IGF - I ) is a potent angiogenic agent for fetal lung endothelial cells .
+Here we review and comment on these findings and on their implications for cancer biology .
+Furthermore , LDH5 correlates positively with the prognostic marker TKTL1 .
+Regulation of skin microvasculature angiogenesis , cell migration , and permeability by a specific inhibitor of PKCalpha .
+No significant correlation was found between topo I protein expression and sex , Dukes ' stage , differentiation grade , survival status , p53 status , and PCNA status .
+Neoplastic transformation by Notch requires nuclear localization .
+In some cancers , syndecan expression has been shown to regulate tumor cell function ( e . g . proliferation , adhesion , and motility ) and serve as a prognostic marker for tumor progression and patient survival .
+Only 26 protein spots had a positive result , including annexin1 , S100A4 , and so on .
+However , recent works demonstrate that Brn - 3a expression is not restricted to neuronal cells , as its activity was detected also in cancer cells of non - neuronal nature .
+Here , we demonstrate that D2 dopamine receptor ( D2DR ) colocalizes with VEGFR - 2 at the cell surface .
+The effects of PDFs with different amounts of GDPs were compared on morphological changes in the peritoneal membrane in a RAGE - / - mouse model .
+Exposure of wild - type primary mouse cerebral endothelial cells to the CD47 ligand thrombospondin 1 ( TSP - 1 ) induced an increasing amount of cell death , whereas cytotoxicity was significantly decreased in cerebral endothelial cells derived from CD47 knockout mice .
+Mutation positive GIST showed higher frequency of adjacent tissue invasion , metastasis and recurrence as compared with mutation negative ones .
+In contrast , knockdown of Pbx1 did not impair bone marrow transformation by E2A / HLF or AML1 / ETO , suggesting that Pbx1 is specifically required for the maintenance of bone marrow transformation mediated by Evi - 1 .
+Adenovirus - mediated gene transfer of endostatin in vivo results in high level of transgene expression and inhibition of tumor growth and metastases .
+Increased MP activity has been correlated with the metastatic potential of many cancers , including breast cancer .
+Comet assay revealed a late onset of DNA breaks in the presence of 2 - DG following irradiation only in spheroids , which corroborated well with the late onset of oxidative stress .
+Downregulation of E - cadherin occurred at the level of transcription or of mRNA stability .
+This review will summarize the current position of CECs , EPCs and EMPs in cell biology terms , with particular emphasis on their relationship to malignant disease .
+Chondrocyte - DegraPol in Oxygent group presented lower glycosaminoglycan value ( 0 . 03 + / - 0 . 00 vs . 0 . 13 + / - 0 . 00 , p less than 0 . 05 ) ; histology slides showed poor acid mucopolysaccharides formation .
+The angiopoietin / Tie2 system has been identified as the second vascular - specific receptor tyrosine kinase system controlling vessel assembly , maturation , and quiescence .
+Although angiostatin administered intravenously is cleared from the circulation in a matter of minutes , angiostatin - mimetics that are more stable have potential for clinical application .
+Inhibitor of differentiation - 1 ( Id - 1 ) is a member of helix - loop - helix ( HLH ) family of proteins that regulate gene transcription through their inhibitory binding to basic - HLH transcription factors .
+In order to better understand the coordinated regulation of cell - cell and cell - matrix interactions during malignant transformation , we have studied the expression of syndecan - 1 in malignant mammary tumor cells genetically manipulated for E - cadherin expression .
+Hemostasis and mechanism of action of selective antimetastatic drugs in mice bearing Lewis lung carcinoma .
+To elucidate the role of N - glycosylation in the functional activity of the universal glucose transporter , Glut - 1 , we investigated effects of the N - glycosylation inhibitor , tunicamycin , on glucose transport by human leukemic cell lines K562 , U937 and HL60 .
+By contrast , none of eight neoplastic lesions ( two adenoma and six adenocarcinoma ) of CBE stained for opticin .
+Ang - 1 has been shown to induce the migration and sprouting of endothelial cells , and coexpression of Ang - 1 and VEGF enhanced angiogenesis .
+Associations with cancer risk were estimated using two - sided logistic regression .
+It has been shown previously that the 55 - kDa polypeptide abrogates p53 - mediated transactivation and that mutants defective in p53 binding are unable to cooperate with E1A in transformation .
+Thus , mutation of beclin 1 or other autophagy genes may contribute to the pathogenesis of human cancers .
+Differential sensitivity to these agents implies that more than one endothelial cell type must be used in proliferation assays to screen for novel anti - angiogenic compounds .
+The results in steady state reveal that both substrates glucose and glutamine are continuously wasted by tumour cells , excreting two moles of lactate per mol of glucose and one mol of glutamate and ammonia per mol of glutamine consumed into the medium .
+These results suggest that the role of mast cells in angiogenesis may be to enhance migration of the endothelial cells of growing capillaries .
+These data provide a morphologic ( angiogenesis and increased endothelial area ) and molecular ( enhanced NOS activity and endothelial NOS upregulation ) basis for explaining the permeability changes observed in long - term PD .
+We examined these cell lines and samples from breast cancer by RT - PCR for the expressions of OPG and RANKL mRNA .
+In vivo , LPA stimulates tumor metastasis in an orthotopic ovarian tumor model , which can be inhibited by a PI3K inhibitor , LY294002 .
+To this end , two candidate anti - angiogenic RNA - damaging agents , onconase and ( - 4 ) rhEDN , were screened for their effects on endothelial cell proliferation using three distinct types of endothelial cells in culture : HPV - 16 E6 / E7 - immortalized human umbilical vein endothelial cells ( HUVECs ) , a Kras - transformed HPV - 16 E6 / E7 HUVEC ( Rhim et al . , Carcinogenesis 4 , 673 - 681 , 1998 ) , and primary HUVECs .
+The average latency of leukemia induction was shorter for the erbA / myb IRES virus ( 3 . 5 weeks ) than for the erbA IRES virus ( 5 weeks ) .
+The present study evaluated the effect of cumene hydroperoxide ( Cum - OOH ) on the induction of activator protein - 1 ( AP - 1 ) , which is linked to the expression of genes regulating cell proliferation , growth and transformation .
+OBJECTIVE : The aim of this study was the follow - up of VEGF expression during the course of CML .
+ECs on 15 - microm wide strips had highest speed , particularly in the direction of the strip .
+To investigate this possibility , we studied the influence of bovine lactoferrin on Fas - mediated apoptosis with regard to expression of Fas , activation of caspase - 8 and caspase - 3 , and DNA fragmentation in the colon mucosa of AOM - treated rats .
+Phospholipase D ( PLD ) has been suggested to play an important role in a variety of cellular functions .
+A prefabricated composite fat flap consisting of muscle woven into an anatomically distinct fat pad was studied in a rabbit model .
+CONCLUSIONS : We found that insulin does not induce major changes in glucose uptake of lymphomatous tissue .
+We revealed that expression of p53 proteins with amino - acid substitutions at codons 175 ( R175H ) , 248 ( R248W ) , and 273 ( R273H ) , representing the hot - spots of mutations in various human tumors , increased the number of vessels in HCT116 human colon carcinoma xenografts and , as a result , accelerated their growth .
+Insulin - like growth factor 1 receptor enhances invasion and induces resistance to apoptosis of colon cancer cells through the Akt / Bcl - x ( L ) pathway .
+Vaccination is associated with enhancement of splenocyte - mediated tumoricidal activity , whereas the effect of gammaIFN is mediated by KC .
+Suberoylanilide hydroxamic acid ( SAHA ) has been approved as a drug to treat cutaneous T cell lymphoma , and the combination of HDACi and other agents have been actively tested in many clinical trials .
+Collectively , hypoxia conditioning induced tumor cell migration by TB4 expression - dependent HIF - 1alpha stabilization .
+However , in rap1GAPII - expressing cells , ephrin - B1 did not induce membrane spreading , probably due to instability of the focal complex .
+The patterns of lymphatic vessels , the expression of VEGFs , and their correlation with neck metastases were assessed .
+Daily i . p . injections of HAH - cortisol into mice bearing s . c . sponge implants retarded vascularization of the sponge , and injections directly into the sponge abolished vascularization for as long as the injections were continued .
+Microvascular corrosion casts of caruncles from non - pregnant and pregnant doe goats at 4 , 7 , 10 , 13 , 16 , and 18 weeks were examined with scanning electron microscopy .
+Relationship and prognostic significance of SPARC and VEGF protein expression in colon cancer .
+RESULTS : Aflibercept was shown to have early clinical activity .
+The transmembrane peptidase prostate - specific membrane antigen ( PSMA ) is universally upregulated in the vasculature of solid tumors , but its functional role in tumor angiogenesis has not been investigated .
+CONCLUSION : A study of both alpha - catenin and p53 expression may be helpful to predict lymph node metastases in early gastric cancer .
+Tumor growth was determined and survival was recorded .
+Fifty distinct different protein spots were analyzed with online LC - ESI - MS / MS .
+The mechanism of this potent collaboration is elucidated in this study of Runx2 / MYC mice .
+A higher percentage of cells expressing topo I in primary colorectal cancer was significantly associated with advanced age ( P = . 040 ) .
+Molecular analyses of tumors in beclin 1 heterozygous mice show that the remaining wild - type allele is neither mutated nor silenced .
+In contrast , the implants that were irradiated three times ( single fractions at 0 , 24 , and 48 hours after implantation ) demonstrated significantly diminished ( greater than 25 percent , p less than 0 . 05 ) neovascularization beyond day 7 , whereas implants irradiated only at 48 hours after implantation did not .
+An immunohistochemical study .
+Survivin expression in breast carcinoma : correlation with apoptosis and prognosis .
+Targeted antibody - based therapy has been used successfully to treat cancers .
+In vivo IL - 12 - dependent tumor inhibition rests on the ability of IL - 12 to activate a CD8 - mediated cytotoxicity , inhibit angiogenesis , and cause vascular injury .
+RESULTS : 89 . 5 % ( n = 238 ) of NSCLC revealed LDH5 expression whereas LDH5 expression was not detected in non neoplastic lung tissues ( n = 34 ) ( p < 0 . 0001 ) .
+This is a randomized , open label , prospective study that examined the effect of preventive zoledronic acid treatment on the development of bone metastases in patients with recurrent solid tumors , without bone metastases at the time of randomization .
+Together , our results provide not only a novel insight into the mechanisms underlying anti - tumor activity of E1A , but also a rationale for the combined HDACi and E1A gene therapy in future clinical trials .
+IL - 12 inhibition of endothelial cell functions and angiogenesis depends on lymphocyte - endothelial cell cross - talk .
+Morphogenesis of embryonic CNS vessels .
+Finally , the inhibition of PAK activation enhances the PSMA / filamin A interaction and , thus , boosts PSMA activity .
+Evaluation of VEGF expression level with the same tissues was used to establish the antigenic profiles , and the marker of CD34 staining was used as an indicator of microvessel density ( MVD ) .
+We found that orally administered artemisinin inhibited lymph node and lung metastasis and prolonged survival without retarding tumor growth .
+s - VEGF in peripheral blood samples was analyzed in 40 RCC patients and 40 patients without cancer ( controls ) using a sandwich enzyme - linked immunoassay .
+After additional prednisolone treatment from day 9 or 15 after inoculation , no significant difference was detected in the recultivation rate of C . albicans compared with the control .
+Recent evidence has suggested a role for inflammation in seizure disorders .
+SOC activation in rat pulmonary arterial endothelial cells increased free cytosolic Ca2 + that was dependent on a membrane current having a net inward component of 5 . 45 + / - 0 . 90 pA / pF at - 80 mV .
+Western blotting of p53 and murine double mutant 2 ( Mdm2 ) together with p53 DNA sequencing analysis indicate that p53 function loss by mutation or overexpression of Mdm2 occurred in all tested oral cancer cells regardless of their etiology .
+Although the exact mechanisms underlying the Warburg effect are unclear , the existing evidence suggests that increased glycolysis plays an important role in support malignant behavior of cancer cells .
+Subcellular localisation of BAG - 1 and its regulation of vitamin D receptor - mediated transactivation and involucrin expression in oral keratinocytes : implications for oral carcinogenesis .
+Patient charts were reviewed for visual acuity of the treated eye before PDT and at 6 - and 12 - month follow - up examinations .
+Organic peroxides , widely used in the chemical and pharmaceutical industries , can act as skin tumor promoters and cause epidermal hyperplasia .
+Taken together , these results lend great support to use PDGFRbeta antagonists in combinations with other antitumor and / or anti - angiogenic agents in the treatment of a variety of cancers .
+Efficacy was demonstrated particularly for chronic synovitis and pain and no serious adverse events occurred .
+The Met proto - oncogene mesenchymal to epithelial cell conversion .
+The results of this study show that FOXO3a directs an anti - carcinogenic transcription program that culminates in the elimination of carcinogen - damaged cells .
+The authors report on a case series of 13 patients with recurrent heavily pretreated malignant glioma that was treated with the combination of bevacizumab and irinotecan .
+The mechanism underlying the association between high PE and poor clinical outcome is unclear , although it may be related to the possible PE reflection of tumor burden .
+At present , the percentage of such a modification is low , unless referred to selected series of tumours .
+These RNAs were not detected by Northern ( RNA ) hybridization in productively infected chicken embryo fibroblasts 48 h postinfection ; however , they were apparent 140 h postinfection .
+Oxidation in rheumatoid arthritis .
+Upon HTPB treatment , cell cycle arrest was induced and subsequently led to mitochondria - mediated apoptosis .
+We have found out that docetaxel - ATRA combination significantly downregulates survivin ( BIRC5 ) , myeloid cell leukemia - 1 ( MCL - 1 ) and lymphotoxin beta - receptor ( LTbetaR ) genes , which all three have pivotal roles in regulation of apoptosis and cell cycle progression .
+The presence of activating mutations has been demonstrated in the TSH - R gene as well as in the Gs alpha protein gene in thyroid toxic adenoma resulting in the constitutive activation of the cAMP pathway and it has been hypothesised that these genetic alterations may play a causative role in the disease .
+By contrast , ovarian tumors displayed significantly higher levels of hCAP - 18 / LL - 37 where expression was observed in tumor and stromal cells .
+Expression of G45 or activated PI3K subunit in DeltaG45 cells reversed these abnormalities .
+In vivo studies , CT26 cancer cells were implanted into BALB / c mice and groups of mice were treated with vehicle , DATS ( 10 and 50 mg / kg of body weight ) .
+The role of hypoxia in 2 - butoxyethanol - induced hemangiosarcoma .
+Temporal changes in physiological spaces , protein expression of transporters and enzymes , and enalapril removal were appraised in the metastatic liver tumor model developed from male Wag / Rij rats after the intraportal injection of CC531 colon adenocarcinoma cells ; sham - operated preparations received PBS .
+Addition of exogenous PAI - 1 , however , prevented HT1080 cell adhesion ( IC50 180 nM ) and promoted cell detachment from vitronectin .
+RESULTS : In lymphomatous tissue , [ 18F ] FDG uptake rates were similar in overnight fasting and euglycemic hyperinsulinemic clamp ( 38 + / - 10 versus 41 + / - 9 mumol / 100 g / minute , not significant ) , whereas glucose uptake in skeletal muscle was increased by insulin ( 1 . 7 + / - 0 . 2 versus 3 . 8 + / - 0 . 5 mumol / 100 g / minute , P = 0 . 012 ) .
+Therapeutic Electromagnetic Field ( TEMF ) and gamma irradiation on human breast cancer xenograft growth , angiogenesis and metastasis .
+MMTV - cre - mediated inactivation of fur without over - expression of PLAG1 caused smaller but histologically normal salivary glands .
+Deleted in split hand / split foot 1 ( Dss1 ) is a gene associated with a heterogeneous limb developmental disorder called split hand / split foot malformation .
+Vascular endothelial growth factor ( VEGF ) is a naturally secreted endothelial cell - specific mitogen .
+Prophylactic thyroidectomy in MEN IIA : does the calcitonin level correlate with tumor spread ?
+Nevertheless , using an miR - BHRF1 - 1 and miR - BHRF1 - 3 double mutant , we could directly assess and confirm the contribution of miR - BHRF1 - 2 to B - cell transformation .
+Finally , in vivo , in a xenograft model of head and neck squamous cell carcinoma using UM - SCC - 11A cells , 2ME2 exhibited antitumor and antiangiogenic activity , as measured by CD31 immunostaining .
+In vitro studies , the results indicated that DATS induced morphological changes and induction of apoptosis in CT26 cells .
+EXPERIMENTAL DESIGN : Recombinant human galectin - 3 was produced in Escherichia coli from which galectin - 3C was derived by collagenase enzyme digestion .
+Cell - matrix adhesion assay showed that the adhesive ability of CNE1 - GL with the matrix ( mean A value : 1 . 2508 + / - 0 . 0711 ) was higher than that of CNE1 cell ( mean A value : 0 . 9519 + / - 0 . 068 ) ( P < 0 . 001 ) .
+Applying cell immunohistochemistry and RT - PCR , we further validated two interesting and different proteins , annexin1 and S100A4 .
+Following proteolysis , it is thought that the intracellular portion of Notch ( N ( ic ) ) translocates to the nucleus , where it is involved in regulating gene expression .
+Reduced growth - factor dependent , autonomous cell growth forms a critical defining point at which a normal cell turns into an oncogenic one .
+Conversely , tumor cell expression of NCAM in a fibrosarcoma model ( T241 ) improved pericyte recruitment and increased perivascular deposition of ECM molecules .
+These findings suggest that c - Myc and / or HIF - 1alpha activities are both involved in the regulation of glycolysis in breast cancers .
+The transcription factor NF - kappaB and associated regulatory factors ( including IkappaB kinase subunits and the IkappaB family member Bcl - 3 ) are strongly implicated in a variety of hematologic and solid tumor malignancies .
+Based on these data , our aim was to examine the synergistic / additive cytotoxic and apoptotic effects of combination of docetaxel and ATRA , in hormone - and drug refractory human DU - 145 prostate cancer cells .
+Furthermore , we found that p130 ( Cas ) , but not paxillin , recruited Crk to the nascent focal complex .
+Angiogenesis is a key event in the progression of malignant gliomas .
+Because proteolytic degradation of the extracellular matrix is a critical component of endothelial invasion in angiogenesis , it is logical to assume that PSMA participates in matrix degradation .
+Ha - ras cells also show less binding of phorbol ester than control cells , suggesting that elevation of DG causes partial down - regulation in addition to activation of protein kinase C .
+This was attributed to high entrapment of lipoplexes in the extended lung vascular tree .
+Administration of 317615 x 2HCI orally twice daily to nude mice bearing subcutaneous MX - 1 tumors or SKOV - 3 tumors resulted in a decreased number of intratumoral vessels as determined by CD31 and CD105 staining with decreases of 35 % and 43 % in MX - 1 tumors and 60 % and 75 % in SKOV - 3 tumors , respectively .
+Here we describe a 185 - kDa tandem duplication mutant ( TDM ) that is expressed in KE and A - 1235 glioma cells , along with certain functional characteristics of the mutants .
+The roles of miscrovascularity density ( MVD ) and VEGF expression in the progression of oral squamous cell carcinoma ( OSCC ) have been controversial .
+We now report that six different genes of the cluster HOX 1 are sequentially induced by RA in a similar temporal pattern , beginning with genes at the 3 ' end of the cluster .
+Cell lines established from such foci elicit tumours in syngeneic animals .
+Identification of latency - associated transcripts that map antisense to the ICP4 homolog gene of Marek ' s disease virus .
+Arteriogenesis : the development and growth of collateral arteries .
+PTTG overexpression promotes lymph node metastasis in human esophageal squamous cell carcinoma .
+Capillary cell migration and proliferation are proposed as sensitive quantifiable bioassays to explore the functional domains of the EGF molecule .
+Further investigations of this pathway with regard to preventing peritoneal fibrosis should be performed to maintain the integrity of the peritoneal membrane in peritoneal dialysis patients .
+Antiangiogenic and antitumor effects of a protein kinase Cbeta inhibitor in human breast cancer and ovarian cancer xenografts .
+Impact of tumor cell VEGF expression on the in vivo efficacy of vandetanib ( ZACTIMA ; ZD6474 ) .
+Since then , important progress has been made with respect to the understanding of the role of the Pten protein in the normal development of the brain as well as in the molecular pathogenesis of human gliomas .
+We further characterized zebrafish alpha2 integrin and discovered that this integrin is highly conserved , especially the I domain .
+2G7 did not inhibit MDA - 231 primary tumor or metastases formation , nor did it stimulate NK cell - mediated cytotoxicity in beige NK - deficient nude mice .
+PATIENTS AND METHODS : Twenty - one patients with radiation retinopathy ( edema , hemorrhages , capillary dropout , and neovascularization ) and a subjective or objective loss of vision were treated .
+The body has three equally important interactive immune defense systems , all of which are profoundly disrupted with major burn injury .
+RESULTS : There was relatively wide variation in the expression of alpha - SMA with the percentage of the area from 0 . 68 to 28 . 15 % ( mean 8 . 48 + / - 5 . 40 % ) .
+Oxygen consumption of HepG2 cells supported by either pyruvate / malate or succinate was inhibited when cells were pre - incubated with 3 - BrPA in glucose - free medium .
+The elevated serum TNF - alpha level observed following MTX treatment was depressed with L - Car .
+The p53 gene is inactivated in about 50 % of human cancers and the p53 protein is an essential component of the cell response induced by genotoxic stresses such as those generated by radiotherapy or chemotherapy .
+It is involved in a wide range of developmental and physiological processes , including serum calcium regulation .
+Insulin treatment also increased VEGF protein levels in conditioned RPE cell media in a dose - dependent manner with a median effective concentration of 5 nM .
+In conclusion , allogeneic FM - MSC injection did not elicit a lymphocyte proliferative response and provided significant improvement in a rat model of hind limb ischemia , comparable to the response to BM - MSC .
+Furthermore , i . p . treatment with Hyp reduces acute PMN recruitment and enhances resolution in a pulmonary bleomycin - induced inflammation model , significantly reducing consequent fibrosis .
+In contrast , less than 5 % of the DNA was fragmented in cells incubated with GM - CSF plus FBS or GM - CSF alone .
+Molecular factors which implement this triad of events are reviewed , as are several signal transduction components which may regulate them .
+These results suggest that , in some immortalized and transformed cells , blocking the cellular signal transduction might trigger the induction of apoptosis .
+VDAs can be divided into biologics , such as ligand - based , and small - molecule agents ; this second group includes small - molecule VDAs like flavonoids , such as 5 , 6 - dimethylxanthenone - 4 - acetic acid ( DMXAA ) , and microtubule - destabilizing agents .
+The remaining wild - type Men1 allele was lost in most tumors from Men1 ( + / - ) mice but was retained in most tumors from p18 ( - / - ) ; Men1 ( + / - ) mice .
+Preliminary data suggest that TnI may be competing with bFGF for interaction with the bFGF receptor on responsive cells .
+Studies on the inactivation of these properties of EGF by specific cleavage of the molecule with CNBr or proteases suggest that an intact loop composed in part by amino acid residues 20 to 31 is essential for at least some functions .
+We show here that p10 , which arises from the use of an alternative splice donor site within intron 1 , is conserved in the mouse genome and is widely expressed in mouse tissues .
+Angioinvasion , in contrast , was present only in a proportion ( 37 % ) of these lymphomas despite the frequent presence of zonal tumor cell death ( 71 % ) .
+In a third approach , cancer cells are induced to die by both apoptotic and necrotic events .
+The internal convex surface of the caruncles of non - pregnant does was covered with capillary meshes of regular diameter and form , without crypts .
+In addition , densities of the newly formed bones at 16th week were studied .
+The microcirculation of most tumors includes cooperation of pre - existing vessels , intussusceptive microvascular growth , postnatal vasculogenesis , glomeruloid angiogenesis and vasculogenic mimicry ( VM ) .
+Mutating tp53 did not rescue the infertility phenotype in brca2 mutant males , suggesting that brca2 plays an essential role in zebrafish spermatogenesis .
+The aim of this study was to ascertain the potential usefulness of the antiangiogenic compound linomide for treatment of von Hippel - Lindau ( VHL ) - related tumors .
+Both levels of dietary CLA showed similar effects , with the number of RBC - containing vessels per 20x field decreased to a third of that seen in control .
+The present study shows that a mutant with an LMP1 site - specific mutation at TES2 , LMP1 ( TRADD ) , initially stimulates cell growth and significantly extends the life span of MEF .
+These data highlight sanguinarine as a novel potential agent for bone cancer therapy .
+Cancer metastasis : negative regulation by an invasion - suppressor complex .
+Indeed , these agents are known to activate different pathways of apoptosis .
+For distraction of the human mandible in elderly patients , a distraction rate of 0 . 5 mm / day seems beneficial .
+3 - BrPA ( 3 - bromopyruvate ) is an alkylating agent with anti - tumoral activity on hepatocellular carcinoma .
+RESULTS : Angiostatin inhibited endothelial cell proliferation by 50 - 60 % .
+HIF - 2alpha was detected in hypoxic and in well - oxygenized neuroblastoma cells and tissue , presumably reflecting their embryonic features .
+RESULTS : Bevacizumab treatment was followed by reductions in retinal hemorrhage , exudation , and edema .
+METHODS : Preoperative serum was collected from 107 gastric cancer patients and 33 normal controls .
+The structure of the myc gene has been elucidated from studies on translocated versions of the gene .
+Thirty uterine cervix specimens sampled following conization or total hysterectomy were studied using histology , histoenzymology ( vessel phosphatase alkaline activity ) , and immunohistochemistry ( demonstration of laminin and type IV collagen in epithelium and vessel basement membranes ) .
+In addition , the results of the previously tested transketolase like 1 protein ( TKTL1 ) expression were correlated to LDH5 expression .
+In comparison with nonmetastasis Hep3B cell lines , there were 16 proteins overexpressed in MHCC97H and MHCC97L , 10 proteins underexpressed in MHCC97H and MHCC97L .
+13C and 1H nuclear magnetic resonance spectroscopy ( NMR ) was used to investigate the metabolism of L - lactate and D - glucose in C6 glioma cells .
+The positive rates of PTEN mRNA expression were 80 . 4 % ( 45 / 56 ) , 45 . 5 % ( 5 / 11 ) and 32 . 1 % ( 18 / 56 ) in normal mucosa , early and advanced gastric carcinomas , respectively , while 78 . 6 % ( 44 / 56 ) , 44 . 5 % ( 5 / 11 ) and 28 . 6 % ( 16 / 56 ) at the protein level .
+Metronomic 5 - fluorouracil , oxaliplatin and irinotecan in colorectal cancer .
+Treatment of REF or REF expressing full - length T antigen , an N - terminal segment , or T251 - 708 resulted in increased expression of the p53 - responsive MDM2 gene ; apoptosis occurred through a p53 - dependent pathway , as p53 - null cells expressing these T antigens were resistant to 5 - FU - induced apoptosis .
+Hyperforin ( Hyp ) , a polyphenol - derivative of St .
+Comparative NMR study of a differentiated rat hepatoma and its dedifferentiated subclone cultured as spheroids and as implanted tumors .
+DNA methylation and expression of HLA - DR alpha .
+Consistent with these findings is the induction under hypoxic conditions of the HIF - 1 protein .
+Abilities of adhesion , migration , and invasion of CNE1 cell were induced by LMP1 .
+BPDE treatment caused induction of both AP - 1 and NF - kappaB activity as determined by luciferase reporter assay and only NF - kappaB induction in response to BPDE was significantly attenuated by TSC phenolic fraction whereas AP - 1 induction remains unaltered .
+This review will focus on the evidence for TGFbeta1 as a tumor promoting and metastasis factor and examine the biological and molecular basis for these effects .
+In the present study , we found significant binding of nicked beta2GPI to AS4 . 5 ( K ( D ) = 3 . 27 x 10 ( 6 ) M ( - 1 ) ) .
+Here , we examined the function of c - Ski in human diffuse - type gastric carcinoma OCUM - 2MLN cells .
+These results indicate a possible role of L - NAME for the treatment of solid tumours in a systemic or regional setting .
+The objective of this study was to ascertain whether STX243 is more active in vivo than the clinically relevant drug 2 - methoxyoestradiol ( 2 - MeOE2 ) and the structurally similar compound 2 - MeOE2 - 3 , 17 - O , O - bis - sulphamate ( STX140 ) .
+Here , HGF stimulation of melanocytes was seen to up - regulate c - Met expression .
+Perlecan was found to be anti - adhesive for platelets , however after removal of the HS chains attached to perlecan , platelet adhesion and aggregation were supported .
+However , we demonstrate a novel and more complex role for PSMA in angiogenesis , where it is a principal component of a regulatory loop that is tightly modulating laminin - specific integrin signaling and GTPase - dependent , p21 - activated kinase 1 ( PAK - 1 ) activity .
+p24 family type 1 transmembrane proteins are required for insulin biosynthesis and secretion in pancreatic beta - cells .
+In 20 RCC patients , serum samples were obtained separately from the bilateral renal veins .
+In addition suppression of WT1 expression by WT1 anti - sense oligonucleotide inhibits proliferation of leukemia cells , suggesting that WT1 is important for their proliferation .
+For this purpose , the presence of COX - 2 and PPARgamma was immunohistochemically examined in 71 epithelial ovarian carcinomas , 18 borderline tumours and 23 benign tumours and the levels of COX - 2 and PPARgamma proteins were determined by enzyme immunoassay in four benign tumours , three borderline tumours and 12 carcinomas .
+RESULTS : U - 995 ( 15 and 30 micrograms / ml ) markedly inhibited HUVEC migration and , at 15 - 50 micrograms / ml produced a dose - dependent decline in [ 3H ] - thymidine incorporation .
+For electron microscopic examination the cell suspensions were then incubated with gold - labeled antirabbit antibody .
+Expression of ING4 is significantly reduced in gliomas as compared with normal human brain tissue , and the extent of reduction correlates with the progression from lower to higher grades of tumours .
+The activity of type IV collagenase , which enables tumor cells to degrade collagen type IV found in the subendothelial basement membrane , has been correlated with the metastatic potential in several tumor types , including the rat 13762NF mammary adenocarcinoma cell line and its clones .
+Dopamine pretreatment increases the translocation and colocalization of Src - homology - 2 - domain - containing protein tyrosine phosphatase ( SHP - 2 ) with D2DR at the cell surface .
+The chemokine receptor CXCR4 is associated with the biological behavior of cancer , but few studies have addressed the expression and function of CXCR4 in human gastric cancer and its impact on disease prognosis .
+No other structural changes in serum were observed for cholesterol - based lipoplexes .
+By means of intravital microscopy , tumor necrosis factor alpha - stimulated leukocyte - vessel wall interactions were studied in ear skin microvessels of nude mice bearing small human LS174T colon carcinomas and in C57Bl / 6 mice bearing murine B16F10 melanomas .
+OBJECTIVE : To determine the expression and clinical significance of Merlin protein in non - small cell lung cancer ( NSCLC ) .
+In experimental RG1 2 . 2 glioma of rat brain , local blood flow , glucose utilization , protein synthesis , glucose and ATP content were measured by means of triple tracer autoradiography and bioluminescence technique , respectively , to determine hemodynamic and metabolic thresholds for local tumor energy failure .
+Given the likely role of the evolutionarily conserved hADA3 in multiple coactivator complexes , inactivation of its function may allow E6 to perturb numerous cellular pathways during HPV oncogenesis .
+In this model , UFT showed a strong angiogenesis - inhibitory effect , whereas 5 - fluorouracil ( 5 - FU ) and doxifluridine were less effective .
+FVIIa - induced cell survival correlated with the activation of Akt and was inhibited markedly by the specific PI3 - kinase inhibitor , LY294002 .
+RESULTS : Histology demonstrated C - cell hyperplasia in five patients ( aged 4 - 13 years ) , unilateral medullary microcarcinoma in six ( aged 9 - 17 years ) and a bilateral medullary microcarcinoma in three cases ( aged 17 - 24 years ) .
+In contrast , we have previously reported that total nm23 messenger RNA ( mRNA ) expression is increased to similar levels in colon tumors of both high and low metastatic potential .
+Oocytes in double - mutant females showed normal localization of brca2 and pou5f1 transcripts to the animal pole and vasa transcripts to the vegetal pole , but had a polarized rather than symmetrical nucleus with the distribution of nucleoli and chromosomes to opposite nuclear poles ; this result revealed a novel role for Brca2 in establishing or maintaining oocyte nuclear architecture .
+Similarly , the human INK4B locus encodes the p15 ( INK4B ) tumor suppressor and one alternatively spliced form , termed as p10 .
+Although contaminating kinases were detectable in the immune complexes , at least the p53 molecules were phosphorylated in vitro in a more specific way .
+The level of apoptosis correlated directly with the expression level of the receptor , indicating that p75 may activate the cell death program directly .
+METHODS : The parameters associated with locating and then photocoagulating CNV feeder vessels were identified and optimized using published data and data derived from modeling the choroidal vasculature .
+We have established a model system to detect the presence of ras p21 in the sera of Balb / c mice carrying tumors induced by a mouse cell line transformed with the Harvey murine sarcoma virus in the presence of a helper Friend murine leukemia virus .
+RNA damage and inhibition of neoplastic endothelial cell growth : effects of human and amphibian ribonucleases .
+In an experiment in which vitamin E inhibited carcinogenesis , it was found that tumour angiogenesis and tumour growth - factor alpha ( TGF alpha ) expression were also inhibited .
+In brain , receptors for VEGF have been localized to vascular endothelium , neurons , and glia .
+In this study we examined the role of p24 proteins in insulin transport .
+The antiangiogenic properties of PDT have been adapted for treatment of subfoveal choroidal neovascular membranes due to disease states such as age - related macular degeneration ( AMD ) .
+The mean baseline calcitonin level correlated with the histologic findings ( r = 0 . 71 , P = 0 . 003 ) but there was no correlation between pentagastrin - stimulated calcitonin levels and histology ( r = 0 . 21 , P = 0 . 47 ) .
+WNT / TCF signaling through LEF1 and HOXB9 mediates lung adenocarcinoma metastasis .
+Matrix metalloproteinases can collectively cleave all components of the extracellular matrix , with the endogenous tissue inhibitor of metalloproteinase - 1 regulating their activity .
+Overexpression of Bax inhibitor - 1 ( BI - 1 ) induces cell transformation in NIH3T3 cells .
+The EGF receptor gene is amplified and over - expressed in several human tumors , suggesting that increased concentrations of the proto - oncogene leads to constitutive activity similar to that seen with oncogene erb B .
+The activity of mitochondrial hexokinase was not inhibited by 150 microM 3 - BrPA , but this concentration caused more than 70 % inhibition of GAPDH ( glyceraldehyde - 3 - phosphate dehydrogenase ) and 3 - phosphoglycerate kinase activities .
+We developed reference intervals for serum and urine IL - 8 level in 131 control individuals .
+Together , these findings suggest that NCAM may limit tumor cell metastasis by stabilizing the microvessel wall .
+Angiogenic factors , in particular vascular endothelial growth factor ( VEGF ) and the angiopoietins , Ang - 1 and - 2 , have recently generated significant interest , especially in oncology .
+With K562 cells Glut - 1 appeared as a broad band of 50 - 60 kDa , whereas with U937 and HL60 cells a diffuse band was observed at approximately 55 kDa .
+Outcomes measures included transcutaneous blood gas levels , histology , total RNA content and analysis of alpha2 ( I ) collagen ( COL - I ) , type IV collagen ( COL - IV ) , alpha1 ( V ) collagen ( COL - V ) , and vascular endothelial growth factor ( VEGF ) expression using real - time quantitative PCR .
+Our aim is to verify the alterations in the HRK gene in primary central nervous system lymphomas ( PCNSLs ) .
+To better understand the intracellular signaling pathways , we examined the effect of HKa on the phosphorylation of Akt and its downstream effector , GSK - 3alpha HKa and D5 inhibit phosphorylation of Akt and GSK - 3alpha after stimulation withVEGF and S1P .
+Most of the tumor - suppressive properties of Pten are dependent on its lipid phosphatase activity , which inhibits the phosphatidylinositol - 3 ' - kinase ( PI3K ) / Akt signaling pathway through dephosphorylation of phosphatidylinositol - ( 3 , 4 , 5 ) - triphosphate .
+The MVD and Ki - 67 LI were significantly higher ( p less than 0 . 01 and p less than 0 . 001 ) , and the AI was significantly lower ( p less than 0 . 001 ) in the SCC with p53 protein expression than in the SCC without it .
+The purpose of this investigation was to evaluate firstly whether different protein expression patterns exist in primary squamous cell lung carcinomas of patients with and without lymph node involvement and secondly , whether or not different patterns exist in tumours with positive lymph nodes .
+The high - oncogenic - risk HPV types associated with invasive cervical cancer produce two oncoproteins , designated E6 and E7 , which interact with endogenous cell cycle regulatory proteins , including p53 and Rb .
+CD56 + putative natural killer cell lymphomas : production of cytolytic effectors and related proteins mediating tumor cell apoptosis ?
+Further , delivery of an appropriate combination of DAPT and VEGF from an injectable alginate hydrogel system into ischemic hindlimbs led to a faster recovery of blood flow than VEGF or DAPT alone ; perfusion levels reached 80 % of the normal level by week 4 with combined DAPT and VEGF delivery .
+The reference intervals for serum IL - 8 and urine IL - 8 corrected by creatinine ( Cr ) were 15 . 9 - 430 . 3 pg / mL and 0 . 0 - 28 . 4 pg / mg Cr , respectively .
+Hypermethylation and loss of final sigma expression are the most consistent molecular alterations in breast cancer identified so far .
+In agreement , induced overexpression of VEGF - C in LAPC - 9 enhanced tumor lymphangiogenesis leading to the development of metastatic lesions .
+The evaluation of immunostaining of Bcl - xL , Bax , and p53 was analyzed in 10 different tumor fields , and the mean percentage of tumor cells with positive staining was evaluated .
+RESULTS : The percentage of patients being bone metastases free at 12 mo was 60 % in the zoledronic acid and 10 % in the control group ( p less than 0 . 0005 ) , while the percentages at 18 mo were 20 % and 5 % respectively ( p = 0 . 0002 ) .
+MDM2 as a predictor of prostate carcinoma outcome : an analysis of Radiation Therapy Oncology Group Protocol 8610 .
+We hypothesized that an additional direct consequence of FH deficiency is the establishment of a biosynthetic milieu .
+p21 delays tumor onset by preservation of chromosomal stability .
+Six subclones were randomly selected from H - 3 cells which had been subcultured to passage 22 .
+To evaluate the biological significance of M - CSF induced VEGF production , we used an in vivo angiogenesis model to illustrate the ability of M - CSF to recruit mononuclear phagocytes , increase VEGF levels , and enhance angiogenesis .
+In this study , we demonstrate that two independent downstream signal pathways , DCN / EGFR / ERK1 / 2 and DCN / EGFR / phosphoinositide - 3 kinase / AKT , mediate up - regulation and activation of transcription factors of VEGF such as HIF1alpha , Stat3 , and Sp1 and increase VEGF transcription and angiogenesis in MCE cells .
+Treatment of cells with PKC inhibitors also potentiated anchorage - independent growth of BPDE treated cells on soft agar .
+This was due primarily to restoring polarity : forced proliferation of polarized , nonmalignant cells did not induce VEGF expression and EC recruitment , whereas disrupting the architecture of growth - arrested , reverted cells did .
+In particular , VEGF - C seems to play a key role in prostate cancer metastasis .
+At later stages , branches of radial arteries penetrated the periphery forming an extensive mesh of capillaries on the concave surface .
+Our results suggest that this small peptide functions as an angiogenic inhibitor by inhibiting VEGF function through a non - VEGF binding mechanism .
+RESULTS : DCE - MRI revealed greater enhancement in the peripheral area than in the central area in all the examined animal models .
+This review provides basic information for the understanding of the biology of NF - kappaB and aims at presenting experimental data illustrating the involvement of NF - kappaB / Rel in pancreatic cancer .
+Among the pathways involved in pericyte recruitment during embryonic development , the contribution of platelet - derived growth factor B and sphingosine 1 - phosphate is confirmed in tumour angiogenesis .
+When injected in human breast cancer xenografts , pAd - T34A inhibited growth of established tumors and triggered tumor cell apoptosis in vivo .
+Finally , genetic ablation of Brk1 results in dramatic defects in embryo compaction and development , suggesting an essential role for this protein in actin dynamics .
+alpha - MSH alone had little effect , whereas coincubation with IL - 1 beta led to marked downregulation of IL - 8 secretion ( at most 288 + / - 152 ng / mL ) when compared to treatment with IL - 1 beta alone ( 919 + / - 157 ng / mL ) .
+Recent advances in stem cell biology added the new concept that cancer originates from a single cancer - initiating cell .
+Curcumin , which is a widely used dietary pigment and spice , has been demonstrated to be an effective inhibitor of tumor promotion in mouse skin carcinogenesis .
+s - VEGF significantly correlated with the tumor volume obtained by a three - dimensional measurement ( r = 0 . 802 , P less than 0 . 0001 ) .
+Animals were sacrificed at 3 - week intervals from 0 to 39 weeks after treatments began .
+However , the expression of nm23 - H1 gene product in the metastatic sites have not been studied in detail .
+This phenomenon occurs at mast cell / tumor ratios which reflect the stoichiometry of host cell / tumor relationships in vivo .
+IL - 17F ablation decreased IL - 1beta and Cox - 2 expression as well as IL - 17 receptor C ( IL - 17RC ) expression , which were increased in tumors from Apc ( Min / + ) mice .
+Furthermore , infected cells evince a marked upregulation of the EBNA genes .
+Lactate and pyruvate , the end products of glycolysis , are highly produced by cancer cells even in the presence of oxygen .
+Measuring ouabain - sensitive 22Na efflux and using ouabain - sensitive lactate production as a measure of ATP hydrolysis by the Na + K + pump , it was shown that Nonidet P - 40 greatly decreased the efficiency of the Na + K + pump .
+RESULTS : As of November 30 , 1994 , the median follow - up period was 12 years .
+We found positive Bcl - xL , Bax , and p53 immunostaining in 44 . 6 % , 28 . 6 % , and 58 . 9 % of the studied primary tumors and in 63 . 6 % , 45 . 5 % , and 72 . 7 % of lymph node metastases , respectively .
+Elevated c - src expression with angiotensin system inhibition may act to enhance intimal wound closure and to reduce luminal thrombogenicity in vivo .
+To understand the molecular basis of carcinogenesis from the beginning to the full acquirement of malignancy , factors concerned with carcinogenesis were categorized into three groups : those guarding and stabilizing genomes , those regulating cell proliferation , and those conferring resistance to various micro - environmental stresses .
+Cancer cells secrete soluble factors which can induce proliferation and migration of capillary endothelial cells .
+Somatostatin receptors were detected in peritumoral veins of various human cancer tissue specimens .
+This desensitization was without effect upon the concentration causing half - maximal effect ( EC50 ) , dissociation constant ( Kd ) or number of PGF2 alpha receptors .
+The authors concluded that , as also in the study of Northern blotting , the expression of nm23 - H1 mRNA significantly correlated inversely with lymph node metastasis in CBM , while the expression of nm23 - H2 mRNA not .
+During normal skin function , p53 in the keratinocyte is a transducer of the skin tanning signal and an essential component of what is effectively a keratinocyte - melanocyte signaling cycle that regulates skin pigmentation .
+However , diameters of intratumoral microvessels were smaller in tumors grown in Ang - 2 - deficient mice , and the vasculature had an altered pattern of pericyte recruitment and maturation .
+In 3 days , 1 week , 2 weeks , 3 weeks and 4 weeks after surgery , the MVD of test group was significantly higher than that of control group .
+The application of molecular technology may play an important role for the differential diagnosis between synchronous primary carcinomas and a single carcinoma with metastasis .
+However , the mechanism ( s ) by which ciprofloxacin elicits its biological effects on bladder cancer cells is not well documented .
+Functional studies showed that Sema7A stimulates cytoskeletal reorganization in human melanocytes , resulting in adhesion and dendrite formation .
+p75 mediated apoptosis in neuroblastoma cells is inhibited by expression of TrkA .
+The value of serum S - 100beta and interleukins as tumour markers in advanced melanoma .
+Betulin induces mitochondrial cytochrome c release associated apoptosis in human cancer cells .
+The study shows that clear cell tumors are able to up - regulate angiogenic growth factor receptors more efficiently than chromophil ( papillary ) , that clear cell tumors can use pathways independent of VHL to regulate angiogenesis , and that this combined regulation may account for their more aggressive phenotype , which suggests that targeting VEGFR1 ( flt - l ) may be particularly effective in these tumor types .
+Each bone was placed in masseter muscle separately .
+The migration of vascular endothelial cells ( ECs ) plays an important role in vascular remodeling .
+The microvessel density ( MVD ) ) decreased from 42 . 4 + / - 4 . 8 to 10 . 5 + / - 3 . 2 per x 200 magnificetion microscopic field by CD10 staining and from 68 . 5 + / - 4 . 5 to 37 . 5 + / - 4 . 6 by CD31 staining , respectively ( P less than 0 . 05 ) .
+The p53 protein suppresses tumorigenesis by initiating cellular functions such as cell cycle arrest and apoptosis in response to DNA damage .
+These data suggested that inhibition of p53 - dependent apoptosis may depend on the transcriptional repression function of the 55 - kDa protein , which appears to be regulated be phosphorylation at the carboxy terminus .
+Adaptor protein Crk is required for ephrin - B1 - induced membrane ruffling and focal complex assembly of human aortic endothelial cells .
+Together these findings establish Wnt signaling as a metastasis regulator in melanoma .
+The latter effect is called reperfusion injury and can cause as much damage as the ischemia .
+In co - transfection experiments , exogenous expression of AP - 2gamma robustly activated ErbB - 3 promoter activity .
+After 2 h incubation at 37 degrees C the drop in the ATP level was lower .
+One year after radiotherapy final median VA was 20 / 400 in both groups .
+This model highlighted the role of VEGF in angiogenesis in both SAT and VAT .
+Most of the studies focusing on the mechanisms of p53 activity have been performed in cultured cells upon treatment with well - established p53 - activating inputs , such as high doses of radiations , DNA - damaging drugs and activated oncogenes .
+SUMMARY : Staging of colorectal cancer occurs after surgery and is based on the extent of disease invasiveness and dissemination .
+Indeed , Ang1 promotes the activation of mDia through RhoA , resulting in the association of mDia with Src .
+T140 analogs are peptidic CXCR4 antagonists composed of 14 amino acid residues that were previously developed as anti - HIV agents having inhibitory activity against HIV - entry through its co - receptor , CXCR4 .
+We determined whether growth state can influence the action of protein kinase C by measuring protein kinase C activity in growing and stationary cultures of normal and transformed cells .
+The findings are discussed in relation to previous morphologic studies , reports of in vitro mast - cell - mediated tumor cytotoxicity , and the role of mast cells in angiogenesis and connective tissue proliferation .
+Antiangiogenic properties have been recently reported in nicked beta2GPI as well as in intact beta2GPI at higher concentrations .
+Desensitization of prostaglandin F2 alpha - stimulated inositol phosphate generation in NIH - 3T3 fibroblasts transformed by overexpression of normal c - Ha - ras - 1 , c - Ki - ras - 2 and c - N - ras genes .
+The efficacy of the antitumor activity of 1 ' - acetoxychavicol acetate ( ACA ) , reported to be a suppressor of chemically induced carcinogenesis , was evaluated in Ehrlich ascites tumor cells .
+These results show that magnolol initiates apoptosis via the cytochrome - c / caspase 3 / PARP / AIF and PTEN / Akt / caspase 9 / PARP pathways and necrosis via PARP activation .
+This phenotype was most likely based on decreased focal contact turnover caused by reduced expression of p130Cas , a key player in directed cell migration .
+This study aimed to clarify the relationship between the expression of the EphA2 and E - cadherin proteins and clinicopathological characteristics , with reference to the expression levels of both EphA2 and E - cadherin , in patients with colorectal cancer .
+Multi - step neoplastic transformation of normal human fibroblasts by Co - 60 gamma rays and Ha - ras oncogenes .
+v - Src morphologically transformed MEFs lacking SWAP - 70 , but growth of the transformed cells in culture was slower than that of cells supplemented with exogenous SWAP - 70 .
+Here we demonstrate that bone marrow - derived haematopoietic progenitor cells that express vascular endothelial growth factor receptor 1 ( VEGFR1 ; also known as Flt1 ) home to tumour - specific pre - metastatic sites and form cellular clusters before the arrival of tumour cells .
+An exception is the adaptive immune system where lymphocytes utilize programmed DNA damage to effect antigen receptor diversification .
+Tumors display a high rate of glucose uptake and glycolysis .
+These data indicate that endogenous IL - 1 is a mediator of ischaemic and excitotoxic brain damage , and that inhibitors of IL - 1 action may be of therapeutic value in the treatment of acute or chronic neuronal death .
+SAHA enhanced acetylation of histone H3 in Bim promoter region , while E1A upregulated Egr - 1 , which was directly involved in Bim transactivation .
+These data suggest that magnolol promoted apoptosis probably by alleviating the inhibitory effect of Akt on caspase 9 .
+Here we characterized the effects of mutant CK1delta variants with impaired kinase activity on SV40 - induced cell transformation in vitro , and on SV40 - induced mammary carcinogenesis in vivo in a transgenic / bi - transgenic mouse model .
+Rather , it has been hypothesized that , at low concentrations , MBDs produce more subtle effects on microtubule dynamics , block critical cell signaling pathways , and prevent the microtubules from properly interacting with transient subcellular assemblies ( focal adhesions and adherens junctions ) whose subsequent stabilization and / or maturation are required for cell motility and cell - cell interactions .
+It is synthesised and secreted by the ciliary body epithelium ( CBE ) from the initiation of CBE development in the embryo , and production continues throughout life .
+Inhibition of c - Jun amino - terminal kinase ( JNK ) blocked type III collagen expression in LRP - 1 - deficient MEFs , suggesting regulation of JNK activity as a mechanism by which LRP - 1 controls mRNA expression .
+Daily i . v . injections of HAH - cortisol at doses causing no apparent toxicity retarded the growth of solid s . c .
+Cancer cells display high rates of aerobic glycolysis , a phenomenon known historically as the Warburg effect .
+A summary is made of recent advances in the understanding of IL - 18 structure , processing , receptor expression and immunoregulatory functions .
+Hypermethylation of the HRK promoter alone was not associated with overall outcome , but relapse - free survival was significantly shorter .
+This review summarises the evidence from 8 pivotal trials of cilostazol involving over 2000 patients with intermittent claudication treated for up to 6 months .
+These changes are associated with intimal proliferation and vessel narrowing , and thereby may contribute to clinical outcomes associated with pulmonary hypertension .
+This hypothesis in humans can be tested only by intervention trials that are in progress .
+( 3 ) .
+Treatment with anti - Fas , however , significantly decreased Fas - c - erbB2 and Fas - c - met association .
+The p53 tumor suppressor plays pivotal role in the organism by supervising strict compliance of individual cells to needs of the whole organisms .
+CONCLUSIONS : Low - dose cyclophosphamide and high - dose celecoxib is well tolerated and active in pretreated aggressive non - Hodgkin ' s lymphoma .
+To test this we generated Nestin - Bmi - 1 - GFP transgenic mice .
+Expression of PTEN mRNA and protein in normal gastric mucosa and gastric cancer was evaluated by RT - PCR and SABC immunohistochemistry , respectively .
+In tumor studies , P18 was more effective in blocking the angiogenesis and growth of the prostate cancer than parental 34 - mer ; in the renal cell carcinoma , P18 strongly decreased angiogenesis and halted the progression of established tumors .
+Molecular biology of cervical cancer and its precursors .
+Positron emission tomography ( PET ) demonstrated a sixfold increased uptake of [ 11C ] methionine and hyperperfusion in the HPC , whereas glucose utilization was decreased in this area .
+Disruption of Mitf blocked HGF - dependent increases in endogenous c - Met message and protein levels , indicating that HGF regulates its own receptor levels via Mitf .
+After seizures , blood - brain barrier breakdown and inflammation is also observed in brain , albeit on a lower scale than that observed after stroke .
+Two of these cell cycle inhibitors , p16 ( INK4A ) and p15 ( INK4B ) , have tumor suppressor activities and are inactivated in human cancer .
+Glucose metabolism was studied using an ECAT EXACT 47 positron emission tomography ( PET ) camera and fluorine - 18 fluorodeoxyglucose ( 18F - FDG ) ; 123I - IMT uptake was measured with the triple - headed single - photon emission tomography ( SPET ) camera , MULTISPECT 3 .
+The aim of the study was to investigate the potential influence of thalidomide on the several steps of angiogenesis , using in vitro models .
+When a confluent monolayer of human umbilical vein endothelial cell line , ECV304 , was denuded , ECV304 at the wound edge expressed Ets - 1 .
+Based on these optimized parameters , a prototype diagnostic / treatment system was designed that captures high - speed indocyanine green ( ICG ) angiogram images and facilitates analysis of the images by enhancing visualization of dye movement through CNV feeder vessels ( FVs ) .
+The fact that some vitamins induce cell differentiation and / or growth inhibition in tumor cells in culture suggests that the use of these vitamins in cancer prevention has a cellular basis .
+Anti - Fas treatment of these cells caused a significant decrease in p120 - GAP levels , ERK - 1 levels , and phosphorylation , as well as Grb2 - Sosl and MEK - 1 - ERK - 1 association .
+Although there was no significant difference of the H . pylori positivity between the two groups , the rate for both groups was higher than reported in previous studies .
+L - deoxyribose ( L - dR ) and thymidine phosphorylase inhibitor ( TPI ) can reverse these effects .
+Regulation of the composition of the extracellular matrix by low density lipoprotein receptor - related protein - 1 : activities based on regulation of mRNA expression .
+After SCC transformation , the absence of G45 domain in DeltaG45 cells was associated with deficient extracellular signal - regulated kinase and phosphotidylinositol 3 - kinase ( PI3K ) pathway activation , impaired invasion , deficient metalloproteinase activity , and absent tumorgenicity in vivo .
+Previous studies reported that the Tumor Susceptibility Gene 101 ( TSG101 ) is upregulated in selected human malignancies , and the expression of exogenous Tsg101 was suggested to transform immortalized fibroblasts in culture .
+At 3 weeks , the endogenous blood supply of both the control and the experimental fat pads was isolated and ligated , and the composite fat / muscle flap was transferred to the chest wall .
+In order to elucidate a mechanism for cancer - induced osteoclastogenesis , cells from a human breast cancer line , MDA - MB - 231 , were directly co - cultured with ST2 , MC3T3 - E1 , or with primary mouse calvarial cells .
+Similar translocations are found in mouse plasmacytomas and both diseases involve interchanges between one of the immunoglobulin loci and DNA in the vicinity of the myc gene .
+Three patients discontinued therapy .
+Therefore we suggest that HKa through its D5 domain alters P13 - kinase - Akt signaling to inhibit endothelial cell migration through alterations in the focal adhesions .
+Through this domain , Evi - 1 physically interacts with Smad3 , an intracellular mediator of TGF - beta signaling , thereby suppressing the transcriptional activity of Smad3 .
+Targets identified in these novel and diverse FH - deficient models represent excellent potential candidates for further mechanistic investigation and therapeutic metabolic manipulation in tumors .
+In conclusion , the present study clearly demonstrates the potential of vector - mediated antiangiogenic gene therapy as a component in cancer therapy .
+Nine patients were started on bevacizumab at a dose of 5 mg / m2 every 2 weeks .
+Radiation retinopathy is treatable with anti - vascular endothelial growth factor bevacizumab ( Avastin ) .
+Indeed , in the reported cases it was possible to vacuum dry and reconstitute the proteins without any aggregation or loss in protein and biological activity .
+Upon initiation of angiogenesis with basic fibroblast growth factor ( bFGF ) on the chick chorioallantoic membrane ( CAM ) , endothelial cell mitogen - activated protein ( MAP ) kinase ( ERK ) activity was detected as early as 5 min yet was sustained for at least 20 h .
+However , it is reasonable to expect that mechanistically complementary combinations of these measures could have a worthwhile impact on survival times and , when used as adjuvants , could improve the cure rates achievable with standard therapies .
+BACKGROUND : The PI3K - Akt signal pathway plays a key role in tumorigenesis and the development of drug - resistance .
+The role of syndecans in disease and wound healing .
+RESULTS : MMP - 9 was expressed in both cell lines but the intensity of the staining was different .
+Management of early and advanced colorectal cancer : therapeutic issues .
+In situ fluorescent end labeling was used to label apoptotic cells .
+OBJECTIVE : To investigate the relationship among angiogenesis , spontaneous apoptosis and clinicopathological parameters in laryngeal squamous cell carcinoma ( LSCC ) .
+Extensive regulation contributes to normal growth control , abrogation of regulatory controls contributes to uncontrolled growth as seen with erb B transformation and EGF receptor gene amplification in human tumors .
+This study establishes the potential of metabolic targeting as a broader means to kill and sensitize myeloma and identifies a compound that can achieve this goal .
+B - cell lines established from two individuals with T - cell acute lymphocytic leukemia ( T - ALL ) express HLA - DR antigens , whereas the isogenic T - cells do not .
+Some mice in each group were euthanized 24 hours after the end of IR .
+Investigating the causes of low birth weight in contrasting ovine paradigms .
+Notably , a similar vascular phenotype was induced by morpholino - mediated knockdown of the integrin alpha2 subunit .
+Furthermore , Trib1 by itself is a novel myeloid oncogene , enhancing phosphorylation of ERK , resulting in inhibition of apoptosis .
+Heat shock proteins ( HSPs ) have been defined as proteins induced by heat shock and other environmental and pathophysiologic stress .
+RESULTS : The mean Rentrop collateral score was higher in Group 1 than in Group 2 ( 2 . 39 + / - 1 . 07 vs . 1 . 76 + / - 0 . 76 , respectively , p less than 0 . 001 ) .
+In vitro studies also suggest progesterone may play a role in modulating inflammation .
+It suggests that altered PTEN gene contributes to tumorigenesis and progression of gastric carcinomas .
+On the other hand , glutaminolysis did not inhibit glycolysis .
+However , mechanism ( s ) by which VEGFR2 signaling and trafficking is coordinated are not clear .
+The relative resistance of PC - 3 cells to drug - induced apoptosis was associated with constitutive Akt activation , higher levels of cFLIP - L and Bcl - 2 , and lower levels of Bax .
+Hck - mediated cellular transformation of murine fibroblasts is reverted by ectopic expression of a membrane - anchored allele of Cbl as assessed by the cellular morphology , suppression of anchorage independent growth , and an overall reduction in the total tyrosine phosphorylation levels within the cells .
+The proportion of SMCs surviving in the implanted region was greater ( P less than 0 . 05 ) in the IGF - 1 - transfected group than in the vector or cell controls .
+It is normally produced in bone , teeth , kidney and epithelial lining tissues and is found in plasma and breast milk .
+These results suggest that L - Car , possibly via its free radical scavenging and antioxidant properties , ameliorates MTX - induced oxidative organ injury and inhibits leukocyte apoptosis .
+Bmi - 1 over - expression in neural stem / progenitor cells increases proliferation and neurogenesis in culture but has little effect on these functions in vivo .
+Natl .
+The angiogenic action of thrombin has been shown to be mediated by activation of the thrombin receptor .
+Furthermore , p53 overexpression by tumors was almost twice as common in the RSCM group as in the RSCB group .
+Both COL - I and COL - V showed statistically significant ( P less than 0 . 05 ) increased activity between day 7 and day 14 for pattern A , potentially indicating a continued effect on matrix remodeling .
+Rat 6 cells are not transformed by treatment with the well - known carcinogens benzo [ a ] pyrene ( BP ) or N - methyl - N - nitro - N ' - nitrosoguanidine ( MNNG ) .
+When MDV was reactivated by treatment of lymphoblastoid cells with 25 micrograms of iododeoxyuridine per ml , the relative levels of the transcripts decreased .
+Akt knockdown and an mTOR inhibitor revealed the importance of the Akt / mTOR pathway in the postirradiation accumulation of HIF - 1alpha .
+By using Northern hybridization , RNase protection assays , and primer extension analysis , the MSRs were determined to map antisense to the predicted translational start site of the ICP4 homolog gene .
+Maintained utilization of these substrates , in a substrate - deficient environment , suggests increased sensitivities to metabolic signals , which may play a role in the development of metabolic diseases in later adult life .
+Suppression of tumor growth by the 3 ' untranslated region of mel - 18 in 3Y1 cells transformed by the E6 and E7 genes of human papillomavirus type 18 .
+ARD1 is up - regulated in human PCa cell lines and primary tumor biopsies .
+Pancreatic somatostatin - secreting gangliocytic paraganglioma with lymph node metastases .
+Emerging metabolic targets in cancer therapy .
+The increase in tumorigenicity and metastatic ability could be explained by the increase in Mr 72 , 000 type IV collagenase activity and angiogenesis attributed to the induction of IL - 8 after irradiation .
+These findings suggest that nm23 - H1 encodes for suppression of colon carcinoma metastasis .
+In our study , MOG was shown to specifically inhibit the growth of human leukemia cell lines and primary acute myeloid leukemia ( AML ) blasts via induction of apoptosis , with the evidence of mitochondrial DeltaPsim loss , reactive oxygen species production , caspases activation and nuclear fragmentation .
+Prolonged silencing of both MCTs reduced viability by 75 % individually and 92 % in combination , as measured by both phenotypic and flow cytometric analyses .
+Increased expression of specific protein tyrosine phosphatases in human breast epithelial cells neoplastically transformed by the neu oncogene .
+H - ras mutations in human pituitary carcinoma metastases .
+Thrombin decreases the ability of endothelial cells to attach to basement membrane proteins .
+In contrast , rap1GAPII , a negative regulator of Rap1 , did not inhibit ephrin - B1 - induced membrane ruffling .
+C / EBPbeta and Ki67 , a marker of cell proliferation , were also co - expressed in primary GC .
+These studies indicate that Shh peptide produced by melanoma cells induces Patched expression in fibroblasts .
+Promotion of tumorigenesis by heterozygous disruption of the beclin 1 autophagy gene .
+Patients with rectal cancer had greater topo I expression than those with colon tumors ( P = . 029 ) .
+TTF - 1 staining is very reliable in discerning whether a brain metastasis has arisen from a pulmonary or nonpulmonary site , particularly when dealing with adenocarcinomas and large - cell carcinomas .
+Two natural models of ovine IUGR are those of hyperthermic exposure during pregnancy , and adolescent overfeeding , also during pregnancy .
+The transition between both conformations contributes to the control of glycolysis and is important for tumor cell proliferation and survival .
+METHODS : After immunohistochemical staining , light microscope was used for counting macrophages and automated image analysis quantification was used to determine VEGF - C expression , which was reflected by positive index ( PI ) .
+All of the clones in culture showed almost the same low level of metastatic ability and exhibited little K - ras oncogene amplification with correspondingly low mRNA expression .
+Angiogenin , a 14 . 2 kD polypeptide that was originally noted for its angiogenic activity , is now increasingly recognized to have a multiplicity of biological roles in both physiological and pathological conditions .
+A pair of primers bracketing the XhoI site were designed to synthesize the EBV DNA fragment from nucleotides 169 , 081 - 169 , 577 by using the polymerase chain reaction ( PCR ) method .
+Induction of gelatinases ( matrix metalloproteinase 2 and 9 ) , the serine protease tissue plasminogen activator and plasmin by DCN transfection in MCE cells leads to extracellular proteolysis and to release of matrix - bound VEGF and activation of angiogenesis .
+However , the regulation of adipose tissue angiogenesis in humans has not been extensively studied .
+The ACIS index , using a cutoff point defined by the median value , < or = 3 % versus > 3 % , was related to 5 - year DM rates in univariate analyses ( 32 . 6 % vs . 45 . 8 % ; P = 0 . 057 ) and MVA ( P = 0 . 06 ) .
+The migration activity of heparin and mast cell conditioned medium was blocked by specific antagonists of heparin ( protamine and heparinase ) , but not by chondroitinase ABC .
+From these data , as well as earlier evidence demonstrating that the reduced nicotinamide adenine dinucleotide ( NADH ) shuttle in these cells requires a transaminase step and is thus identified as the malate - aspartate shuttle ( W . V . V . Greenhouse and A . L . Lehninger , Cancer Res . , 36 : 1392 - 1396 , 1976 ) , metabolic flux diagrams were constructed for the five cell lines .
+Electrophoretic mobility shift assays showed that the oligonucleotides containing the WT1 motifs could bind recombinant WT1 proteins .
+We demonstrate that a proteoglycan decorin ( DCN ) up - regulates the vascular endothelial growth factor ( VEGF ) expression with activation of VEGF regulating transcription factors Sp1 , hypoxia - inducible factor 1alpha ( HIF1alpha ) , and signal transducer and activator of transcription 3 ( Stat3 ) via epidermal growth factor receptor ( EGFR ) , mitogen - activated protein kinase extracellular signal - regulated kinase 1 / 2 ( ERK1 / 2 ) , and protein kinase B ( AKT ) pathways in DCN transfected mouse cerebral endothelial ( MCE ) cells .
+We previously reported that VEGF induces DSCR - 1s expression in endothelial cells , which in turn negatively feeds back to attenuate endothelial cell activation .
+Pancreatic endocrine tumors : expression profiling evidences a role for AKT - mTOR pathway .
+Apoptosis is detected with the TUNEL method .
+Using a retroviral gene transfer approach , we found that constitutive activation of MEK5 / ERK5 signaling strongly inhibits EC migration and results in massive morphological changes .
+BACKGROUND : The anabolic properties of insulin have been suggested for use to reverse malnutrition associated with cancer .
+METHODS : Immunohistochemical staining with D2 - 40 and CD34 was performed on formalin - fixed , paraffin - embedded tissue sections of 254 invasive breast tumors of 247 patients with node negative and node positive early breast cancer .
+An alternative and rather obvious strategy to treat ischemia is to activate endogenous angiogenic or arteriogenic pathways to stimulate revascularization of the tissue .
+This indicates that the strategy may be a useful therapeutic avenue for treatment of patients with malignant glioma .
+Here we report that a candidate tumour suppressor gene , ING4 , is involved in regulating brain tumour growth and angiogenesis .
+Nude mice bearing ovarian cancers were treated with hPNAS - 4 - p / liposome .
+Reporter gene analyses with a series of nested deletion mutants of the hepatoma type II hexokinase promoter show that a significant fraction of the total activation observed under hypoxic conditions localizes to the distal region where the overlapping HIF - 1 / E - box sequences are located .
+Several of these inhibitors are currently being evaluated in clinical trials .
+In vivo , LeTx decreased MAPK activity and blocked fibrosarcoma growth .
+Angiogenesis was studied with factor 8 - related antigen ( F8 - RA ) which identifies endothelial cells .
+Recruiting a new blood supply is a rate - limiting step in tumor progression .
+One possibility is that the gross chromosomal alterations frequently observed in HCC DNA at the site of HBV integration may alter the expression of important nearby cellular genes .
+Islet endothelial activation and oxidative stress gene expression is reduced by IL - 1Ra treatment in the type 2 diabetic GK rat .
+While in control specimens are ara - C dose - dependent increase in 3H - ara - C uptake was accompanied by a corresponding rise in intracellular ara - C - 5 ' triphosphate ( ara - CTP ) levels , ara - CTP concentrations were not increased after GM - CSF or IL - 3 exposure , resulting in a higher ara - C to ara - CTP ratio over controls .
+Point mutations of H - ras however , were identified in three distant metastatic pituitary tumor secondaries , but not in their respective primary pituitary carcinomas , or in six invasive adenomas .
+BACKGROUND & # 38 ; OBJECTIVE : It has been proved that Epstein - Barr virus ( EBV ) latent membrane protein 1 ( EBV - LMP1 ) can induce the expression of matrix metalloproteinase - 9 ( MMP - 9 ) .
+In addition , p21 - or p16 - mediated growth arrest did not protect glioma cells from E2F - 1 - mediated apoptosis .
+Similar results were obtained with phVEGF121 , phVEGF165 , and phVEGF189 , which suggests that these isoforms are biologically equivalent with respect to in vivo angiogenesis .
+The regulation of cell survival functions by Pak1 - DLC1 interaction represents a novel mechanism by which a signaling kinase might regulate the cancerous phenotypes .
+These results suggest the possibility that BV may exert an anti - tumor effect on human lung cancer .
+Forty male golden hamsters were divided into four equal groups .
+We demonstrate directly that the wild - type 55 - kDa protein is able to block E1A - induced p53 - dependent apoptosis , whereas cells infected by mutant pm490 / 1 / 5A , which contains alanine residues at all three phosphorylation sites , exhibited extensive DNA fragmentation and classic apoptotic cell death .
+In all cases , only inhibition of PKCalpha inhibited each of these functions when compared to the inhibition of PKCbeta .
+Based on our results , we hypothesize that FGFR2 ( + ) - TFs might provide cancer cells with a suitable microenvironment via secretion of proteins that could promote cancer development and progression through stimulation of cancer cell proliferation , induction of angiogenesis , inhibition of cell adhesion , enhancement of cell mobility , and promotion of the epithelial - mesenchymal transition .
+Adenomatoid tumour of the liver .
+In contrast , KATO III cells expressed membrane CXCR4 .
+This study identifies genes expressed early in 12 - O - tetradecanoylphorbol - 13 - acetate ( TPA ) - induced skin carcinogenesis in genetically initiated Tg . AC v - Ha - ras transgenic mice .
+Cyclin - dependent kinase - 2 activity , p107 and cyclin A levels , and retinoblastoma protein phosphorylation are markedly reduced in response to the addition of exogenous SPARC and / or peptides derived from specific domains of SPARC .
+The non - invasive human melanoma cell line , IF6 , which does not express uPA , provided further confirmation of PAI - 1 and uPA ' s role as , upon transfection with uPA , this cell line attained an invasive phenotype , which was again attenuated by MAI - 12 .
+Cotreatment of cell lines with a hormone and its specific antagonist blocked the effect of the hormone .
+The ' angiostatic ' steroids 17 hydroxyprogesterone and epicortisol were tested because of their lack of glucocorticoid and mineralocorticoid effects and their structural similarity to glucocorticoids .
+While the study of angiogenesis as a phenomenon is still in an early phase , it has become possible , by using a combination of in vitro and in vivo techniques , to more thoroughly understand the initiation and control of capillary growth .
+This review condenses the latest findings on the signaling pathways that are activated and / or regulated by molecules generated from Hedgehog signaling in cancer and cites promising clinical interventions .
+There was no correlation between the serum and urine concentrations of IL - 8 and clinical variables , the only exception being the international prognostic index ( IPI ) , which showed a marginal correlation with urine IL - 8 / Cr levels ( P = 0 . 07 ) .
+The cell type specific glycosylation protects Sp1 and HIF1alpha from proteosome degradation and plays an important and novel role in the regulation of VEGF in DCN transfected MCE cells .
+Expression of EphA2 and E - cadherin in colorectal cancer : correlation with cancer metastasis .
+This effect appears to be mediated , in part , by decreased expression of vascular endothelial ( VE ) - cadherin by endothelial cells in the presence of TIMP - 3 as seen both in an in vitro assay and in TIMP - 3 - overexpressing tumors .
+Recently , the role of AQPs in human carcinogenesis has become an area of great interest .
+Although , the growth of all three cell lines was suppressed by DMI , it was more effective in Ca3 / 7 cells .
+Hypermethylation of final sigma is functionally important , because treatment of final sigma - non - expressing breast cancer cell lines with the drug 5 - aza - 2 ' - deoxycytidine resulted in demethylation of the gene and synthesis of final sigma mRNA .
+Diabetic foot wounds are consequences of the neuropathy and the small and large vessel disease that complicate diabetes .
+Diabetes impairs endothelial function and reparative neovascularization .
+[ Study on the expression of angiogenesis and spontaneous apoptosis and their relevance in laryngeal squamous cell carcinoma ]
+CONCLUSIONS : Fluconazole plus adjunct high - dose prednisolone treatment was most effective when administered 9 days after infection .
+Targeting glucose consumption and autophagy in myeloma with the novel nucleoside analogue 8 - aminoadenosine .
+Since AP - 1 and NF - kappa B are key elements in controlling interleukin - 8 ( IL - 8 ) transcription , human fibroblasts were treated with alpha - MSH and IL - 1 beta for 24 hours , and cytokine levels in the supernatants were measured by ELISA .
+Inhibition of the UV - induced activation of Erbb2 also resulted in milder epidermal hyperplasia , S - phase accumulation , and decreased levels of the cell cycle regulator Cdc25a , suggesting altered cell cycle regulation on inhibition of Erbb2 .
+PI3K / Akt - dependent transcriptional regulation and activation of BMP - 2 - Smad signaling by NF - kappaB in metastatic prostate cancer cells .
+Normal functionality of exogenous Tsg101 was tested by rescuing the survival of Tsg101 - deficient mammary epithelial cells in conditional knockout mice .
+WT1 represses transcription of several growth factors and growth factor receptors .
+Our data may have implications for the development of novel regimens for diabetic retinopathy .
+In 1986 , Dvorak proposed that by secreting VPF , tumors induce angiogenesis by turning on the wound healing response .
+The accumulation was inhibited with a nonmetabolizable glucose analog , 2 - deoxy - d - glucose , through the suppression of radiation - induced phosphorylation of Akt in the reoxygenated regions .
+Both the erbA IRES and the erbA / myb IRES virus constructs transformed erythroid cells after infection of bone marrow or blastoderm cultures .
+We previously reported that a single dose of ethanol ( 1 . 4 g / kg ) , yielding a blood alcohol concentration of 100 mg / dl , significantly impairs angiogenesis in murine wounds , despite adequate levels of VEGF , suggesting direct effects of ethanol on endothelial cell signaling ( 40 ) .
+The data show that different protein expression patterns exist between primary squamous cell lung carcinomas with and without lymph node involvement and within carcinomas with lymph node involvement .
+NIH3T3 transfectant containing human K - ras oncogene shows enhanced metastatic activity after in vivo tumor growth or co - culture with fibroblasts .
+The nm23 - H1 mRNA expression levels in CBM with lymph nodes metastases were lower than those in CBM without metastases ( P < 0 . 05 ) , while no significance of nm23 - H2 mRNA expression levels was found between CBM with and CBM without metastasis ( P > 0 . 05 ) .
+METHODS : Using two - dimensional electrophoresis and liquid chromatography - electrospray ionization - tandem mass spectrometry ( LC - ESI - MS / MS ) , we analyzed differentially displayed proteomics of human hepatocellular carcinoma cell lines Hep3B , MHCC97L , MHCC97H with different metastasic potential .
+Six of the 8 patients whose disease progressed have died .
+In addition , VEGF might be associated with the etiology of periodontitis in its early stages according to neovascularization stimulated by periodontal pathogens causing swelling and edema .
+The combination of paclitaxel and 317615 x 2HCl resulted in 100 % 120 - day survival of SKOV - 3 bearing animals .
+PURPOSE : Control of the natural course of subretinal neovascularization ( SRNV ) in age - related macular degeneration ( AMD ) is difficult .
+Accumulating evidences indicate that receptor activator of NF - kB ligand ( RANKL ) is the ultimate extracellular mediator that stimulates osteoclast differentiation into mature osteoclasts .
+[ Photodynamic therapy in severe chronic central serous chorioretinopaty ]
+Alpha - melanocyte - stimulating hormone ( alpha - MSH ) has evolved as a mediator of diverse biological activities in an ever - growing number of non - melanocytic cell types .
+The INK4 family of proteins negatively regulates cell cycle progression at the G ( 1 ) - S transition by inhibiting cyclin - dependent kinases .
+This restriction enzyme site polymorphism along with the sequence variations were also observed in 50 biopsy tissues as well as in the throat washings of 6 out of 20 healthy individuals that we examined , indicating that the EBV strain predominantly existing in these biopsy tissues was different from strains of B95 - 8 , Jijoye or nude mouse passaged cells ( C15 ) with an African origin , but closely resembled other nude mouse passaged CAO cells which were originally derived from China .
+This study highlights the advantages of arranging the BHRF1 miRNAs in clusters : it allows the synchronous and synergistic expression of genetic elements that cooperate to transform their target cells .
+Furthermore , a significant relationship between the expression of EphA2 and E - cadherin was observed .
+Activation of signal transducer and activator of transcription 3 through a phosphomimetic serine 727 promotes prostate tumorigenesis independent of tyrosine 705 phosphorylation .
+Experiments showed that mutant embryos and mutant cells in culture experienced genome instability , as do cells in FA patients .
+To show that transcriptional activation of cyclin D1 is causally involved in the generation of B - cell neoplasia we have generated transgenic mice that carry a cyclin D1 gene under the transcriptional control of the E mu element .
+At this writing , heparin appears to be the principal mast cell factor responsible for this effect on capillary endothelial cells .
+These fundamental discoveries led to additional research conducted by Napoleone Ferrara and his laboratory , confirming the cloning of VPF and renaming the protein vascular endothelial growth factor ( VEGF ) .
+RESULTS : HER2 receptor protein was absent in adenomas and in normal gallbladder epithelium .
+The latter in its parent form or in its sugar form , deoxyribose ( dR ) may play a role in the induction of angiogenesis .
+PURPOSE : Angiogenesis inhibitors have strong therapeutic potential as antitumor agents in suppressing tumor growth and metastatic progression .
+At the cellular level many actions of thrombin can contribute to activation of angiogenesis : ( 1 ) .
+Many of these measures appear suitable for use in cancer prevention .
+Here , we report a tumorigenic role of TLX in brain tumor initiation and progression .
+During 8 days of culture under 5 % O ( 2 ) , but not room air , the addition of FGF2 to explants stimulated the formation of Gs - IB ( 4 - ) positive , CD31 - positive , and Flk - 1 - positive microvessels in a concentration - dependent manner .
+Additionally , 3 - BrPA treatment significantly impaired lactate production by HepG2 cells , even when glucose was withdrawn from the incubation medium .
+High density of somatostatin receptors in veins surrounding human cancer tissue : role in tumor - host interaction ?
+This study was aimed to determine the minimal fragment of PEDF , which maintains antiangiogenic and antitumor efficacy .
+PTTG activated E - box transcription and induced c - Myc protein expression in EC9706 cells , which in turn may act on an E - box motif within the galectin - 1 promoter .
+METHODOLOGY / PRINCIPAL FINDINGS : Examination of FOXO3a and phosphorylated - Akt ( P - Akt ) expression in breast cancer tissue microarrays showed nuclear FOXO3a was associated with lymph node positivity ( p = 0 . 052 ) , poor prognosis ( p = 0 . 014 ) , and P - Akt expression in invasive ductal carcinoma .
+Up - regulation of fibroblast growth factor receptor 2 ( FGFR2 ) , which showed the most significant change , was detected in all six tested TFs compared with their paired normal fibroblasts .
+EPOX inhibits angiogenesis by degradation of Mcl - 1 through ERK inactivation .
+To prevent adhesions , an experimental study was planned to designate the effects of low molecular weight ( LMW ) heparins and hyperbaric oxygen ( HBO ) therapy both on the formation of adhesions and wound healing .
+The results showed that betulin significantly inhibited cell viability in cervix carcinoma HeLa cells , hepatoma HepG2 cells , lung adenocarcinoma A549 cells , and breast cancer MCF - 7 cells with IC ( 50 ) values ranging from 10 to 15 microg / mL .
+To address this question , we used the proteomic approach of tandem affinity purification to identify cellular proteins that are in complex with E7 , and identified the 600 - kDa protein , p600 , as a binding partner of E7 .
+2 - Methoxyestradiol ( 2ME2 ) is a natural compound with HIF - 1alpha inhibitory activity that is currently being evaluated in phase 1 and 2 clinical trials for advanced solid tumors and multiple myeloma .
+They were consistent with the concept of the existence of 2 pools of both lactate and pyruvate , of which 1 pool was closely connected with exogenous lactate and oxidative metabolism , and the other pool was closely related to glycolysis and disconnected from oxidative metabolism .
+However , there was no difference in expression of TSP - 2 and CD36 mRNA in these samples .
+In this review , we discuss the reported involvement of syndecans in human cancers , infectious diseases , obesity , wound healing and angiogenesis .
+Histological examination revealed cystic or angiomatoid spaces of various sizes lined by cuboidal , low - columnar , or flattened epithelioid cells with vacuolated cytoplasm and round to oval nuclei .
+The aim of this study was to investigate the expression profile of AQPs in human breast cancer and its significance .
+Instead of cancer initiation , it is therefore likely that Tsg101 plays a more predominant role in the progression of a subset of spontaneously arising breast cancers .
+An important role of proprotein convertases in tumorigenic processes has been suggested by various studies .
+A precise identification of LVI would have a strong clinical impact for breast cancer patients .
+These observations have led to the idea that factors in the host downmodulate the E - cadherin complex and promote invasion most probably in a transient way .
+Some potentially promising prognostic , diagnostic , and therapeutic modalities for tumor angiogenesis and metastatic disease are also discussed .
+Metastatic subpopulations isolated from independent lymph node - derived lung adenocarcinoma cell lines harbor a hyperactive WNT / TCF pathway .
+Onconase similarly inhibited proliferation in all three cell lines ( IC ( 50 ) = 0 . 3 - 1 . 0 microM ) while ( - 4 ) rhEDN was more effective on immortalized HUVEC cell lines ( IC ( 50 ) = 0 . 02 - 0 . 06 microM ) than on primary HUVECs ( IC ( 50 ) > 0 . 1 microM ) .
+Its control of growth factor signaling usually involves interactions with the heparan sulfate chains covalently coupled to the protein core ' s N - terminus .
+RESULTS : The bone grafts were found revascularization in 3 days after surgery in the test group , whereas at 2 weeks in the control group .
+Therefore , the role of VEGF after seizures could be either protective or destructive .
+Statistical analysis was performed to explore the links between expression of the CCN genes and clinical and pathological parameters .
+Clinically , elderly patients are more vulnerable to acute myocardial infarction ( AMI ) .
+These findings indicate that vGPCR may play a key role in Kaposi ' s sarcoma progression and provide experimental justification for developing molecular - based therapies specifically targeting vGPCR and its effectors for the treatment of Kaposi ' s sarcoma patients .
+After decapitation of the rats , trunk blood was obtained , and the ileum , liver , and kidney were removed for histological examination and for the measurement of malondialdehyde ( MDA ) and glutathione ( GSH ) levels , myeloperoxidase ( MPO ) activity , and collagen content .
+In T - cell ALL with t ( 10 ; 14 ) translocation , the HOX 11 gene is deregulated .
+IL - 8 may present a novel therapeutic target for estrogen driven breast carcinogenesis and tumor progression .
+Disruption of AR - ARD1 interactions may be a potent intervention for androgen - dependent PCa therapy .
+Inhibition of MEK also blocked growth factor induced migration but not adhesion of endothelial cells in vitro .
+The results demonstrated that levels of the c - jun mRNA and protein were unchanged in the revertants when compared to the transformed parental cells , and ectopic overexpression of c - jun failed to retransform the revertants .
+Furthermore , IL - 1beta - induced p38 mitogen - activated protein kinase ( MAPK ) activation and upregulation of VEGF - C mRNA and protein in LLC cells was also suppressed by artemisinin or by the p38 MAPK inhibitor SB - 203580 , suggesting that p38 MAPK could serve as a mediator of proinflammatory cytokine - induced VEGF - C expression .
+From the above , we concluded that carcinostatic agents may increase the metastatic ability of cancer cells in patients with cancer .
+Compared to cRGDyK and HL , cRGD - HL has high binding affinity to purified alpha ( v ) beta ( 3 ) integrin .
+Here we show that angiogenesis is severely impaired in PSMA - null animals and that this angiogenic defect occurs at the level of endothelial cell invasion through the extracellular matrix barrier .
+Interaction between cellular and viral genes in the expression of the RSV - induced transformation - specific cell - surface antigen VCSA .
+All - trans retinoic acid ( ATRA ) could potently inhibit the growth of prostate cancer cells in vitro and its combination with various anticancer agents results in increased cytotoxicity .
+CK1delta mutants exhibited a reduced kinase activity compared to wtCK1delta in in vitro kinase assays .
+The increased transport rate is a consequence of an increased number of transporters in the transformed cells .
+Collectively , these results suggest an important role for furin in PLAG1 - induced salivary gland tumorigenesis in mice .
+CONCLUSIONS : These results suggest that the anti - angiogenic effects of U - 995 may be be due to interference with the proliferation and migration of HUVECs as well as inhibition of collagenolysis , thereby leading to inhibition of both angiogenesis and tumor cell growth .
+Similarly , perivascular inflammatory T - cells expressed more antiapoptotic proteins in irreversible PHT ( p less than 0 . 01 ) .
+One of the most common signatures of highly malignant tumors is their capacity to metabolize more glucose to lactic acid than their tissues of origin .
+Growth factor mRNA expression analyses revealed a higher expression of angiopoietin 2 in low - grade CC - RCC .
+Recent reports suggest that elevated levels of plasminogen activator inhibitor - 1 ( PAI - 1 ) may contribute to tumour progression .
+Active hair growth ( anagen ) is associated with angiogenesis .
+Furthermore , LMP1 cooperates with a p16 - insensitive CDK4 ( R24C ) oncogene in transforming MEF cells .
+The genetics of transformation by SV 40 .
+Multivariate analysis showed that this profile was independently the most significant prognostic factor ( P = 0 . 001 ) .
+Certain carcinostatic agents induce the expression of E - selectin on endothelial cells and enhance the expression of carbohydrate ligands on cancer cells .
+RESULTS : Twenty - one eyes had juxtafoveal CNV .
+A characteristic of malignant cells is their capacity to invade their surrounding and to metastasize to distant organs .
+E - cadherin is a Ca ( 2 + ) - dependent cell - cell adhesion molecule , which is mainly expressed in epithelial cells .
+Current prospects for controlling cancer growth with non - cytotoxic agents - - nutrients , phytochemicals , herbal extracts , and available drugs .
+RAGE ( receptor for AGE ) is the best characterized signal transduction receptor for AGEs and is expressed on mesothelial cells .
+Antibodies to PAI - 1 alter the invasive and migratory properties of human tumour cells in vitro .
+Glucose catabolism in cancer cells : identification and characterization of a marked activation response of the type II hexokinase gene to hypoxic conditions .
+The therapeutic options available in this regard include measures that : down - regulate serum free IGF - I ; suppress the synthesis of mevalonic acid and / or certain derivatives thereof ; modulate arachidonate metabolism by inhibiting 5 - lipoxygenase , 12 - lipoxygenase , or COX - 2 ; antagonize the activation of AP - 1 transcription factors ; promote the activation of PPAR - gamma transcription factors ; and that suppress angiogenesis by additional mechanisms .
+RESULTS : Methylation - specific polymerase chain reaction revealed PTEN promoter methylation in 15 . 9 % CCMs .
+To further clarify the influence of mechanical strain on the regulation of bone formation , bone growth factors ( insulin - like growth factor [ IGF ] I , IGF binding protein [ IGFBP ] 3 , transforming growth factor [ TGF ] beta1 , and basic FGF [ bFGF ] ) , bone matrix degrading enzymes ( matrix - metalloproteinases [ MMPs ] 1 , 2 , and 3 ) , human growth hormone ( hGH ) , and bone formation markers ( ALP , bone - specific ALP [ BAP ] , and osteocalcin [ OC ] ) have been analyzed in serum samples from 10 patients in each group pre - and postoperatively .
+Solid tumor therapy : manipulation of the vasculature with TNF .
+Low glucose potentiated the effect of hypoxia .
+In many diseases state body loses control over angiogenesis .
+Our recent studies show that progestins induce vascular endothelial growth factor ( VEGF ) in breast cancer cells that express mutant p53 protein .
+miR - 378 , miR - 296 , and the miR - 17 - 92 cluster contribute to tumor angiogenesis .
+We did a blind prospective study in gastric cancer to assess the significance of isolated tumor cells ( ITC ) and to test the hypothesis that vascular endothelial growth factor receptor - 1 ( VEGFR - 1 ) is expressed within the bone marrow at tumor - specific , premetastatic sites .
+Despite several advances in therapeutic options , the disease remains incurable .
+Tumor necrosis factor - alpha ( TNF - alpha ) was first isolated two decades ago as a macrophageproduced protein that can effectively kill tumor cells .
+TIMP2 and TIMP3 play functional role in LPA - induced invasion as negative regulators .
+Sequencing of exons 5 through 8 of the p53 gene revealed no mutations , nor were mutations detected in the N - or K - ras protooncogenes in four of the carcinomas and their respective metastatic deposits .
+RESULTS : Expression of E - cadherin and alpha - catenin was reduced in 50 . 5 and 64 . 4 % , respectively .
+Tumour angiogenesis involves multiple cellular processes including endothelial cell proliferation , migration , reorganisation of extracellular matrix and tube formation .
+A diagnosis of advanced gastric cancer with extensive lymph node metastases and multiple pulmonary metastases was made .
+To investigate the endothelial proliferation and the potential signaling pathways affected by PTEN methylation , proliferating cell nuclear antigen as well as phosphor - Akt and phosphor - Erk1 , 2 were detected by immunofluorescence and Western blot , respectively , in CCM specimens .
+VEGF immunoreactivity was positive in 75 . 5 % of samples .
+Immunohistochemistry revealed that the Hedgehog receptor Patched was localized to the tumor stroma and that B16F0 cells expressed Shh peptide .
+Experimental drug therapy of peritumoral brain edema .
+OBJECTIVE : To study the activation of sterol regulatory element binding protein ( SREBP ) and its critical role in endothelial cell migration .
+Analysis of gene expression revealed increased expression of ANGPT1 , ANGPT2 , platelet - derived growth factor - B , placental growth factor , and VEGF mRNA in AdCA5 - injected eyes .
+Both tumor - bearing ( TB ) and nontumor bearing ( NTB ) animals were gaining weight prior to study and the tumors were relatively small .
+The level of VEGF expression correlated inversely with the degree of splenomegaly ( Pearson , r = - 0 . 400 , p = 0 . 011 ) .
+Mechanisms for the magnolol - induced cell death of CGTH W - 2 thyroid carcinoma cells .
+However , the role of IL - 8 in non - Hodgkin ' s lymphoma ( NHL ) has not been fully determined .
+Actin signaling controls serum response factor ( SRF ) activity via SRF interaction with the myocardin - related transcriptional activator ( MRTF ) - A and tethering to a single CArG box sequence within the CCN1 promoter .
+Left ventricular weight , body weight , and their ratio were not significantly altered by alinidine treatment .
+The dominant negative mutant of Rac1 completely inhibited ephrin - B1 - induced membrane ruffling and focal complex assembly .
+The expression of 14 - 3 - 3zeta was upregulated in stage I NSCLC .
+In patients with resectable gastric cancer , the grade of infiltrating dendritic cells may be a suitable predictor of prognosis .
+F - 2 cells cultured on Matrigel showed evident tube formation , and coculture of F - 2 cells with A431 cells led to the formation of A431 cell nests constantly surrounded by tube - like networks consisting of F - 2 cells .
+Two of these spots were identified by MALDI - MS analysis as proliferating cell nuclear antigen ( PCNA ) and myeloid - leukemia - associated SET protein .
+Each consists of repetitive cycles of interaction with adjacent extracellular matrix components by mediating cellular adhesion , matrix dissolution , and cellular motility to achieve metastasis of cancer cells or neovascularization of tumors .
+Syndecan - 1 expression in mammary epithelial tumor cells is E - cadherin - dependent .
+Modulation of angiogenesis and progelatinase a by thrombin receptor mimetics and antagonists .
+Mechanisms responsible for hyperinvasiveness and resistance to anti - invasive action of TGFbeta .
+VEGF , angiopoietin - 1 and - 2 in bronchial asthma : new molecular targets in airway angiogenesis and microvascular remodeling .
+Histone deacetylase inhibitors ( HDACi ) are potent anti - cancer agents for variety of cancer types .
+Blockage of the Akt pathway attenuated CREB activation , and a decrease in CREB expression reduced cellular migration / invasion and activity of MMPs .
+This ultimately deprives VEGF receptors of an essential molecule required for promoting the disruption of endothelial cell - cell contacts and paracellular permeability .
+In the distraction group , a significant postoperative increase in MMP - 1 , bFGF , ALP , and BAP could be observed during the lengthening and the consolidation period when compared with the baseline levels .
+The effect of swainsonine ( active compound of locoweed and a potential anticancer drug ) on vascular development showed no differences in sinusoidal diameters at 7 weeks , but a decrease in capillary density was noted .
+In a complex organism , somatic cells are under intermittent selection pressure for the emergence of mutants that can survive environmental insults and that can grow autonomously despite adverse conditions .
+The antiproliferative effect of HAH - cortisol on endothelial cells appeared independent of the glucocorticoid activity of the steroid since HAH conjugated to 5 beta - pregnane - 3 alpha , 17 alpha , 21 - triol - 20 - one , a steroid lacking glucocorticoid or mineralocorticoid activity , was even more effective at inhibiting DNA synthesis by murine pulmonary capillary endothelial cells than was HAH - cortisol .
+Coexpression of keratin and vimentin was found in approximately 20 % of the tumors regardless of menopausal status .
+Hepatomas exhibiting this phenotype are dependent on the high expression of type II hexokinase , which supplies such tumors with abundant amounts of glucose 6 - phosphate , a significant carbon and energy source especially under hypoxic conditions .
+A role for NF - kappaB in cancer cells appears to involve regulation of cell proliferation , control of apoptosis , promotion of angiogenesis , and stimulation of invasion / metastasis .
+This implies that enhancing Nrf2 activity is a promising method for thwarting cancer .
+In vitro experiments confirmed that an increase in glucose availability induced Akt phosphorylation under reoxygenated conditions and consequently up - regulated HIF - 1alpha translation .
+These observations support the importance of ER in Ras - mediated cell transformation .
+Affymetrix - microarray analysis was performed using T47D cells over - expressing RASSF1C to identify RASSF1C target genes .
+Activation of MybER both prevented the growth arrest induced by interleukin - 6 ( IL - 6 ) and rapidly restored c - myc expression in nearly terminal differentiated cells that had been exposed to IL - 6 for 3 days .
+In vivo , tumors derived from cell clones expressing high levels of VEGF displayed significantly enhanced angiogenesis and more aggressive growth .
+RESULTS : A total of 13 PCNSLs ( 31 % ) demonstrated hypermethylation in either the promoter or exon 1 ; loss of HRK expression was immunohistochemically observed in 9 tumors and was significantly associated with promoter methylation .
+Correlating the results of these two methods and clinicopathological factors , the c - kit expression and c - kit gene mutation rates were 95 . 0 % ( 19 / 20 ) and 0 in benign GIST , and were 98 . 4 % ( 61 / 62 ) , 54 . 8 % ( 34 / 62 ) in malignant GIST .
+Heart rate decreased by 32 % for 20 to 40 minutes after injection and was chronically reduced by 10 % , 14 % , and 18 . 5 % after 1 , 2 , and 3 weeks of treatment , respectively .
+However , recent observations suggest more caution in accepting such a hypothesis .
+This suggests that the activity of topo I inhibitors will not differ across various tumor stages , pathology , and patient gender .
+Immunohistochemistry with 27 primary antibodies was performed in 100 formalin - fixed paraffin - embedded samples of invasive ductal carcinomas .
+These results suggest that SWAP - 70 may be required for oncogenic transformation and contributes to cell growth in MEFs transformed by v - Src .
+This study shows that angiogenin expression is up - regulated in the cytoplasmic and nuclear compartments in in situ carcinoma and invasive carcinoma compared with normal breast tissue and that angiogenin expression in invasive carcinomas is significantly positively associated with high tumour grade ( p = 0 . 03 ) , positive oestrogen receptor ( ER ) status ( p = 0 . 01 ) , HIF - 1 alpha ( p = 0 . 001 ) and DEC 1 ( p = 0 . 001 ) , but not with patient age ( p = 0 . 8 ) , tumour size ( p = 0 . 25 ) , lymph node status ( p = 0 . 69 ) , epidermal growth factor receptor ( p = 0 . 56 ) or microvessel density ( p = 0 . 32 ) .
+Angiogenesis has an essential role in promoting and supporting tumor growth and it is an important therapeutic target .
+Multiple studies are ongoing to determine the clinical benefits of aflibercept in cancer patients .
+Angiotensin II ( ANG II ) , a key regulator of blood pressure and body fluid homeostasis , exerts mitogenic effects on endothelial cells .
+These results indicated that Crk plays a critical role in Rac1 - induced membrane ruffling and Rap1 - mediated nascent focal complex stabilization contributing to ephrin - B1 - induced human aortic endothelial cells migration .
+Compared to controls , co - culture of MDA - MB - 231 cells with stromal or osteoblastic cells induced an increase in number of osteoclasts and TRAP activities .
+METHODS : Expression of MMP - 9 was studied in human NPC cell lines cultured in vitro : CNE1 ( well differentiated cell line of NPC ) and CNE1 - GL ( CNE1 cell line transfected with an eukaryotic LMP1 - expression plasmid ) by SP immunohistochemistry and Western blot analysis .
+2ME2 resulted in decreased nuclear HIF - 1alpha - binding activity and affected the expression of downstream genes , such as bid , a proapoptotic bcl - 2 family member , and vascular endothelial growth factor , a proangiogenic cytokine .
+Wnt signaling plays a critical role in regulating stem / progenitor cells in the mammary gland as well as other tissue compartments .
+The excessive production of ROS can damage protein , lipids , nucleic acids , and matrix components .
+A preponderance of viable fat , with evidence of neovascularization , was found in experimental flaps , compared with the necrotic fat that characterized the controls .
+Research on age - related impaired wound healing suggests that the decline in sex steroid hormones with age may have a substantial influence on the inflammatory response in vivo .
+Results show that the process : VEGF - a - - greater than EphA2 - - greater than MMPs - - greater than VM is the main pathway for VM formation and VEGF - a appears to play an important role in the formation of VM based on our in vitro assays and clinical immunohistochemical analyses .
+Disabling mutations and deletions of p53 occur in 50 % of human tumours .
+To investigate the possibility that this regulatory connection contributes to Myb ' s oncogenicity , we expressed a dominant negative Myb in the myeloid leukemic cell line RI - 4 - 11 .
+Comparison of tissue integration between polyester and polypropylene prostheses in the preperitoneal space .
+Most anti - angiogenic therapies for malignant gliomas are in Phase I / II trials and only modest efficacies are reported for monotherapies .
+Highly sensitive reverse - transcription polymerase chain reaction identifies an induction and overexpression of a type II - like tumor HK RNA in a range of cancer cell lines irrespective of tissue origin .
+Using multivariate analysis the S - 100beta level was the most powerful prognostic indicator , while the metastatic profile was found to be significant after exclusion of S - 100beta .
+Ablation of ADAM - 9 in fibroblasts almost completely abolished these cellular interactions and melanoma cell invasion in vitro .
+Tumor angiogenesis modulates leukocyte - vessel wall interactions in vivo by reducing endothelial adhesion molecule expression .
+Finally , intraperitoneal injection or oral administration of HTPB efficiently inhibited A549 xenograft tumor growth in vivo without side effects .
+These results suggest that prolonged treatment with tumor promoters alters the sensitivity of cells to activators of protein kinase C in a growth state - dependent manner .
+A synthetic tetracycline , doxycycline , inhibits migration of human MDA - MB - 435 breast adenocarcinoma cells through a reconstituted basement membrane ( Matrigel ) , an assay used as an in vitro surrogate for the in vivo process of tumor invasion through basement membranes .
+There was a significant correlation between E - cadherin and alpha - catenin expression , but no correlation was found between p53 expression and E - cadherin or alpha - catenin expression .
+The E2F - 1 protein is able to induce generalized apoptosis in gliomas independently of the p53 , p16 or Rb status .
+BACKGROUND : Survivin is a novel inhibitor of apoptosis commonly detected in tissues during fetal development and in cancer , but not usually in normal tissues .
+In this work , we show that LPA stimulates invasion of primary ovarian cancer cells , but not ovarian epithelial or borderline ovarian tumor cells , although these benign cells indeed respond to LPA in cell migration .
+It is suggested that inhibition of tumour angiogenesis by vitamin E may be an additional mechanism for the anticancer action of vitamin E .
+The effects of 5T4 expression on morphology and motility are separable since cells transfected with a truncated form of 5T4 cDNA in which the cytoplasmic domain is deleted reveal that the latter is necessary to abrogate actin / cadherin - containing contacts but does not influence the effects on motility .
+The activation of Na + transport is due to the exchange of protons formed via glucose conversion into lactate for Na + , i . e . , to the stimulation of the Na + / H + - antiport .
+The finding of retinal vasculopathy ( 32 patients in group 1 and two patients in group 2 ) was directly correlated with the presence of choroidal neovascularizations ( P = 0 . 002 ) .
+Expression of Bcl - xL , Bax , and p53 in primary tumors and lymph node metastases in oral squamous cell carcinoma .
+CONCLUSION : These data delineate an ERK - and Sp1 - dependent mechanism of M - CSF induced VEGF production and demonstrate for the first time the ability of M - CSF to induce angiogenesis via VEGF in vivo .
+Knockdown of VEGFR - 2 attenuated the sunitinib - induced effects , including apoptosis and inhibition of signaling pathways such as the phosphorylation of Akt as well as mTOR , and Bcl - 2 , which confirmed that these effects could be mediated by VEGFR - 2 .
+Opinions on 3 areas were sought : pulp therapy for cariously involved primary teeth ; indirect pulp treatment ( IPT ) for cariously involved immature permanent teeth ; and innovative treatment options including pulpal revascularization and regeneration .
+During these processes , proteolytic activities of tumor and stromal cells modify the extracellular matrix to produce a microenvironment suitable for their growth and migration .
+What was observed , however , was the multistep acquisition of aberrant cellular genetic changes in marrow cells from patients who transformed , including activating ras oncogene mutations , clonal cytogenetic abnormalities , and G - CSF receptor mutations .
+Further prospective studies are needed to prove the clinical impact of D2 - 40 .
+Our earlier studies showed that DATS induced apoptosis in human colon cancer HT29 and colo 205 cell lines in vitro .
+Gastric cancer tissue samples expressed CXCR4 with variable intensities .
+The differential regulation of human telomerase reverse transcriptase and vascular endothelial growth factor may contribute to the clinically more aggressive behavior of p63 - positive breast carcinomas .
+Other anti - angiogenic therapies alter the immune response and endogeneous angiogenesis inhibitor levels .
+Allergic pulmonary inflammation promotes the recruitment of circulating tumor cells to the lung .
+Both HKa and D5 decrease the speed of BPAE cell migration and alter the morphology in live , time - lapse microscopy after stimulation with S1P or VEGF .
+Vascular histomorphometry was carried out in two different areas in the distraction gap : ( 1 ) in the first and ( 2 ) in the second 1 mm area from the osteotomy line , representing the oldest and younger new - bone area , respectively .
+Effect of 1 - alkylpyrrolidine N - oxides on energy metabolism of cancer cells .
+Angiogenesis has become an attractive target for drug therapy because of its key role in tumor growth .
+Activation of PKA ( cAMP - dependent protein kinase ) by androgen increased phosphorylation of CREB [ CRE ( cAMP - response element ) - binding protein ] , which in turn bound to CRE on the promoter of the HK2 gene resulting in transcriptional activation of the HK2 gene .
+CONCLUSION : Osteopontin siRNA can inhibit U251 cells invasion via the down - regulation of uPA , MMP - 2 and MMP - 9 levels , and promote apoptosis through induction of Bax expression and inhibition of Bcl 2 level .
+In the present study , the vascular grade was assessed in 107 ( T1 , 2 - N0 , 1 ) operable non - small cell lung carcinomas , using the JC70 monoclonal antibody to CD31 .
+This work is again extremely significant for patients worldwide , as Dvorak ' s scientific research is leading his colleagues all over the world to examine how to treat a tumor through its blood supply .
+After 1 drug - free week , the second course was administered with 120 mg / body / day of TS - 1 for 4 weeks .
+Histological analysis demonstrated the presence of blood vessels throughout the soft connective tissue in the distraction gap .
+Here , we showed that proapoptotic activity of HDACi was robustly enhanced by E1A in multiple cancer cells , but not in normal cells .
+These results suggest that MnSO4 co - operates with overexpressed c - myc in inducing transformation , while 5 - azacytidine transformation is independent of c - myc overexpression and may involve alterations in the regulation of apoptosis .
+To assess its role on human vascular lung development , we first examined the expression of IGF - I / II and IGF receptor type I ( IGF - IR ) in human embryonic and fetal lung tissues at 4 - 12 wk of gestation .
+Non - specific PKC inhibitors staurosporine and bisindolylmaleimide II as well as inhibitors specific to conventional PKCs ( Go6976 ) and PKC - delta ( rottlerin ) attenuated NF - kappaB activation in BPDE treated cells to a varying degree indicating a possible link between PKC down - regulation and the attenuation of NF - kappaB activity by TSC phenolic fraction .
+KISS1 methylation and expression as tumor stratification biomarkers and clinical outcome prognosticators for bladder cancer patients .
+Members of the Runx and MYC families have been implicated as collaborating oncogenes .
+Glucocorticoid receptor - induced MAPK phosphatase - 1 ( MPK - 1 ) expression inhibits paclitaxel - associated MAPK activation and contributes to breast cancer cell survival .
+There is a crucial need to identify parameters that can predict a tendancy to metastatic spread to allow better prognostic evaluation and therapeutic approach .
+In the present study a DNA probe derived from cellular DNA sequences adjacent to the previously characterized HBV insert was used to analyze a set of 19 matched normal liver and HBV - positive hepatoma samples obtained from the same region of China , near Shanghai .
+The proliferative response of bovine retinal capillary endothelial cells to EGF is dependent upon attaching the cells to a matrix of fibronectin .
+A similar ser120 - gly mutation in NME1 has been found in human neuroblastoma , suggesting that mutation in this region may be a general phenomenon related to tumor progression .
+Our data identify what we believe to be new functions for PTHrP in several key steps of breast cancer and suggest that PTHrP may constitute a novel target for therapeutic intervention .
+Interestingly , the expression of IL - 17A from CD4 T cells in the lamina propria remains unchanged in the absence of IL - 17F .
+TEL bound sequences in the stromelysin - 1 promoter and repressed the promoter in transient - expression assays , suggesting that it is a direct target for TEL - mediated regulation .
+Hypoxia - induced gene expression in cancer cells has been linked to malignant transformation .
+To date , the potential oncogenic properties of Tsg101 have not been examined in vivo owing to the lack of appropriate model systems .
+Thus , neither the p53 - binding region nor the Bcl - 2 homology region of T antigen was sufficient to prevent cell death induced by the DNA - damaging agent .
+The translocation of GR was induced by FA alone , DMI alone , and combination of both agents .
+The success of current systemic and intravesical therapeutic agents , such as cisplatin , thiotepa , Adriamycin , mitomycin C , and bacillus Calmette - Guerin , is limited with recurrence rates reduced to 17 - 44 % .
+Histological examination of ovarian corrosion casts indicated that NS - 398 inhibited the establishment of luteal capillary vessels following the injection of hCG .
+Therefore , understanding these signaling mechanisms may provide us with novel ways to develop strategies for treating clinical diseases induced by these cytokines .
+Loss of CDC4 / FBXW7 in gastric carcinoma .
+High - affinity binding is reduced in EGFR . TDM / 18 - 26 , although the t1 / 2 of receptor internalization is not prolonged .
+In vivo studies with athymic nude mice demonstrated that injection of atx - transfected NIH3T3 cells resulted in a weak tumorigenic capacity with few experimental metastases .
+Both PLD1 and PLD2 also induced an up - regulation of the activity of matrix metalloprotease - 9 as detected by zymograms .
+Metastasis - associated 5T4 antigen disrupts cell - cell contacts and induces cellular motility in epithelial cells .
+Less frequent lesions ( invasive lobular , mucinous , and medullary carcinomas , radial scar ) will be also explained based on radiopathological correlations .
+When TB4 expression in B16F10 cells was inhibited by the infection with small hairpin ( sh ) RNA of TB4 cloned in lentiviral vector , tumor cell migration was retarded .
+CONCLUSIONS : This study provides evidence that EPOX induces glutathione depletion , ERK inactivation , and Mcl - 1 degradation on endothelial cells , which leads to inhibition of angiogenesis .
+CONCLUSIONS : PLGA microspheres with an open porous structure allowed significant amount of heparin immobilization and bFGF loading .
+Levels of FGFR1 , but not FGFR2 , were increased in embryonic aorta cultured under 5 % O ( 2 ) relative to room air .
+VEGF - targeted therapy : therapeutic potential and recent advances .
+Many observations in various animal models and humans support that the remodeling of preexisting collateral vessels is the mechanism of collateral artery formation .
+It is considered that resection of the primary tumor induces activation of systemic angiogenesis and enhances progression of remote metastasis .
+The tree / fruit can be divided into several anatomical compartments : ( 1 ) seed , ( 2 ) juice , ( 3 ) peel , ( 4 ) leaf , ( 5 ) flower , ( 6 ) bark , and ( 7 ) roots , each of which has interesting pharmacologic activity .
+However , the role of IL - 17F in intestinal tumorigenesis has not been addressed .
+Interestingly , Dss1 expression was also shown to be elevated in skin papillomas relative to normal skins , and further increased in squamous cell malignancies .
+Our data suggest that p - XSC inhibits multiple signaling pathways in prostate cancer , likely accounting for the downstream effects on proliferation and apoptosis .
+Recent studies , however , indicate that even under normal physiological conditions certain activities of p53 participate in homeostatic regulation of metabolic processes and that these activities are important for prevention of cancer .
+OBJECTIVE : To investigate the effect of vascular bundle implantation in autogenous bone graft on angiogenesis .
+Formation of new bone during vertical distraction osteogenesis of the human mandible is related to the presence of blood vessels .
+Oxygent perfusion medium increased the TET epithelial PtO ( 2 ) ( 51 . 2 + / - 0 . 3 mm Hg vs . 33 . 4 + / - 0 . 3 mm Hg at 200 microm thickness ; 12 . 5 + / - 0 . 1 mm Hg vs . 3 . 1 + / - 0 . 1 mm Hg at 400 microm thickness , p less than 0 . 01 ) and decreased the lactate concentration ( 0 . 63 + / - 0 . 08 vs . 0 . 80 + / - 0 . 06 mmol / L , p less than 0 . 05 ) , lactate / pyruvate ( 1 . 87 + / - 0 . 26 vs . 3 . 36 + / - 10 . 13 , p less than 0 . 05 ) , and lactate / glucose ratios ( 0 . 10 + / - 0 . 00 vs . 0 . 29 + / - 0 . 14 , p less than 0 . 05 ) .
+The resulting clusters were correlated to patients with or without lymph node involvement .
+Because PIM - 1 is a STAT5 target gene , we analyzed the role of the family of PIM serine / threonine kinases ( PIM - 1 to PIM - 3 ) in PTK - mediated transformation of hematopoietic cells .
+Rat tissues known to express these glucose transporters were used as controls .
+Moreover , when introduced into nude mice , selected clones generated from either gene were able to induce tumors , although those carrying the mutated version were more efficient .
+Basic fibroblast growth factor : a missing link between collagen VII , increased collagenase , and squamous cell carcinoma in recessive dystrophic epidermolysis bullosa .
+The effects on endothelial cells occur in vitro at low drug concentrations , which do not affect microtubule gross morphology , do not cause microtubule bundling or microtubule loss and do not induce cell cycle arrest , apoptosis , or cell death .
+The most intense immunoreactivity was observed in branching capillaries .
+Additionally , the angiogenic and lymphangiogenic profiles of the tumors were characterized .
+Binding of anticalretinin antiserum to living mesothelial cells was consistently documented in all four cases investigated .
+The role of p53 in pigmentation , tanning and melanoma .
+Unlike wounds , however , that turn off VPF production after healing , tumors did not turn off their VPF production and instead continued to make large amounts of VPF , allowing malignant cells to continue to induce new blood vessels and so to grow and spread .
+Cooperative activation of Meis1 and Hoxa9 perturbs myeloid differentiation and eventually leads myeloid progenitors to leukemia , yet it remains to be clarified what kinds of subsequent molecular processes are required for development of overt leukemia .
+Furthermore , mast cells have no mitogenic activity for capillary endothelial cells .
+The activated PI3K ( phosphoinositide 3 - kinase ) / Akt signalling pathway in LNCaP cells contributes to the phosphorylation of PFKFB2 at Ser466 and Ser483 , resulting in the constitutive activation of PFK - 2 ( 6 - phosphofructo - 2 - kinase ) activity .
+IL - 1Ra also improved islet vascularization , reduced fibrosis and ameliorated glycemia .
+The expression of the transfected oncogenes in this cell line was examined in comparison with the erythrophoroma cells by Western and Northern blot analyses .
+Gene array analysis identified significant increases in the expression of mammary epithelial growth factors Wisp2 and Igf - 1 in Tip30 ( - / - ) cells .
+We have been investigating which coagulation factors simultaneously , or subsequently with platelet aggregation , participate in thrombus formation .
+In extracts of growing and stationary Swiss 3T3 cells , the total amount of protein kinase C activity was similar , indicating that growth state does not alter the level of enzyme in the cell .
+BACKGROUND : Angiogenesis is essential for tumor growth and relies on the production of angiogenic factors .
+mRNA expression levels of angiogenesis stimulators and inhibitors were determined by quantitative RT - PCR .
+To define these roles more clearly , we examined the expression of DCC and its ligand , netrin - 1 , in the normal endometrium and in endometrial cancer .
+Indeed , we would hypothesize that these angiogenic markers - - especially the angiopoietins - - do not necessarily translate into new vessel formation in congestive heart failure ( CHF ) , but may well reflect disturbances of endothelial integrity in CHF .
+Simultaneously , MMP - 2 expression increases with malignancy .
+Also , the combination of docetaxel and ATRA might allow a reduction in docetaxel doses and by this way may diminish docetaxel adverse effects while maintaining the therapeutic effect in patients with HRPC .
+Four human cervical cancer cell lines were treated for 24 h with various concentration of paclitaxel , and the sensitivity was analysed by an MTT assay .
+We investigated the roles of the prostaglandin synthases cyclooxygenase ( COX ) I and COX - II in angiogenesis and progesterone production in the newly formed CL , using inhibitors of the COX enzymes and the gonadotropin - induced pseudopregnant rat as a model .
+Both basal ( 2 . 3 + / - 0 . 2 mumol / 100 g / minute , P = 0 . 061 ) and insulin - stimulated ( 8 . 5 + / - 1 . 9 mumol / 100 g / minute , P = 0 . 055 ) skeletal arm muscle glucose uptake rates were higher in control subjects than in patients .
