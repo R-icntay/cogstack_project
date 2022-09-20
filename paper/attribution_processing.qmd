@@ -1,0 +1,839 @@
+---
+title: "Processing attributions"
+author: "Eric Wanjau"
+toc: true
+format: 
+  html:
+    number-sections: true
+    toc-location: left
+    code-tools: true
+    code-fold: false
+    code-link: true
+editor: visual
+execute: 
+  warning: false
+  message: false
+---
+
+In this notebook, we process the attributions relating to specific named entities:
+
+```{r}
+vv=(read_csv("attributions/B_Cell_attributions.csv",
+                      show_col_types = FALSE) %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr))
+```
+
+### Cell atrributions
+
+```{r}
+library(tidyverse)
+library(here)
+options(scipen = 999)
+source("cleaneR.R")
+# Import data and calculate attributions per sentence
+cell_attr <- read_csv("attributions/B_Cell_attributions.csv",
+                      show_col_types = FALSE) %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data)
+
+# View some data
+cell_attr %>% 
+  slice_head(n = 30)
+
+# Aggregate attributions over all sentences
+agg_cell_attr <- cell_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+  group_by(tokens) %>% 
+  summarise(
+    n_occur = n(),
+    cell_mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>%
+  arrange(across(c(cell_mean_attr_score, n_occur), desc))
+# %>% 
+#   left_join(idf_term(cell_attr), by = "tokens")
+```
+
+#### Extracting class keywords
+
+One measure of how important a word may be is its *term frequency* (tf), how frequently a word occurs in a document.
+
+Another approach is to look at a term's *inverse document frequency* (idf), which decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents.
+This can be combined with term frequency to calculate a term's *tf-idf* (the two quantities multiplied together), the frequency of a term adjusted for how rarely it is used.
+
+\$\$
+
+idf(term)= ln(\frac{n_{documents}}{n_{documents containing term}})
+
+\$\$
+
+```{r}
+idf_term <- function(sentence_attr){
+  sentence_attr %>% 
+   ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+  #distinct(sentence_id)
+  distinct(sentence_id, tokens) %>% 
+  mutate(n_docs = length(unique(sentence_id))) %>% 
+  group_by(tokens) %>% 
+  mutate(n_docs_term = n()) %>% 
+  ungroup() %>% 
+  mutate(idf = log(n_docs / n_docs_term)) %>% 
+  distinct(tokens, idf)
+    
+}
+
+# cell_attr %>% 
+#   ungroup() %>% 
+#   filter(attr_scores != 0) %>% 
+#   #distinct(sentence_id)
+#   distinct(sentence_id, tokens) %>% 
+#   mutate(n_docs = length(unique(sentence_id))) %>% 
+#   group_by(tokens) %>% 
+#   mutate(n_docs_term = n()) %>% 
+#   ungroup() %>% 
+#   mutate(idf = log(n_docs / n_docs_term)) 
+```
+
+### Cancer attributions
+
+```{r}
+# Import data and calculate attributions per sentence
+cancer_attr <- read_csv("attributions/B_Cancer_attributions.csv",
+                      show_col_types = FALSE) %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data)
+
+
+# View some data
+cancer_attr %>% 
+  slice_head(n = 30)
+
+# Aggregate attributions over all sentences
+agg_cancer_attr <- cancer_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+  group_by(cancer_tokens = tokens) %>% 
+  summarise(
+    n_occur = n(),
+    cancer_mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>%
+  arrange(across(c(cancer_mean_attr_score, n_occur), desc))
+
+```
+
+### Organ attributions
+
+```{r}
+# Import data and calculate attributions per sentence
+organ_attr <- read_csv("attributions/B_Organ_attributions.csv",
+                      show_col_types = FALSE) %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data)
+
+# View some data
+organ_attr %>% 
+  slice_head(n = 30)
+
+# Aggregate attributions over all sentences
+agg_organ_attr <- organ_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+  group_by(organ_tokens = tokens) %>% 
+  summarise(
+    n_occur = n(),
+    organ_mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>%
+  arrange(across(c(organ_mean_attr_score, n_occur), desc))
+```
+
+### Gene attributions
+
+```{r}
+# Import data and calculate attributions per sentence
+gene_attr <- read_csv("attributions/B_Gene_or_gene_product_attributions.csv",
+                      show_col_types = FALSE) %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data)
+
+# View some data
+gene_attr %>% 
+  slice_head(n = 30)
+
+# Aggregate attributions over all sentences
+agg_gene_attr <- gene_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+  group_by(gene_tokens = tokens) %>% 
+  summarise(
+    n_occur = n(),
+    gene_mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>%
+  arrange(across(c(gene_mean_attr_score, n_occur), desc))
+```
+
+### Distinctiveness (intrinsic)
+
+This assesses the distinctiveness of keywords, by looking at keyword overlap.
+Specifically, it measures the fraction of keywords unique to a class, averaged across all classes
+
+::: callout-note
+Keywords were selected on the naive basis that their attribution scores were greater than 0.75 quantile.
+:::
+
+```{r}
+# Cancer keywords
+kw_cancer <-  agg_cancer_attr %>%
+  filter(cancer_mean_attr_score > quantile(cancer_mean_attr_score, probs = 0.75)) %>% 
+  mutate(tag = "cancer") %>% 
+  `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# # %>%
+#   pull(cancer_tokens)
+
+# Cell keywords
+kw_cell <-  agg_cell_attr %>%
+  filter(cell_mean_attr_score > quantile(cell_mean_attr_score, probs = 0.75)) %>% 
+   mutate(tag = "cell") %>% 
+  `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag")) %>% 
+  mutate(tokens = str_remove(tokens, pattern = "[^[:alnum:]]")) %>% 
+  filter(str_length(tokens) != 0)
+# %>%
+#  pull(tokens)
+
+# Organ keywords
+kw_organ <-  agg_organ_attr %>%
+  filter(organ_mean_attr_score > quantile(organ_mean_attr_score, probs = 0.75)) %>% 
+  mutate(tag = "organ") %>% 
+  `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag")) 
+# %>%
+#  pull(organ_tokens)
+
+# Gene keywords
+kw_gene <-  agg_gene_attr %>%
+  filter(gene_mean_attr_score > quantile(gene_mean_attr_score, probs = 0.75)) %>% 
+  mutate(tag = "gene") %>% 
+  `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# %>%
+#  pull(gene_tokens)
+
+# Calucalte intrinsic distinctive measure
+distinct_measure(list(kw_cancer, kw_cell, kw_organ, kw_gene))
+```
+
+### Coverage
+
+We define coverage of a class as the average proportion of keywords that occur across all its documents, and the global coverage as the macro average across all its classes:
+
+::: callout-note
+for texts belonging to a class T_c ratio of keywords in a given text to all keywords for that class
+:::
+
+```{r}
+# Coverage
+# Function that takes a tibble attributions and key words
+# and calculates coverage
+coverage_measure <- function(attributions, key_words){
+  attributions %>% 
+    filter(attr_scores != 0) %>%
+    # Account for repeating sentences
+    group_by(sentence_id, row_id) %>% 
+    filter(tokens %in% key_words$tokens) %>% 
+    add_count(name = "kw_in_sntnc") %>% 
+    ungroup() %>% 
+    mutate(total_kw = nrow(key_words),
+           coverage = kw_in_sntnc/total_kw) %>% 
+    distinct(sentence_id, coverage) %>% 
+    summarise(coverage = mean(coverage)) %>% 
+    pull(coverage)
+      
+}
+
+# Apply function to multiple keword attributions
+attributions_list <- list(
+  cancer_attr,
+  cell_attr,
+  gene_attr,
+  organ_attr
+  
+)
+
+key_word_list <- list(
+  kw_cancer,
+  kw_cell,
+  kw_gene,
+  kw_organ
+)
+
+pmap_dbl(list(attributions_list, key_word_list), coverage_measure) %>% 
+  mean()
+```
+
+```{r}
+
+## Helper functions ##
+
+# Function that finds unique tokens in a sentence
+tkn_count <-  function(token){
+  if(exists("counter")){
+    if(!str_detect(token, "##")){
+    tkn_n = counter
+    counter <<- tkn_n + 1
+    } else{
+    tkn_n = counter - 1
+  }
+    
+  }else{
+    counter <<- 1 
+    if(!str_detect(token, "##")){
+    tkn_n = counter
+    counter <<- tkn_n + 1
+    } else{
+    tkn_n = counter - 1
+  }
+    
+  }
+  # Remove after every sentence
+  if(token == "[SEP]"){
+    rm(counter, pos = globalenv())
+  }
+  
+  
+  return(tkn_n)
+}
+
+# Function that splits atttributions into a tibble
+# finds mean attributions on a word basis
+add_scores <- function(tokens){
+  tokens %>% 
+    str_split(" \\(") %>% 
+    unlist() %>% 
+    tibble(tokens = ., ) %>%
+    mutate(rn = row_number()) %>% 
+    group_by(rn) %>% 
+    mutate(
+      tokens = str_split(tokens, ", ", n = 2) %>% 
+        unlist() %>% 
+        str_c(collapse = "!!")) %>% 
+    separate(col = tokens, into = c("tokens", "attr_scores"), sep = "!!") %>%
+    ungroup() %>% 
+    mutate(
+      # Parse numbers for attribution scores
+      attr_scores = parse_number(attr_scores),
+      
+      # Make numeric to be double for calculations
+      across(where(is.numeric), as.double),
+      
+      # Remove quotes at the start and end of string
+      tokens = case_when(
+        tokens == "\"'\"" ~ str_extract(tokens, "[']"),
+        TRUE ~ str_remove_all(tokens, "['']"))) %>% 
+            #tokens %>% str_remove("^[']")) %>% 
+    group_by(rn) %>% 
+    mutate(unq_tokens = tkn_count(tokens)) %>% 
+    ungroup() %>% 
+    group_by(unq_tokens) %>% 
+    summarize(tokens = str_c(tokens, collapse = "") %>% str_remove_all("##"),
+           attr_scores = mean(attr_scores)) %>% 
+    ungroup()
+}
+
+
+# Function that calculates distinct keywords and distinctiveness measure
+distinct_measure <- function(tbl_list){
+  if(is.list(tbl_list)){ # Not working, df is a list?
+  tbl_list %>% 
+    bind_rows() %>%
+    add_count(tag, name = "tag_count") %>% 
+    # Remove key words that occur in more than 1 tag ie duplicated
+    filter(!(tokens %in% keep(.$tokens, duplicated(.$tokens)))) %>%
+    add_count(tag, name = "dst_tag_count") %>% 
+    mutate(distinct_ratio = dst_tag_count/tag_count) %>% 
+    distinct(tag, distinct_ratio) %>% 
+    mutate(distinct_measure = mean(distinct_ratio))
+  } else{
+    stop("input is not a list")
+  }
+  
+}
+```
+
+```{r}
+# 
+# ## Manual way of function distinct_measure##
+# 
+# # Cancer keywords
+# kw_cancer <-  agg_cancer_attr %>%
+#   filter(cancer_mean_attr_score > quantile(cancer_mean_attr_score, probs = 0.75)) %>% 
+#   mutate(tag = "cancer") %>% 
+#   # `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# # %>%
+#   pull(cancer_tokens)
+# 
+# # Cell keywords
+# kw_cell <-  agg_cell_attr %>%
+#   filter(cell_mean_attr_score > quantile(cell_mean_attr_score, probs = 0.75)) %>% 
+#    mutate(tag = "cell") %>% 
+#   # `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# # %>%
+#   pull(tokens)
+# 
+# # Organ keywords
+# kw_organ <-  agg_organ_attr %>%
+#   filter(organ_mean_attr_score > quantile(organ_mean_attr_score, probs = 0.75)) %>% 
+#   #  mutate(tag = "organ") %>% 
+#   # `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# # %>%
+#   pull(organ_tokens)
+# 
+# # Gene keywords
+# kw_gene <-  agg_gene_attr %>%
+#   filter(gene_mean_attr_score > quantile(gene_mean_attr_score, probs = 0.75)) %>% 
+#   #  mutate(tag = "gene") %>% 
+#   # `colnames<-`(c("tokens", "n_occur", "mean_attr_score", "tag"))
+# # %>%
+#   pull(gene_tokens)
+# 
+# 
+# # Fraction of keywords only found on cancer keywords
+# ddcan <- discard(kw_cancer, kw_cancer %in% c(kw_cell, kw_organ, kw_gene))
+# 
+# # Fraction of keywords only found in cell keywords
+# ddcell <- discard(kw_cell, kw_cell %in% c(kw_cancer, kw_organ, kw_gene))
+# 
+# # Fraction of keywords only found in organ keywords
+# ddorgan <- discard(kw_organ, kw_organ %in% c(kw_cancer, kw_cell, kw_gene))
+# 
+# # Fraction of keywords only found in gene keywords
+# ddgene <- discard(kw_gene, kw_gene %in% c(kw_cancer, kw_cell, kw_organ))
+# 
+# ## Distinctiveness measure
+# sum((length(ddcan)/length(kw_cancer)), (length(ddcell)/length(kw_cell)), (length(ddorgan)/length(kw_organ)), (length(ddgene)/length(kw_gene)))/4
+# 
+# mean(c((length(ddcan)/length(kw_cancer)), (length(ddcell)/length(kw_cell)), (length(ddorgan)/length(kw_organ)), (length(ddgene)/length(kw_gene))))
+
+
+# tbl_list2 <- list(kw_cancer, kw_cell, kw_organ, kw_gene) %>% 
+#   bind_rows() %>%
+#   add_count(tag, name = "tag_count") %>% 
+#   # Remove key words that occur in more than 1 tag ie duplicated
+#   filter(!(tokens %in% keep(.$tokens, duplicated(.$tokens)))) %>%
+#   add_count(tag, name = "dst_tag_count") %>% 
+#   mutate(distinct_ratio = dst_tag_count/tag_count) %>% 
+#   distinct(tag, distinct_ratio) %>% 
+#   mutate(distinct_measure = mean(distinct_ratio)) %>% 
+#   distinct(distinct_measure) %>% 
+#   pull()
+```
+
+```{r}
+# Function that calculates the proportion of keywords
+# that occur in a document
+df_coverage <- function(tbl){
+  tbl %>% left_join(tbl %>% 
+    summarise(tokens = str_c(tokens, collapse = " ")) %>% 
+    pull(tokens) %>% 
+    str_count(pattern = paste0("\\b", kw_cell$tokens, "\\b")) %>% 
+    tibble(kw_count = .,
+           tokens = kw_cell$tokens), by = "tokens")
+}
+```
+
+```{r}
+tmp2 = (
+  cell_attr %>% 
+    filter(attr_scores != 0) %>% 
+    select(sentence_id, row_id, tokens) %>%
+    group_by(sentence_id, row_id) %>% 
+    summarise(tokens = tokens %>% str_c(collapse = " ")) %>%
+    ungroup() %>% 
+    slice(n = 1) %>% 
+    group_by(sentence_id, row_id) %>% 
+    mutate(
+      n_kw = tokens %>% 
+        # Count keywords in the sentence
+        str_count(paste0("\\b", kw_cell$tokens, "\\b")) %>%
+        sum(),
+      
+      t_kw = nrow(kw_cell),
+      
+      kw_ratio = n_kw/t_kw) %>% 
+    # mutate(text_kw =  keep(
+    #   tokens %>% str_split(" ") %>% unlist(),
+    #   
+    #   tokens %>% str_split(" ") %>% unlist() %in% kw_cell$tokens
+    #   
+    #                      ) %>% list()) %>% 
+    # nest(data = text_kw) %>% 
+    ungroup()
+    # nest(data = tokens) %>% 
+    # #slice(n = 1) %>% 
+    # mutate(data = map(data, df_coverage))
+    
+)
+```
+
+```{r}
+# Easiest solution
+gene_attr %>% 
+  filter(attr_scores != 0) %>%
+  group_by(sentence_id, row_id) %>% 
+  filter(tokens %in% kw_gene$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_gene),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, coverage) %>% 
+  summarise(coverage = mean(coverage)) %>% 
+  View() 
+  
+  # group_by(sentence_id) %>% 
+  # summarize(coverage = kw_in_sntnc/n_kw) %>% 
+  # ungroup() %>% 
+  # distinct(sentence_id, coverage) %>% 
+  # summarise(mean = mean(coverage), sum = sum(coverage)) %>% 
+  # View() 
+  
+```
+
+```{r}
+# # Function that takes a tibble attributions and key words
+# # and calculates coverage
+# coverage_measure <- function(attributions, key_words){
+#   attributions %>% 
+#     filter(attr_scores != 0) %>%
+#     # Account for repeating sentences
+#     group_by(sentence_id, row_id) %>% 
+#     filter(tokens %in% key_words$tokens) %>% 
+#     add_count(name = "kw_in_sntnc") %>% 
+#     ungroup() %>% 
+#     mutate(total_kw = nrow(key_words),
+#            coverage = kw_in_sntnc/total_kw) %>% 
+#     distinct(sentence_id, coverage) %>% 
+#     summarise(coverage = mean(coverage)) %>% 
+#     pull(coverage)
+#       
+# }
+# 
+# # Apply function to multiple keword attributions
+# attributions_list <- list(
+#   cancer_attr,
+#   cell_attr,
+#   gene_attr,
+#   organ_attr
+#   
+# )
+# 
+# key_word_list <- list(
+#   kw_cancer,
+#   kw_cell,
+#   kw_gene,
+#   kw_organ
+# )
+# 
+# pp=pmap_dbl(list(attributions_list, key_word_list), coverage_measure)
+```
+
+### Distinctiveness (extrinsic)
+
+Coverage of keywords within a class relative to the coverage across the class boundary of unrelated documents.
+Not sure how this would work if all tags are in all documents.
+
+```{r}
+# all_st = tr %>% distinct(sentence_id, tk_indicator)
+#kk = all_st$sentence_id
+# Starting with organ
+# Find texts where no organ is labelled
+tr = organ_attr %>% 
+  mutate(tk_indicator = "organ"
+           # . %>% slice(n = 1) %>% pull(tokens) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2)
+           ) %>% 
+  bind_rows(cancer_attr %>% mutate(tk_indicator = "cancer")) %>% 
+  bind_rows(gene_attr %>% mutate(tk_indicator = "gene")) %>% 
+  bind_rows(cell_attr %>% mutate(tk_indicator = "cell")) 
+# %>%
+#       # Remove key words that occur in more than 1 tag ie duplicated
+#   group_by(tk_indicator) %>%
+#   filter(!(sentence_id %in% keep(kk, duplicated(kk)))) 
+# %>%
+#     filter(!(sentence_id %in% keep(kk, duplicated(kk))))
+# View(
+#   organ_attr %>% 
+#     filter(!(sentence_id %in% keep(kk, duplicated(kk)))) %>% 
+#     distinct(sentence_id)
+# )
+
+
+tr %>% 
+  filter(tk_indicator != "organ")
+```
+
+```{r}
+stnc_or = organ_attr %>% distinct(sentence_id)
+not_sntnc_org = tr %>% filter(tk_indicator != "organ") %>% filter(!(sentence_id %in% stnc_or$sentence_id))
+```
+
+```{r}
+# Extrinsic distinctiveness for organ keywords
+#Keywords for organ found in non organ texts
+not_sntnc_org %>% 
+  filter(attr_scores != 0) %>%
+  group_by(sentence_id, row_id, tk_indicator) %>% 
+  filter(tokens %in% kw_organ$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_organ),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, tk_indicator, coverage) %>% 
+  group_by(tk_indicator) %>% 
+  summarise(coverage = mean(coverage))
+
+
+```
+
+```{r}
+stnc_can = cancer_attr %>% distinct(sentence_id)
+not_sntnc_can = tr %>% filter(tk_indicator != "cancer") %>% filter(!(sentence_id %in% stnc_can$sentence_id))
+
+
+# Extrinsic distinctiveness for organ keywords
+#Keywords for organ found in non organ texts
+not_sntnc_can %>% 
+  filter(attr_scores != 0) %>%
+  group_by(sentence_id, row_id, tk_indicator) %>% 
+  filter(tokens %in% kw_cancer$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_cancer),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, tk_indicator, coverage) %>% 
+  #group_by(tk_indicator) %>% 
+  summarise(coverage = mean(coverage))
+```
+
+```{r}
+cell_attr %>% 
+  filter(!(sentence_id %in% stnc_or$sentence_id)) %>% 
+  filter(attr_scores != 0) %>%
+  group_by(sentence_id, row_id) %>% 
+  filter(tokens %in% kw_organ$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_organ),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, coverage) %>% 
+  summarise(coverage = mean(coverage))
+```
+
+```{r}
+ext_coverage <- function(){
+  
+}
+```
+
+```{r}
+
+organ_attr <- organ_attr %>% mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+cancer_attr <- cancer_attr %>% mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+cell_attr <- cell_attr %>% mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+gene_attr <- gene_attr %>% mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+
+
+```
+
+```{r}
+tr2 <- organ_attr %>% 
+  bind_rows(cancer_attr) %>% 
+  bind_rows(cell_attr) %>% 
+  bind_rows(gene_attr)
+
+all_sentences <- tr2 %>% 
+  distinct(sentence_id, tag)
+
+# Organ sentences
+organ_sentences <- all_sentences %>% 
+  filter(tag == "Organ") %>% 
+  pull(sentence_id)
+
+# Not organ sentences 
+not_organ_sentences <- tr2 %>% 
+  filter(!(sentence_id %in% organ_sentences))
+
+# Find coverage of organ key words in other sentences
+not_organ_sentences %>% 
+  coverage_measure(kw_organ, tag)
+
+
+
+
+  filter(attr_scores != 0) %>% 
+  group_by(sentence_id, row_id, tag) %>% 
+  filter(tokens %in% kw_organ$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_organ),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, tag, coverage) %>% 
+  #group_by(tag) %>% 
+  summarise(coverage = mean(coverage)) 
+
+
+distinct_sentences <- tr2 %>% 
+  filter(!(sentence_id %in% keep(all_sentences$sentence_id, duplicated(all_sentences$sentence_id))))
+
+# Remove organs and find coverage of organ key words in other sentences
+distinct_sentences %>% 
+  filter(tag != "Organ") %>% 
+  filter(attr_scores != 0) %>%
+  group_by(sentence_id, row_id, tag) %>% 
+  filter(tokens %in% kw_organ$tokens) %>% 
+  add_count(name = "kw_in_sntnc") %>% 
+  ungroup() %>% 
+  mutate(n_kw = nrow(kw_organ),
+         coverage = kw_in_sntnc/n_kw) %>% 
+  distinct(sentence_id, tag, coverage) %>% 
+  group_by(tag) %>% 
+  summarise(coverage = mean(coverage))
+```
+
+```{r}
+coverage_measure <- function(attributions, key_words, ...){
+  attributions %>% 
+    filter(attr_scores != 0) %>%
+    # Account for repeating sentences
+    group_by(sentence_id, row_id, ...) %>% 
+    filter(tokens %in% key_words$tokens) %>% 
+    add_count(name = "kw_in_sntnc") %>% 
+    ungroup() %>% 
+    mutate(total_kw = nrow(key_words),
+           coverage = kw_in_sntnc/total_kw) %>% 
+    distinct(sentence_id, ..., coverage) %>% 
+    summarise(coverage = mean(coverage)) %>% 
+    pull(coverage)
+      
+}
+```
+
+```{r}
+ext_coverage_engine <- function(named_entity, kw_list, all_sentences, all_attr){
+   # Tag sentences
+   tag_sentences <- all_sentences %>% 
+     filter(tag == named_entity) %>% 
+     pull(sentence_id)
+   
+   # Not tag sentences
+   not_tag_sentences <- all_attr %>% 
+     filter(!(sentence_id %in% tag_sentences))
+   
+   # Find coverage of organ key words in other sentences
+   coverage = not_tag_sentences %>% 
+     coverage_measure(kw_list, tag)
+   
+   return(coverage)
+
+   
+}
+
+pmap(list(list(tags), list(kw_organ)),~ ext_coverage_engine(.x, .y, all_sentences = all_sentences, all_attr = all_attr))
+```
+
+```{r}
+# all_attr <- organ_attr %>% 
+#   bind_rows(cancer_attr) %>% 
+#   bind_rows(cell_attr) %>% 
+#   bind_rows(gene_attr)
+# 
+# all_sentences <- all_attr %>% 
+#   distinct(sentence_id, tag)
+# 
+# tags = all_sentences %>% 
+#   distinct(tag) %>% pull(tag)
+# 
+# tags = "Organ"
+
+ext_coverage <- function(tbl_list, tag_list, kw_list){
+  
+  # Combine all attributes
+  all_attr = tbl_list %>%
+    bind_rows()
+
+# Find all sentences in a tag e.g cancer, organ
+  all_sentences <- all_attr %>%
+    distinct(sentence_id, tag)
+
+# Find tags in the tbl list
+  # tags = all_sentences %>%
+  #   distinct(tag) %>% pull(tag)
+ #tags = "Organ"
+  
+# Apply a function for each tag
+  # purrr::pmap(list(list(tags), kw_list), ext_coverage_engine(all_sentences, all_attr))
+  
+purrr::pmap(list(tag_list, kw_list), ~ ext_coverage_engine(.x, .y, all_sentences = all_sentences, all_attr = all_attr))
+  
+}
+
+ext_coverage_engine <- function(named_entity, kw_list, all_sentences, all_attr){
+   # Tag sentences
+   tag_sentences <- all_sentences %>% 
+     filter(tag == named_entity) %>% 
+     pull(sentence_id)
+   
+   # Not tag sentences
+   not_tag_sentences <- all_attr %>% 
+     filter(!(sentence_id %in% tag_sentences))
+   
+   # Find coverage of organ key words in other sentences
+   coverage = not_tag_sentences %>% 
+     coverage_measure(kw_list, tag)
+   
+   return(coverage)
+
+   
+}
+
+
+ext_coverage(tbl_list = list(organ_attr, cancer_attr, cell_attr, gene_attr), tag_list = list("Cancer", "Organ"), kw_list = list(kw_cancer, kw_organ))
+
+# 0.01282616
+# 0.03213778
+
+
+```

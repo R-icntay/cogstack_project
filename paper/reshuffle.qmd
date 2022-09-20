@@ -1,0 +1,170 @@
+---
+title: "Reshuffling train, validation and test data"
+format: html
+editor: visual
+---
+
+## Reshuffling data
+
+To find the stable words, we reshuffle the data and train an NLP model *N* times
+
+```{r}
+library(tidyverse)
+library(here)
+# Read original data
+train <- tibble(
+  tokens = read_lines("data/train_tokens.txt"),
+  labels = read_lines("data/train_labels.txt")
+                       )
+# train_labels <- tibble(labels = read_lines("data/train_labels.txt"))
+
+
+test <- tibble(
+  tokens = read_lines("data/test_tokens.txt"),
+  labels = read_lines("data/test_labels.txt")
+  )
+# test_labels <- tibble(labels = read_lines("data/test_labels.txt"))
+
+validation <- tibble(
+  tokens = read_lines("data/validation_tokens.txt"),
+  labels = read_lines("data/validation_labels.txt")
+  )
+# validation_labels <- tibble(labels = read_lines("data/validation_labels.txt"))
+
+# Put everything into one tibble
+all_data <- train %>% 
+  bind_rows(validation) %>% 
+  bind_rows(test) %>% 
+  rowid_to_column()
+
+# Function that samples and stores data
+sample_store <- function(tbl, dir = NULL){
+  if(is.null(dir) || dir.exists(dir)){
+    stop("Please Enter a valid_directory or a new directory")
+  } else{
+    dir.create(dir)
+    # Sample subset
+  all_data_sampled <<- tbl %>% 
+    slice_sample(n = nrow(tbl))
+  
+  # Save new data
+  
+  # Save train tokens
+  all_data_sampled %>% 
+    slice_head(n = 3201) %>% 
+    pull(tokens) %>% 
+    write_lines(paste(dir, "train_tokens.txt", sep = "/"))
+  
+  # Save train labels
+  all_data_sampled %>% 
+    slice_head(n = 3201) %>% 
+    pull(labels) %>% 
+    write_lines(paste(dir, "train_labels.txt", sep = "/"))
+  
+  
+  # Save validation tokens
+  all_data_sampled %>% 
+    slice((nrow(train)+1):(nrow(train) + nrow(validation))) %>%
+    pull(tokens) %>% 
+    write_lines(paste(dir, "validation_tokens.txt", sep = "/"))
+  
+  # Save validation labels
+  all_data_sampled %>% 
+    slice((nrow(train)+1):(nrow(train) + nrow(validation))) %>%
+    pull(labels) %>% 
+    write_lines(paste(dir, "validation_labels.txt", sep = "/"))
+  
+  # Save test tokens
+  all_data_sampled %>% 
+    slice_tail(n = nrow(test)) %>% 
+    pull(tokens) %>% 
+    write_lines(paste(dir, "test_tokens.txt", sep = "/"))
+  
+  # Save test labels
+  all_data_sampled %>% 
+    slice_tail(n = nrow(test)) %>% 
+    pull(labels) %>% 
+    write_lines(paste(dir, "test_labels.txt", sep = "/"))
+      
+  }
+  
+  cat("Data saved in", dir)
+}
+```
+
+```{r}
+sample_store(tbl = all_data, dir = "reshuffle_10")
+```
+
+```{r}
+# library(tidyverse)
+# library(here)
+# # Read original data
+# train <- tibble(
+#   tokens = read_lines("data/train_tokens.txt"),
+#   labels = read_lines("data/train_labels.txt")
+#                        )
+# # train_labels <- tibble(labels = read_lines("data/train_labels.txt"))
+# 
+# 
+# test <- tibble(
+#   tokens = read_lines("data/test_tokens.txt"),
+#   labels = read_lines("data/test_labels.txt")
+#   )
+# # test_labels <- tibble(labels = read_lines("data/test_labels.txt"))
+# 
+# validation <- tibble(
+#   tokens = read_lines("data/validation_tokens.txt"),
+#   labels = read_lines("data/validation_labels.txt")
+#   )
+# # validation_labels <- tibble(labels = read_lines("data/validation_labels.txt"))
+# 
+# # Put everything into one tibble
+# all_data <- train %>% 
+#   bind_rows(validation) %>% 
+#   bind_rows(test) %>% 
+#   rowid_to_column()
+# 
+# # Sample subset
+# all_data_sampled <- all_data %>% 
+#   slice_sample(n = nrow(all_data))
+# 
+# # Save new data
+# 
+# # Save train tokens
+# all_data_sampled %>% 
+#   slice(1:nrow(train)) %>% 
+#   pull(tokens) %>% 
+#   write_lines("train_tokens.txt")
+# 
+# # Save train labels
+# all_data_sampled %>% 
+#   slice(1:nrow(train)) %>% 
+#   pull(labels) %>% 
+#   write_lines("train_labels.txt")
+# 
+# 
+# # Save validation tokens
+# all_data_sampled %>% 
+#   slice(nrow(train):(nrow(train)+nrow(validation))) %>%
+#   pull(tokens) %>% 
+#   write_lines("validation_tokens.txt")
+# 
+# # Save validation labels
+# all_data_sampled %>% 
+#   slice(nrow(train):(nrow(train)+nrow(validation))) %>%
+#   pull(labels) %>% 
+#   write_lines("validation_labels.txt")
+# 
+# # Save test tokens
+# all_data_sampled %>% 
+#   slice_tail(n = nrow(test)) %>% 
+#   pull(tokens) %>% 
+#   write_lines("test_tokens.txt")
+# 
+# # Save test labels
+# all_data_sampled %>% 
+#   slice_tail(n = nrow(test)) %>% 
+#   pull(labels) %>% 
+#   write_lines("test_labels.txt")
+```
