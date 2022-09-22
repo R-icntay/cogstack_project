@@ -17,18 +17,6 @@ execute:
 
 In this notebook, we process the attributions relating to specific named entities:
 
-```{r}
-vv=(read_csv("attributions/B_Cell_attributions.csv",
-                      show_col_types = FALSE) %>% 
-  select(-1, attr = `0`) %>% 
-  mutate(sentence_id = row_number()) %>% 
-  filter(str_length(attr) > 3) %>% 
-  separate_rows(attr, sep = "\\}, ") %>% 
-  #slice_sample(n = 10) %>% 
-  mutate(row_id = row_number()) %>% 
-  nest(data = attr))
-```
-
 ### Cell atrributions
 
 ```{r}
