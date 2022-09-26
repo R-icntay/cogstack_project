@@ -1,4 +1,5 @@
 ---
+"---
 title: "Processing attributions"
 author: "Eric Wanjau"
 toc: true
@@ -824,4 +825,139 @@ ext_coverage(tbl_list = list(organ_attr, cancer_attr, cell_attr, gene_attr), tag
 # 0.03213778
 
 
+```
+
+### Reading multiple csv files at once
+
+```{r}
+files <- list.files(here(),
+                    pattern = "Cancer_attributions.csv$", 
+                    recursive = TRUE,
+                    full.names = TRUE)
+
+
+```
+
+```{r}
+read_bind_files <- function(path, pattern){
+  # Read files
+  files = list.files(
+    path,
+    pattern = pattern, 
+    recursive = TRUE,
+    full.names = TRUE
+  ) 
+  
+  # Add a model and resample identifier
+  files = map(seq_len(length(files)), ~ read_csv(files[.x], show_col_types = FALSE) %>% 
+         mutate(res_id = factor(.x))) %>% 
+  bind_rows()
+  
+  return(files)
+}
+```
+
+```{r}
+mm=map(seq_len(length(files)), ~ read_csv(files[.x], show_col_types = FALSE) %>% 
+         mutate(sentence_mdl_id = .x)) %>% 
+  bind_rows()
+```
+
+```{r}
+# Import data and calculate attributions per sentence
+cancer_attr <- read_bind_files(
+  path = here(),
+  pattern = "Cancer_attributions.csv$") %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data)
+
+
+# View some data
+cancer_attr %>% 
+  slice_head(n = 30)
+
+# Aggregate attributions over all sentences
+agg_cancer_attr <- cancer_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+# Calculate average attributions token scores per reshuffle 
+  group_by(cancer_tokens = tokens, res_id) %>% 
+  summarise(
+    n_occur = n(),
+    cancer_mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>% group_by(res_id) %>% 
+# Take 100 top words per doc
+  slice_max(cancer_mean_attr_score, n = 100) %>% 
+  ungroup() %>%
+# Find how many times a keyword occurs across across all
+# resamples
+  add_count(cancer_tokens, name = "n_across_resamples") %>% 
+  ungroup() %>% 
+  mutate(n_resamples = length(levels(res_id)),
+         select_threshold = n_across_resamples/n_resamples)%>% 
+  
+  arrange(across(c(cancer_mean_attr_score, n_occur), desc))
+
+```
+
+```{r}
+# Keywords
+agg_cancer_attr %>% 
+  group_by(cancer_tokens) %>% 
+  filter(select_threshold > 0.5) %>% 
+  #distinct(cancer_tokens) %>% 
+  View()
+```
+
+```{r}
+kk=list(distinct(kw_cancer, tokens, .keep_all = TRUE), distinct(kw_cell, tokens, .keep_all = TRUE), distinct(kw_organ, tokens, .keep_all = TRUE), distinct(kw_gene, tokens, .keep_all = TRUE)) %>% 
+  bind_rows() %>% 
+  select(tokens, tag) %>% 
+  add_count(tag, name = "kw_in_class")
+```
+
+```{r}
+
+distinct_measure <- function(kw_list){
+  # Tibble of all keywords
+  all_kws = kw_list %>% 
+    bind_rows() %>% 
+    select(tokens, tag) %>% 
+    add_count(tag, name = "kw_in_class")
+  
+  # Vector of all tags
+  all_tags = unique(all_kws$tag)
+  
+  
+    
+}
+
+
+
+View(
+  kk %>% 
+    group_by(tag) %>% 
+    filter((tokens %in% keep()))
+)
+```
+
+```{r}
+map_dfr(all_tags, ~ calc_dskw(.x, kk = kk))
+```
+
+```{r}
+calc_dskw = function(tag, kk){
+  discard(kk %>% filter(tag == {{tag}}) %>% pull(tokens), (kk %>% filter(tag == {{tag}}) %>% pull(tokens)) %in% (kk %>% filter(tag != {{tag}}) %>% pull(tokens))) %>% length(.) %>%  tibble(tag = tag, distinct_kws = .)
+}
+```
+
+```{r}
+discard(kk %>% filter(tag == "Cell") %>% pull(tokens), (kk %>% filter(tag == "Cell") %>% pull(tokens)) %in% (kk %>% filter(tag != "Cell") %>% pull(tokens))) 
 ```
