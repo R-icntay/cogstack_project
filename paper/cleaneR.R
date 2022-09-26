@@ -80,3 +80,22 @@ distinct_measure <- function(tbl_list){
   }
   
 }
+
+
+# Read and bind similar files
+read_bind_files <- function(path, pattern){
+  # Read files
+  files = list.files(
+    path,
+    pattern = pattern, 
+    recursive = TRUE,
+    full.names = TRUE
+  ) 
+  
+  # Add a model and resample identifier
+  files = map(seq_len(length(files)), ~ read_csv(files[.x], show_col_types = FALSE) %>% 
+                mutate(res_id = factor(.x))) %>% 
+    bind_rows()
+  
+  return(files)
+}
