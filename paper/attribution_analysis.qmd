@@ -1,0 +1,277 @@
+---
+title: "Processing IG attributions"
+format: 
+  html:
+    number-sections: true
+    toc: true
+    toc-location: left
+    toc-depth: 4
+    code-tools: true
+    code-fold: true
+    code-link: true
+editor: visual
+execute: 
+  warning: false
+  message: false
+bibliography: references.bib
+---
+
+This notebook outlines how entity attributions for *Cancer, Cell, Gene* and *organ* were processed.
+
+The pre-notebook steps include:
+
+-   Shuffling data and defining new train, validation and test sets
+
+-   Loading a pretrained Clinical Bert model [@alsentzer2019] and the decision layer is randomly initialized.
+
+-   Fine-tuning the model on the new data.
+
+-   Integrated Gradients method is used to obtain entity scores
+
+-   The process is repeated N times.
+
+## Stability of keywords
+
+Explanations to individual predictions are typically prone to noise due to random initializations of the decision layer and the order of training examples.
+Here, we try to explain an entity using a list of keywords ranked by aggregated attribution.
+
+### Pre-processing Cancer entity attributions
+
+In the code chunk below, attributions are preprocessed e.g restructuring output to sentences for easier handling, averaging split tokens of the same word etc.
+
+```{r}
+# Load required packages
+library(tidyverse)
+library(here)
+options(scipen = 999)
+source("cleaneR.R")
+
+# Import data and calculate attributions of a word 
+# with ref to all words in a sentence
+cancer_attr <- read_bind_files(
+  path = here(),
+  pattern = "Cancer_attributions.csv$") %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data) %>% 
+  mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+# View some sample data
+cancer_attr %>% 
+  slice_head(n = 10)
+```
+
+### Extract Cancer entity Keywords
+
+This step begins by ranking attribution words.
+This is done by calculating the average attribution scores per reshuffle.
+The top n (*100*) per reshuffle are then picked.
+
+```{r}
+# Aggregate attributions over all sentences
+agg_cancer_attr <- cancer_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+# Calculate average attributions token scores per reshuffle 
+  group_by(tokens, res_id, tag) %>% 
+  summarise(
+    n_occur = n(),
+    mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>% group_by(res_id, tag) %>% 
+# Take 100 top words per doc
+  slice_max(mean_attr_score, n = 100) %>% 
+  ungroup() %>%
+# Find how many times a keyword occurs across across all
+# resamples
+  add_count(tokens, name = "n_across_resamples") %>% 
+  ungroup() %>% 
+  mutate(n_resamples = length(levels(res_id)),
+         select_threshold = n_across_resamples/n_resamples)%>% 
+  
+  arrange(across(c(mean_attr_score, select_threshold), desc))
+
+
+agg_cancer_attr %>% 
+  slice_head(n = 10)
+```
+
+A word is considered stable if the ratio by which it is selected across the reshuffles is greater than a given percentage (say 60%).
+
+```{r}
+# Extract keywords
+kw_cancer <- agg_cancer_attr %>% 
+  group_by(tokens) %>% 
+  filter(select_threshold > 0.5) %>% 
+  ungroup()
+
+# Keywords
+kw_cancer %>% distinct(tokens)
+```
+
+### Preprocessing, aggregating and extracting keywords for Cell entity
+
+```{r}
+# Import data and calculate attributions of a word 
+# with ref to all words in a sentence
+cell_attr <- read_bind_files(
+  path = here(),
+  pattern = "Cell_attributions.csv$") %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data) %>% 
+  mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+# Aggregate attributions over all sentences
+agg_cell_attr <- cell_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+# Calculate average attributions token scores per reshuffle 
+  group_by(tokens, res_id, tag) %>% 
+  summarise(
+    n_occur = n(),
+    mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>% group_by(res_id, tag) %>% 
+# Take 100 top words per doc
+  slice_max(mean_attr_score, n = 100) %>% 
+  ungroup() %>%
+# Find how many times a keyword occurs across across all
+# resamples
+  add_count(tokens, name = "n_across_resamples") %>% 
+  ungroup() %>% 
+  mutate(n_resamples = length(levels(res_id)),
+         select_threshold = n_across_resamples/n_resamples)%>% 
+  
+  arrange(across(c(mean_attr_score, select_threshold), desc))
+
+
+# Extract keywords
+kw_cell <- agg_cell_attr %>% 
+  group_by(tokens) %>% 
+  filter(select_threshold > 0.5) %>% 
+  ungroup()
+
+# Keywords
+kw_cell %>% distinct(tokens)
+```
+
+### Preprocessing, aggregating and extracting keywords for Organ entity
+
+```{r}
+# Import data and calculate attributions of a word 
+# with ref to all words in a sentence
+organ_attr <- read_bind_files(
+  path = here(),
+  pattern = "Organ_attributions.csv$") %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data) %>% 
+  mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+# Aggregate attributions over all sentences
+agg_organ_attr <- organ_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+# Calculate average attributions token scores per reshuffle 
+  group_by(tokens, res_id, tag) %>% 
+  summarise(
+    n_occur = n(),
+    mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>% group_by(res_id, tag) %>% 
+# Take 100 top words per doc
+  slice_max(mean_attr_score, n = 100) %>% 
+  ungroup() %>%
+# Find how many times a keyword occurs across across all
+# resamples
+  add_count(tokens, name = "n_across_resamples") %>% 
+  ungroup() %>% 
+  mutate(n_resamples = length(levels(res_id)),
+         select_threshold = n_across_resamples/n_resamples)%>% 
+  
+  arrange(across(c(mean_attr_score, select_threshold), desc))
+
+
+# Extract keywords
+kw_organ <- agg_organ_attr %>% 
+  group_by(tokens) %>% 
+  filter(select_threshold > 0.5) %>% 
+  ungroup()
+
+# Keywords
+kw_organ %>% distinct(tokens)
+```
+
+### Preprocessing, aggregating and extracting keywords for Gene entity
+
+```{r}
+# Import data and calculate attributions of a word 
+# with ref to all words in a sentence
+gene_attr <- read_bind_files(
+  path = here(),
+  pattern = "product_attributions.csv$") %>% 
+  select(-1, attr = `0`) %>% 
+  mutate(sentence_id = row_number()) %>% 
+  filter(str_length(attr) > 3) %>% 
+  separate_rows(attr, sep = "\\}, ") %>% 
+  #slice_sample(n = 10) %>% 
+  mutate(row_id = row_number()) %>% 
+  nest(data = attr) %>% 
+  mutate(data = map(data, ~ add_scores(.x))) %>% 
+  unnest(cols = data) %>% 
+  mutate(tag = .$tokens %>% pluck(1) %>% str_split(pattern = "B-", n = 2) %>% unlist() %>% pluck(2))
+
+# Aggregate attributions over all sentences
+agg_gene_attr <- gene_attr %>% 
+  ungroup() %>% 
+  filter(attr_scores != 0) %>% 
+# Calculate average attributions token scores per reshuffle 
+  group_by(tokens, res_id, tag) %>% 
+  summarise(
+    n_occur = n(),
+    mean_attr_score = mean(attr_scores)) %>% 
+  ungroup() %>% group_by(res_id, tag) %>% 
+# Take 100 top words per doc
+  slice_max(mean_attr_score, n = 100) %>% 
+  ungroup() %>%
+# Find how many times a keyword occurs across across all
+# resamples
+  add_count(tokens, name = "n_across_resamples") %>% 
+  ungroup() %>% 
+  mutate(n_resamples = length(levels(res_id)),
+         select_threshold = n_across_resamples/n_resamples)%>% 
+  
+  arrange(across(c(mean_attr_score, select_threshold), desc))
+
+
+# Extract keywords
+kw_gene <- agg_gene_attr %>% 
+  group_by(tokens) %>% 
+  filter(select_threshold > 0.5) %>% 
+  ungroup()
+
+# Keywords
+kw_gene %>% distinct(tokens)
+```
+
+## Lexical measures of usefulness
+
+```{r}
+
+```
