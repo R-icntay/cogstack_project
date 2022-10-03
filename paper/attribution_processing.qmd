@@ -60,8 +60,7 @@ agg_cell_attr <- cell_attr %>%
 
 One measure of how important a word may be is its *term frequency* (tf), how frequently a word occurs in a document.
 
-Another approach is to look at a term's *inverse document frequency* (idf), which decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents.
-This can be combined with term frequency to calculate a term's *tf-idf* (the two quantities multiplied together), the frequency of a term adjusted for how rarely it is used.
+Another approach is to look at a term's *inverse document frequency* (idf), which decreases the weight for commonly used words and increases the weight for words that are not used very much in a collection of documents. This can be combined with term frequency to calculate a term's *tf-idf* (the two quantities multiplied together), the frequency of a term adjusted for how rarely it is used.
 
 \$\$
 
@@ -197,8 +196,7 @@ agg_gene_attr <- gene_attr %>%
 
 ### Distinctiveness (intrinsic)
 
-This assesses the distinctiveness of keywords, by looking at keyword overlap.
-Specifically, it measures the fraction of keywords unique to a class, averaged across all classes
+This assesses the distinctiveness of keywords, by looking at keyword overlap. Specifically, it measures the fraction of keywords unique to a class, averaged across all classes
 
 ::: callout-note
 Keywords were selected on the naive basis that their attribution scores were greater than 0.75 quantile.
@@ -558,8 +556,7 @@ gene_attr %>%
 
 ### Distinctiveness (extrinsic)
 
-Coverage of keywords within a class relative to the coverage across the class boundary of unrelated documents.
-Not sure how this would work if all tags are in all documents.
+Coverage of keywords within a class relative to the coverage across the class boundary of unrelated documents. Not sure how this would work if all tags are in all documents.
 
 ```{r}
 # all_st = tr %>% distinct(sentence_id, tk_indicator)
@@ -926,15 +923,27 @@ kk=list(distinct(kw_cancer, tokens, .keep_all = TRUE), distinct(kw_cell, tokens,
 ```{r}
 
 distinct_measure <- function(kw_list){
+  
+  # Helper function to calculate number of distinct keywords of an entity
+  calc_distinct_keywords = function(tag, all_kws){
+    discard(kk %>% filter(tag == {{tag}}) %>% pull(tokens), (kk %>% filter(tag == {{tag}}) %>% pull(tokens)) %in% (kk %>% filter(tag != {{tag}}) %>% pull(tokens))) %>% length(.) %>%  tibble(tag = tag, distinct_kws = .)
+}
+  
   # Tibble of all keywords
   all_kws = kw_list %>% 
     bind_rows() %>% 
     select(tokens, tag) %>% 
-    add_count(tag, name = "kw_in_class")
+    add_count(tag, name = "kws_in_class")
   
   # Vector of all tags
   all_tags = unique(all_kws$tag)
   
+  # Calculate the distinctiveness of entity keywords
+  purrr::map_dfr(all_tags, ~ calc_distinct_keywords(.x, all_kws = all_kws)) %>% 
+    left_join(all_kws %>% distinct(tag, kws_in_class)) %>% 
+    relocate(kws_in_class, .after = tag) %>% 
+    mutate(class_dm = distinct_kws / kws_in_class) %>% 
+    mutate(overall_dm = mean(class_dm))
   
     
 }
@@ -949,15 +958,19 @@ View(
 ```
 
 ```{r}
-map_dfr(all_tags, ~ calc_dskw(.x, kk = kk))
+map_dfr(all_tags, ~ calc_dskw(.x, kk = kk)) %>% 
+  left_join(kk %>% distinct(tag, kw_in_class)) %>% 
+  mutate(class_dm = distinct_kws / kw_in_class) %>% 
+  mutate(overall_distinctive_measure = mean(class_dm)) %>% 
+  View()
 ```
 
 ```{r}
-calc_dskw = function(tag, kk){
+calc_distinct_keywords = function(tag, all_kws){
   discard(kk %>% filter(tag == {{tag}}) %>% pull(tokens), (kk %>% filter(tag == {{tag}}) %>% pull(tokens)) %in% (kk %>% filter(tag != {{tag}}) %>% pull(tokens))) %>% length(.) %>%  tibble(tag = tag, distinct_kws = .)
 }
 ```
 
 ```{r}
-discard(kk %>% filter(tag == "Cell") %>% pull(tokens), (kk %>% filter(tag == "Cell") %>% pull(tokens)) %in% (kk %>% filter(tag != "Cell") %>% pull(tokens))) 
+keep(kk %>% filter(tag == "Gene_or_gene_product") %>% pull(tokens), (kk %>% filter(tag == "Gene_or_gene_product") %>% pull(tokens)) %in% (kk %>% filter(tag != "Gene_or_gene_product") %>% pull(tokens))) 
 ```
