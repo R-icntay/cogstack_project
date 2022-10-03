@@ -99,3 +99,31 @@ read_bind_files <- function(path, pattern){
   
   return(files)
 }
+
+# Calculating class distinctiveness (intrinsic)
+distinct_measure <- function(kw_list){
+  
+  # Helper function to calculate number of distinct keywords of an entity
+  calc_distinct_keywords = function(tag, all_kws){
+    discard(all_kws %>% filter(tag == {{tag}}) %>% pull(tokens),
+            (all_kws %>% filter(tag == {{tag}}) %>% pull(tokens)) %in% (all_kws %>% filter(tag != {{tag}}) %>% pull(tokens))) %>% length(.) %>%  tibble(tag = tag, distinct_kws = .)
+  }
+  
+  # Tibble of all keywords
+  all_kws = kw_list %>% 
+    bind_rows() %>% 
+    select(tokens, tag) %>% 
+    add_count(tag, name = "kws_in_class")
+  
+  # Vector of all tags
+  all_tags = unique(all_kws$tag)
+  
+  # Calculate the distinctiveness of entity keywords
+  purrr::map_dfr(all_tags, ~ calc_distinct_keywords(.x, all_kws = all_kws)) %>% 
+    left_join(all_kws %>% distinct(tag, kws_in_class), by = "tag") %>% 
+    relocate(kws_in_class, .after = tag) %>% 
+    mutate(class_dm = distinct_kws / kws_in_class) %>% 
+    mutate(overall_dm = mean(class_dm))
+  
+  
+}
