@@ -32,8 +32,7 @@ The pre-notebook steps include:
 
 ## Stability of keywords
 
-Explanations to individual predictions are typically prone to noise due to random initializations of the decision layer and the order of training examples.
-Here, we try to explain an entity using a list of keywords ranked by aggregated attribution.
+Explanations to individual predictions are typically prone to noise due to random initializations of the decision layer and the order of training examples. Here, we try to explain an entity using a list of keywords ranked by aggregated attribution.
 
 ### Pre-processing Cancer entity attributions
 
@@ -69,9 +68,7 @@ cancer_attr %>%
 
 ### Extract Cancer entity Keywords
 
-This step begins by ranking attribution words.
-This is done by calculating the average attribution scores per reshuffle.
-The top n (*100*) per reshuffle are then picked.
+This step begins by ranking attribution words. This is done by calculating the average attribution scores per reshuffle. The top n (*100*) per reshuffle are then picked.
 
 ```{r}
 # Aggregate attributions over all sentences
@@ -165,6 +162,8 @@ kw_cell <- agg_cell_attr %>%
 # Keywords
 kw_cell %>% distinct(tokens)
 ```
+
+![](data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAaCAYAAADFTB7LAAAAcklEQVR42u3OywmAQBAD0IAufvrvw4PHbUG87FVsQBALUEaDHYwuIiSQ42QeoCg/y1bD9gZ2tL7ylhvZgFOALRVsdZa33MgGTOF+MDvL2ySggAIKKKCAAgr4GXAoYePDciMbMF7jfQHrnOVtzAlUlJdzAjEsX7Hb176LAAAAAElFTkSuQmCC "Run Current Chunk")
 
 ### Preprocessing, aggregating and extracting keywords for Organ entity
 
@@ -272,6 +271,43 @@ kw_gene %>% distinct(tokens)
 
 ## Lexical measures of usefulness
 
+Now that we extracted the stable keywords across different reshuffles and models, we evaluate the keyword quality using the following measures:
+
+### Distinctiveness (intrinsic)
+
+This measure assesses the distinctiveness of keywords, by looking at the keyword overlap. It measures the fraction of keywords unique to a class, averaged across classes:
+
+$$
+Dist_{int} = \frac{1}{|C|} \sum_{c\in C} \frac{\{|k|k \in K_c \ \backslash  \ K_{\neg c} \}}{|K_c|}
+$$
+
+for the set of classes C and keywords K for class c or all other classes $\neg c$.
+
 ```{r}
+# Measure distinctiveness in the classes
+distinct_measure(kw_list = list(distinct(kw_cancer, tokens, .keep_all = TRUE), distinct(kw_cell, tokens, .keep_all = TRUE), distinct(kw_organ, tokens, .keep_all = TRUE), distinct(kw_gene, tokens, .keep_all = TRUE)))
+
+```
+
+The tibble above shows the number of `stable keywords` for an entity (words that were selected in more than 50% of the evaluation runs), the number of `disinct keywords` (keywords that are only associated with that specific entity), and the average across all classes. So the intrinsic distinctiveness of the keywords for these entities is:
+
+```{r}
+# Distinctiveness (intrinsic)
+distinct_measure(kw_list = list(distinct(kw_cancer, tokens, .keep_all = TRUE), distinct(kw_cell, tokens, .keep_all = TRUE), distinct(kw_organ, tokens, .keep_all = TRUE), distinct(kw_gene, tokens, .keep_all = TRUE))) %>% 
+  distinct(overall_dm)
+```
+
+### Coverage
+
+Coverage in an entity is defined as the average proportion of keywords that occur across all its documents, and the global coverage measure as the average across all entities:
+
+$$
+Cov = \frac{1}{|C|} \sum_{c\in C} \frac{1}{|T_c|} \sum_{t\in T_c} \frac{\{|k|k \in K_c \cap t \}}{|K_c|}
+$$
+
+```{r}
+# Calculate coverage of keywords
+
+cancer_attr %>% filter(attr_scores != 0) %>% group_by(res_id, sentence_id, row_id) %>% filter(tokens %in% (kw_cancer %>% distinct(tokens) %>% pull(tokens))) %>% add_count(name = "kw_in_sntnc") %>% ungroup() %>% mutate(total_kw = length((kw_cancer %>% distinct(tokens) %>% pull(tokens))), coverage = kw_in_sntnc/total_kw) %>% distinct(sentence_id, coverage) %>% summarize(covergae = mean(coverage)) %>% View()
 
 ```
