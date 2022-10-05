@@ -306,8 +306,120 @@ Cov = \frac{1}{|C|} \sum_{c\in C} \frac{1}{|T_c|} \sum_{t\in T_c} \frac{\{|k|k \
 $$
 
 ```{r}
-# Calculate coverage of keywords
+# Calculate coverage of keywords in corresponding attributions datasets
 
-cancer_attr %>% filter(attr_scores != 0) %>% group_by(res_id, sentence_id, row_id) %>% filter(tokens %in% (kw_cancer %>% distinct(tokens) %>% pull(tokens))) %>% add_count(name = "kw_in_sntnc") %>% ungroup() %>% mutate(total_kw = length((kw_cancer %>% distinct(tokens) %>% pull(tokens))), coverage = kw_in_sntnc/total_kw) %>% distinct(sentence_id, coverage) %>% summarize(covergae = mean(coverage)) %>% View()
+# Make a list of attribution datasets
+attributions_list <- list(
+  cancer_attr,
+  cell_attr,
+  gene_attr,
+  organ_attr
+  
+)
 
+
+# Corresponding list of keywords
+key_word_list <- list(
+ (kw_cancer %>% distinct(tokens) %>% pull(tokens)),
+  (kw_cell %>% distinct(tokens) %>% pull(tokens)),
+ (kw_gene %>% distinct(tokens) %>% pull(tokens)),
+  (kw_organ %>% distinct(tokens) %>% pull(tokens))
+)
+
+# Calculate the coverage of keywords for each corresponding attribution set
+pmap_dfr(list(attributions_list, key_word_list), coverage_measure) %>% 
+  mutate(overall_coverage = mean(coverage))
+```
+
+We can see that on average, about `3.7%` of `Cancer keywords` occur in the set of texts that had a `Cancer entity` and the global coverage average of keywords across their corresponding texts is about `4.8%`
+
+::: callout-important
+To do:
+
+Discuss with Serge whether the above makes sense.
+:::
+
+### Distinctiveness (extrinsic)
+
+Extrinsic measure of distinctiveness is defined as the coverage of keywords within a class relative to the coverage across the class boundary of unrelated documents.
+
+A `cross-coverage` measure, similar to the `coverage` measure is defined as:
+
+$$
+XCov = \frac{1}{|C|} \sum_{c\in C} \frac{1}{|T_{\neg c}|} \sum_{t\in T_{\neg c}} \frac{\{|k|k \in K_c \cap t \}}{|K_c|}
+$$
+
+for keywords $K$ and texts $T_{\neg c}$ which is the set of texts not labeled with class $c$.
+
+```{r}
+ext_coverage <- function(tbl_list, tag_list, kw_list){
+  
+  # Combine all attributes
+  all_attr = tbl_list %>%
+    bind_rows()
+
+# Find all sentences in a tag e.g cancer, organ
+  all_sentences <- all_attr %>%
+    distinct(sentence_id, tag)
+
+# Find tags in the tbl list
+  # tags = all_sentences %>%
+  #   distinct(tag) %>% pull(tag)
+ #tags = "Organ"
+  
+# Apply a function for each tag
+  # purrr::pmap(list(list(tags), kw_list), ext_coverage_engine(all_sentences, all_attr))
+  
+purrr::pmap(list(tag_list, kw_list), ~ ext_coverage_engine(.x, .y, all_sentences = all_sentences, all_attr = all_attr))
+  
+}
+```
+
+```{r}
+# Function that takes a tibble of attributions and corresponding key words
+# and calculates coverage
+coverage_measure <- function(attributions, key_words){
+  attributions %>%
+    # Remove tokens e.g SEP, CLS
+    filter(attr_scores != 0) %>%
+    # Account for repeating sentences
+    group_by(res_id, sentence_id, row_id) %>% 
+    # Find sentence tokens which are in the keywords
+    filter(tokens %in% key_words) %>% 
+    # Find how many they are
+    mutate(kw_in_sntnc = n()) %>% 
+    ungroup() %>% 
+    # Calculate coverage
+    mutate(total_kw = length(key_words),
+           coverage = kw_in_sntnc/total_kw) %>% 
+    distinct(sentence_id, coverage) %>% 
+    summarise(tag = distinct(attributions, tag) %>% pull(tag), coverage = mean(coverage)) %>% 
+    ungroup()
+      
+}
+
+
+coverage_measure2 <- function(attributions, key_words, ...){
+  attributions %>%
+    # Remove tokens e.g SEP, CLS
+    filter(attr_scores != 0) %>%
+    # Account for repeating sentences
+    group_by(res_id, sentence_id, row_id, ...) %>% 
+    # Find sentence tokens which are in the keywords
+    filter(tokens %in% key_words) %>% 
+    # Find how many they are
+    mutate(kw_in_sntnc = n()) %>% 
+    ungroup() %>% 
+    # Calculate coverage
+    mutate(total_kw = length(key_words),
+           coverage = kw_in_sntnc/total_kw) %>% 
+    distinct(sentence_id, ..., coverage) %>% 
+    summarise(coverage = mean(coverage)) %>% 
+    pull(coverage)
+      
+}
+```
+
+```{r}
+coverage_measure(attributions = cancer_attr, key_words = (kw_cancer %>% distinct(tokens) %>% pull(tokens)))
 ```
