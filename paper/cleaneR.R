@@ -127,3 +127,28 @@ distinct_measure <- function(kw_list){
   
   
 }
+
+
+
+
+# Function that takes a tibble of attributions and corresponding key words
+# and calculates coverage
+coverage_measure <- function(attributions, key_words){
+  attributions %>%
+    # Remove tokens e.g SEP, CLS
+    filter(attr_scores != 0) %>%
+    # Account for repeating sentences
+    group_by(res_id, sentence_id, row_id) %>% 
+    # Find sentence tokens which are in the keywords
+    filter(tokens %in% key_words) %>% 
+    # Find how many they are
+    mutate(kw_in_sntnc = n()) %>% 
+    ungroup() %>% 
+    # Calculate coverage
+    mutate(total_kw = length(key_words),
+           coverage = kw_in_sntnc/total_kw) %>% 
+    distinct(sentence_id, coverage) %>% 
+    summarise(tag = distinct(attributions, tag) %>% pull(tag), coverage = mean(coverage)) %>% 
+    ungroup()
+  
+}
